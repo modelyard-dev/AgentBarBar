@@ -3,7 +3,7 @@
 <p align="center">Your AI usage, at a glance.</p>
 <p align="center"><a href="README.zh-CN.md">简体中文</a> · <a href="README.md">English</a></p>
 <p align="center"><a href="https://github.com/y2zyyr/AgentBarBar/releases/latest"><strong>Download for macOS →</strong></a> · <a href="https://github.com/y2zyyr/AgentBarBar/releases/download/v1.0.6/AgentBarBar-1.0.6-Windows-x64-Setup.exe"><strong>Download for Windows →</strong></a></p>
-<p align="center">1.0.6 · Apple Silicon · macOS 14+ · 中文 / English</p>
+<p align="center">macOS 1.0.7 · Windows 1.0.6 · Apple Silicon · macOS 14+ · 中文 / English</p>
 
 <p align="center"><a href="https://github.com/y2zyyr/AgentBarBar/releases/latest"><img src="assets/poster-en.png" width="680" alt="AgentBarBar promotional poster"></a></p>
 
@@ -81,6 +81,8 @@ Tested on Windows 11 x64 with WebView2. No Rust, Node.js or development tools ar
 On macOS and Windows, reads local usage records from Codex, Claude Code, DeepSeek Harness, WorkBuddy, Pi, Kimi CLI, Gemini CLI, OpenCode, Antigravity, Antigravity IDE, Qwen Code and Cline (legacy tasks).
 
 Available metrics depend on the records an Agent provides. Missing counters remain unavailable. Importing a large history for the first time may take a few minutes.
+
+On macOS 1.0.7, Claude Code CLI and the Claude Desktop Code tab share one local request stream and are attributed without duplicate counting. Claude Desktop standard chat and Cowork have bounded local metadata inspection only; no Token usage is counted until a request-level source is verified.
 
 ## Updates & feedback
 
