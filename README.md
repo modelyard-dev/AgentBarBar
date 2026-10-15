@@ -2,8 +2,8 @@
 <h1 align="center">AgentBarBar</h1>
 <p align="center">Your AI usage, at a glance.</p>
 <p align="center"><a href="README.zh-CN.md">简体中文</a> · <a href="README.md">English</a></p>
-<p align="center"><a href="https://github.com/y2zyyr/AgentBarBar/releases/latest"><strong>Download for macOS →</strong></a> · <a href="https://github.com/y2zyyr/AgentBarBar/releases/download/v1.0.6/AgentBarBar-1.0.6-Windows-x64-Setup.exe"><strong>Download for Windows →</strong></a></p>
-<p align="center">macOS 1.0.7 · Windows 1.0.6 · Apple Silicon · macOS 14+ · 中文 / English</p>
+<p align="center"><a href="https://github.com/y2zyyr/AgentBarBar/releases/latest"><strong>Download for macOS →</strong></a> · <a href="https://github.com/y2zyyr/AgentBarBar/releases/download/v1.0.7/AgentBarBar-1.0.7-Windows-x64-Setup.exe"><strong>Download for Windows →</strong></a></p>
+<p align="center">macOS 1.0.7 · Windows 1.0.7/build39 · Apple Silicon · macOS 14+ · 中文 / English</p>
 
 <p align="center"><a href="https://github.com/y2zyyr/AgentBarBar/releases/latest"><img src="assets/poster-en.png" width="680" alt="AgentBarBar promotional poster"></a></p>
 
@@ -52,13 +52,16 @@ Choose **Forest, Paper, Ocean or Mono** in **Dashboard Settings → Appearance**
 
 If macOS cannot verify the developer, try opening the app, then go to **System Settings → Privacy & Security → Open Anyway**. The current download is not notarized by Apple.
 
-## Windows 1.0.6
+## Windows 1.0.7 / build39
 
-[Download the Windows x64 installer](https://github.com/y2zyyr/AgentBarBar/releases/download/v1.0.6/AgentBarBar-1.0.6-Windows-x64-Setup.exe) · [Windows installation guide and limitations](WINDOWS.md)
+[Download the Windows x64 installer](https://github.com/y2zyyr/AgentBarBar/releases/download/v1.0.7/AgentBarBar-1.0.7-Windows-x64-Setup.exe) · [Windows installation guide and limitations](WINDOWS.md)
+
+Windows Setup SHA-256: `6f1cccdad3df3f5d9238ce6ae53b8b7e2fd04386bd2fb2bf9daf51e01a1e11ff`. The installer is unsigned.
 
 A real system-tray app with a quick usage popup and the shared dashboard: Today, 7 days, 30 days, all time, Agent/model breakdowns and request details. Forest, Paper, Ocean and Mono; light/dark/system modes; Chinese and English.
 
 - **Twelve collectors:** Codex, Claude Code, Kimi CLI, DeepSeek Harness, WorkBuddy, Pi, Gemini CLI, OpenCode, Antigravity, Antigravity IDE, Qwen Code and Cline (legacy tasks). Windows and macOS now ship the same adapter set.
+- **Claude Desktop:** The Code tab shares the Claude Code stream; standard chat and Cowork remain inspection-only and do not contribute Token usage until a request-level local source is verified.
 - **Validated with real Windows sources:** Codex, Claude Code, Kimi historical records and DeepSeek Harness. DSH uses its canonical SQLite ledger, with aggregate reconciliation and replay deduplication.
 - **Fixture validation:** all twelve collectors match the macOS reference for request identities and token values/states. Agents without usable records on the validation host have not received real-source system validation.
 - **Source survey:** finds candidate Token fields, reconciles the selected collector and restores saved reports after reload. History coverage shows retained record counts and dates, including unchanged scans.
@@ -74,7 +77,7 @@ Tested on Windows 11 x64 with WebView2. No Rust, Node.js or development tools ar
 <p align="center"><sub>Actual Windows app captures from pre-packaging validation; usage totals only, no conversation content. These are not screenshots of the final rebuilt installer.</sub></p>
 
 ![Windows installer welcome](assets/windows/install-zh.png)
-<p align="center"><sub>Actual bilingual 1.0.4 installer capture; the 1.0.6 package preserves this layout.</sub></p>
+<p align="center"><sub>Actual bilingual 1.0.4 installer capture; the 1.0.7 package preserves this layout.</sub></p>
 
 ## Supported Agents
 
@@ -83,6 +86,8 @@ On macOS and Windows, reads local usage records from Codex, Claude Code, DeepSee
 Available metrics depend on the records an Agent provides. Missing counters remain unavailable. Importing a large history for the first time may take a few minutes.
 
 On macOS 1.0.7, Claude Code CLI and the Claude Desktop Code tab share one local request stream and are attributed without duplicate counting. Claude Desktop standard chat and Cowork have bounded local metadata inspection only; no Token usage is counted until a request-level source is verified.
+
+On Windows 1.0.7/build39, the Code tab uses the same Claude Code stream. The validation host had no Claude Desktop executable; a bounded survey checked 35 files / 83,835 bytes, found no candidate Token fields and reached a scan limit. Standard chat/Cowork remain excluded; this does not rule out every upstream format.
 
 ## Updates & feedback
 

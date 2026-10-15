@@ -1,8 +1,8 @@
-# AgentBarBar for Windows — 1.0.6
+# AgentBarBar for Windows — 1.0.7/build39
 
-[简体中文](WINDOWS.zh-CN.md) · [Download installer](https://github.com/y2zyyr/AgentBarBar/releases/download/v1.0.6/AgentBarBar-1.0.6-Windows-x64-Setup.exe)
+[简体中文](WINDOWS.zh-CN.md) · [Download installer](https://github.com/y2zyyr/AgentBarBar/releases/download/v1.0.7/AgentBarBar-1.0.7-Windows-x64-Setup.exe)
 
-Windows x64 system-tray application, version 1.0.6 (build 38). Installer titles, instructions and buttons display Chinese and English together on each page.
+Windows x64 system-tray application, version 1.0.7 (build 39). Installer titles, instructions and buttons display Chinese and English together on each page.
 
 ## Install and use
 
@@ -26,6 +26,10 @@ No Rust, Cargo, Node.js or Visual Studio is required at runtime.
 | Cline (legacy tasks) | Merges per-request start/finish records from `ui_messages.json`; no usable source on the validation host, fixture validation only |
 | WorkBuddy, Pi, Gemini CLI, OpenCode, Antigravity, Antigravity IDE | Implemented and matched against macOS anonymous fixtures; no usable source on the validation host for real-source system validation |
 
+## Claude sources
+
+Claude Code CLI and the Claude Desktop Code tab share `.claude/projects` request records; the parser retains a reported entrypoint when present and deduplicates by stable request identity. Standard chat and Cowork are inspection-only because no request-level local Token source is verified. On the Windows validation host, no Claude Desktop executable was detected. A bounded survey checked 35 files / 83,835 bytes, found zero candidate Token fields and reached a scan limit, so standard chat/Cowork usage remains excluded.
+
 All twelve collectors support source-path overrides and enable/disable switches. Missing sources and counters remain unavailable. No API key is required to read local usage records. DSH adopts one authoritative ledger, handles exclusions/downward corrections and does not add session-log counts to ledger totals.
 
 **Find Token sources** now works on Windows, saves metadata-only survey reports and restores them after reload. History coverage uses retained records and their date range; zero new rows in the last scan do not mean zero history.
@@ -45,10 +49,10 @@ The installer refuses to overwrite a running installed application. Normal unins
 The installer is **unsigned**. A SHA256 checksum verifies file integrity, not publisher identity.
 
 ```powershell
-Get-FileHash .\AgentBarBar-1.0.6-Windows-x64-Setup.exe -Algorithm SHA256
+Get-FileHash .\AgentBarBar-1.0.7-Windows-x64-Setup.exe -Algorithm SHA256
 ```
 
-Expected SHA256: `da17eac90175b9387a370ae35e19b56a8fc0cc4b50df9aa2b0fe163a15869808`.
+Expected SHA256: `6f1cccdad3df3f5d9238ce6ae53b8b7e2fd04386bd2fb2bf9daf51e01a1e11ff`.
 
 Windows login autostart and automatic updates are not implemented. Long-run endurance, sleep/wake, Explorer recovery, physical mixed-DPI/multi-monitor and full upgrade/rollback validation remain incomplete. Download updates from GitHub manually.
 
@@ -56,4 +60,4 @@ Statistics stay local; conversation bodies and telemetry are not uploaded. Feedb
 
 ## Screenshots
 
-README Windows screenshots are earlier real application captures. The bilingual installer image shows the 1.0.4 package's layout, which the 1.0.6 package retains; it is not a new capture of the updated binary.
+README Windows screenshots are earlier real application captures. The bilingual installer image shows the 1.0.4 package's layout, which the 1.0.7 package retains; it is not a new capture of the updated binary.
