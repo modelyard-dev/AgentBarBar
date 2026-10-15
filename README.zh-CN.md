@@ -2,7 +2,7 @@
 
 面向 macOS 和 Windows 的本地 AI Agent 用量监控工具。它只读取受支持的本地用量元数据，将记录保存在本机私有数据目录，并通过原生菜单栏/托盘应用和内置 Dashboard 展示。
 
-[English](README.md) · [下载安装](https://github.com/y2zyyr/AgentBarBar/releases/tag/v1.0.7) · [文档索引](docs/README.md) · [MIT 许可证](LICENSE)
+[English](README.md) · [下载安装](https://github.com/modelyard-dev/AgentBarBar/releases/tag/v1.0.7) · [文档索引](docs/README.md) · [MIT 许可证](LICENSE)
 
 ![AgentBarBar 图标](assets/icon.png)
 
@@ -19,7 +19,7 @@
 
 ## 下载
 
-公开的 [AgentBarBar 1.0.7 Release](https://github.com/y2zyyr/AgentBarBar/releases/tag/v1.0.7) 提供 macOS 1.0.7/build38 和 Windows 1.0.7/build39 安装包。macOS 安装包适用于 Apple Silicon 和 macOS 14 或更新版本；Windows 安装包面向 64 位 Windows。签名和验证限制请查看 Release 说明。当前源码快照见 [macOS 1.0.7 标签](https://github.com/y2zyyr/AgentBarBar/tree/macos-v1.0.7)和 [Windows 1.0.7 标签](https://github.com/y2zyyr/AgentBarBar/tree/windows-v1.0.7)；两个标签指向同一份跨平台源码提交。
+公开的 [AgentBarBar 1.0.7 Release](https://github.com/modelyard-dev/AgentBarBar/releases/tag/v1.0.7) 提供 macOS 1.0.7/build38 和 Windows 1.0.7/build39 安装包。macOS 安装包适用于 Apple Silicon 和 macOS 14 或更新版本；Windows 安装包面向 64 位 Windows。签名和验证限制请查看 Release 说明。当前源码快照见 [macOS 1.0.7 标签](https://github.com/modelyard-dev/AgentBarBar/tree/macos-v1.0.7)和 [Windows 1.0.7 标签](https://github.com/modelyard-dev/AgentBarBar/tree/windows-v1.0.7)；两个标签指向同一份跨平台源码提交。
 
 ## 从源码构建
 
