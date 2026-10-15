@@ -17,3 +17,11 @@ This public changelog records source releases and public documentation updates. 
 - **版本号：** Windows 1.0.7/build39 源码构建；macOS 1.0.7/build38 未更新，未重打安装包、未升版。
 - **更新详情：** 将 Windows `.ico` 改为包含多分辨率 PNG 帧的 ICO，避免 Windows SDK 资源编译器因旧 DIB 帧报 RC2176；为 `.ico`、`.png` 和 `.zstd` 增加二进制行尾保护，并恢复 Windows PNG 图标原始字节；开发文档注明后续替换图标时保留该编码。
 - **验证结果：** 首次 GitHub Windows 作业在资源编译阶段因 RC2176 失败；图标已修复，Windows 原生重跑等待 GitHub Actions。macOS、共享 Rust、Dashboard 和 Playwright 在首次作业中均通过。
+
+## [macOS / Windows（共用）1.0.7] — 平台源码标签与 CI 验证
+
+- **时间戳：** 2026-10-15 23:11:23 +08:00。
+- **平台：** macOS / Windows（共用）。
+- **版本号：** macOS 1.0.7/build38；Windows 1.0.7/build39。源码标签更新，安装包未升版。
+- **更新详情：** 新增 `macos-v1.0.7` 和 `windows-v1.0.7` 源码标签，两个标签指向同一跨平台源码快照；中英文 README 和 GitHub Release 说明链接至当前源码标签。CI 改为主分支提交和 Pull Request 触发，避免源码标签重复跑整套构建。既有 `v1.0.7` 二进制 Release 标签未移动。
+- **验证结果：** GitHub Actions run 38757216040 全部通过：macOS Swift 73 项、共享 Rust 75 项、Dashboard 构建/11 项单测、Playwright 23 项；Windows 共享 Rust 75 项、Host Rust 10 项、Dashboard 构建/11 项单测。Windows SDK 图标资源编译通过。

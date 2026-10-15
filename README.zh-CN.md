@@ -19,7 +19,7 @@
 
 ## 下载
 
-公开的 [AgentBarBar 1.0.7 Release](https://github.com/y2zyyr/AgentBarBar/releases/tag/v1.0.7) 提供 macOS 1.0.7/build38 和 Windows 1.0.7/build39 安装包。macOS 安装包适用于 Apple Silicon 和 macOS 14 或更新版本；Windows 安装包面向 64 位 Windows。签名和验证限制请查看 Release 说明。
+公开的 [AgentBarBar 1.0.7 Release](https://github.com/y2zyyr/AgentBarBar/releases/tag/v1.0.7) 提供 macOS 1.0.7/build38 和 Windows 1.0.7/build39 安装包。macOS 安装包适用于 Apple Silicon 和 macOS 14 或更新版本；Windows 安装包面向 64 位 Windows。签名和验证限制请查看 Release 说明。当前源码快照见 [macOS 1.0.7 标签](https://github.com/y2zyyr/AgentBarBar/tree/macos-v1.0.7)和 [Windows 1.0.7 标签](https://github.com/y2zyyr/AgentBarBar/tree/windows-v1.0.7)；两个标签指向同一份跨平台源码提交。
 
 ## 从源码构建
 
