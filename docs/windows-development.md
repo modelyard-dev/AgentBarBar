@@ -2,6 +2,8 @@
 
 Build and test the Windows host on a native Windows machine. A macOS or Linux build does not replace Windows validation.
 
+`Windows/src-tauri/icons/icon.ico` uses PNG-compressed frames at multiple resolutions for the Windows resource compiler. Preserve this ICO encoding when replacing the icon; legacy DIB frames can fail with RC2176.
+
 ## Requirements
 
 - 64-bit Windows with the WebView2 Runtime.

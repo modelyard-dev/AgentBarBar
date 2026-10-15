@@ -1,4 +1,8 @@
 * text=auto eol=lf
 Windows/** text eol=crlf
-assets/THIRD_PARTY_NOTICES.txt -text -whitespace
+*.ico binary -eol
+*.png binary -eol
+*.icns binary -eol
+*.zstd binary -eol
+assets/THIRD_PARTY_NOTICES.txt -text -eol -whitespace
 scripts/set_version.sh text eol=lf
