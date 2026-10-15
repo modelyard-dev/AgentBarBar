@@ -3,7 +3,7 @@
 <p align="center">让 AI 用量一目了然。</p>
 <p align="center"><a href="README.zh-CN.md">简体中文</a> · <a href="README.md">English</a></p>
 <p align="center"><a href="https://github.com/y2zyyr/AgentBarBar/releases/latest"><strong>下载 macOS 版 →</strong></a> · <a href="https://github.com/y2zyyr/AgentBarBar/releases/download/v1.0.6/AgentBarBar-1.0.6-Windows-x64-Setup.exe"><strong>下载 Windows 版 →</strong></a></p>
-<p align="center">1.0.6 · Apple Silicon · macOS 14+ · 中文 / English</p>
+<p align="center">macOS 1.0.7 · Windows 1.0.6 · Apple Silicon · macOS 14+ · 中文 / English</p>
 
 <p align="center"><a href="https://github.com/y2zyyr/AgentBarBar/releases/latest"><img src="assets/poster-zh.png" width="680" alt="AgentBarBar 推广海报"></a></p>
 
@@ -81,6 +81,8 @@ AgentBarBar 是一个本地 AI 用量工具，可从 macOS 菜单栏或 Windows 
 macOS 和 Windows 支持读取 Codex、Claude Code、DeepSeek Harness、WorkBuddy、Pi、Kimi CLI、Gemini CLI、OpenCode、Antigravity、Antigravity IDE、Qwen Code 和 Cline 旧版任务的本机用量记录。
 
 实际可显示的分项取决于 Agent 提供的记录；已有记录但缺少计数时，会显示为不可用。首次读取较多历史记录可能需要几分钟。
+
+macOS 1.0.7 中，Claude Code CLI 与 Claude Desktop Code 标签页共用同一本地请求流并避免重复计数。Claude Desktop 普通聊天与 Cowork 目前只有有界本地元数据勘测；尚无已验证的请求级 Token 来源，因此不统计其用量。
 
 ## 更新与反馈
 
