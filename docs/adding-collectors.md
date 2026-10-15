@@ -1,0 +1,13 @@
+# Adding a trustworthy collector
+
+1. Investigate the installed tool and its real source read-only. Record exact Agent/format versions, fields, usage scope, zero/error behavior and retention limitations in the research report and matrix. Do not inspect credentials or save transcripts.
+2. Add bounded `AgentDiscoveryRule` entries for known executables, application bundles and source roots. Discovery must not imply token availability. The CLI path may be evidence of another installation than the desktop-bundled Agent.
+3. Implement the `AgentCollector` protocol, or register a `JSONLCollector` with a versioned `UsageParser`. The descriptor declares collector/parser versions, structurally verified fixtures, capabilities and source description. The registry remains independent of UI code.
+4. Normalize only reported counters. Input must use the shared inclusive-cache meaning; output includes reasoning. Keep raw model identifiers, missing statuses and whitelisted numeric source provenance. Avoid inferred provider or model assignment when the source does not establish it.
+5. Establish stable request identity before choosing a fingerprint. Understand streaming revisions, replay, forks, archiving, cumulative counters and resets. A physical line or source path alone is not request identity. Do not combine provider totals without proven Agent attribution.
+6. Supply anonymous fixtures for each recognized format and every observed boundary. Include at least deduplication, incremental append, partial last line, copy/truncation, unknown fields, missing data and incompatible schemas. Fixtures may contain only metadata, never prompts/replies/tool bodies/keys.
+7. Add normalization/aggregation assertions and source-based cross validation. A schema-compatible unknown version may continue with compatibility unverified. An unrecognized usage shape must report an error and pause that file, while other collectors continue.
+8. Version parser changes. Cursor version changes trigger deterministic replay. Stable request identities must survive that replay. If semantics remove formerly accepted requests or change identities, provide an explicit database reconciliation migration; simply replaying into existing IDs cannot retract phantom history.
+9. Update API/TypeScript/schema contracts, tests and source matrix when adding metrics. Native/web code should consume shared summaries and descriptor capabilities, not tool-specific paths/fields.
+
+For custom tools, Settings supports explicit JSONL mappings immediately. New SQLite adapters should open the external database with `SQLITE_OPEN_READONLY`, use bounded queries and stable event cursors, and never checkpoint/write its WAL or invoke a migration on a third-party database.

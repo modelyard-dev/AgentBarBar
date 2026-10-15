@@ -1,0 +1,4 @@
+* text=auto eol=lf
+Windows/** text eol=crlf
+assets/THIRD_PARTY_NOTICES.txt -text -whitespace
+scripts/set_version.sh text eol=lf

@@ -1,0 +1,36 @@
+[package]
+name = "agentbarbar-windows"
+version = "1.0.7"
+edition = "2021"
+rust-version = "1.94"
+publish = false
+
+[lib]
+name = "agentbar_windows_host"
+
+[[bin]]
+name = "AgentBarBar"
+path = "src/main.rs"
+
+[features]
+default = ["custom-protocol"]
+custom-protocol = ["tauri/custom-protocol"]
+qa = []
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = ["tray-icon", "image-png", "image-ico"] }
+tauri-plugin-single-instance = "2"
+agentbar-core = { path = "../../Shared/core/agentbar-core" }
+agentbar-collector = { path = "../../Shared/core/agentbar-collector" }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+chrono = { version = "0.4", features = ["serde"] }
+chrono-tz = "0.10"
+rusqlite = { version = "0.32", features = ["bundled"] }
+url = "2"
+
+[dev-dependencies]
+tempfile = "3"

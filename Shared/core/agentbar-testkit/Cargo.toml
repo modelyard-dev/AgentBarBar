@@ -1,0 +1,19 @@
+[package]
+publish = false
+name = "agentbar-testkit"
+version.workspace = true
+edition.workspace = true
+
+[[bin]]
+name = "agentbar-core-cli"
+path = "src/main.rs"
+
+[dependencies]
+agentbar-core = { path = "../agentbar-core" }
+agentbar-collector = { path = "../agentbar-collector" }
+serde_json.workspace = true
+chrono.workspace = true
+
+[dev-dependencies]
+tempfile = "3"
+rusqlite.workspace = true

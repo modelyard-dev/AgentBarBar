@@ -1,0 +1,2 @@
+{"type":"user","sessionId":"anonymous-session","timestamp":"2026-10-13T09:00:00Z","entrypoint":"claude-desktop"}
+{"type":"assistant","uuid":"anonymous-uuid","sessionId":"anonymous-session","timestamp":"2026-10-13T09:00:01Z","version":"2.1.261","message":{"id":"anonymous-message","model":"anonymous/model","usage":{"input_tokens":100,"output_tokens":20,"cache_read_input_tokens":30,"cache_creation_input_tokens":4}}}

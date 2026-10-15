@@ -1,0 +1,885 @@
+[
+  {
+    "agentID": "antigravity-ide",
+    "agentName": "Antigravity IDE",
+    "collectorID": "antigravity-ide-local",
+    "collectorVersion": "1.0.0",
+    "confidence": 1,
+    "costState": "not_available",
+    "createdAt": "2026-10-05T04:00:00.000Z",
+    "fingerprint": "ff2fbe987ffb21f5691b70294f978937bdde254a444ad42a51b7b738856006c2",
+    "id": "ff2fbe987ffb21f5691b70294f978937bdde254a444ad42a51b7b738856006c2",
+    "isEstimated": false,
+    "metrics": {
+      "cacheRead": {
+        "state": "known",
+        "value": 800
+      },
+      "cacheWrite": {
+        "state": "known",
+        "value": 0
+      },
+      "cachedOutput": {
+        "state": "unsupported"
+      },
+      "input": {
+        "state": "known",
+        "value": 900
+      },
+      "output": {
+        "state": "known",
+        "value": 20
+      },
+      "reasoning": {
+        "state": "known",
+        "value": 5
+      },
+      "total": {
+        "state": "known",
+        "value": 920
+      }
+    },
+    "model": "gemini/raw",
+    "parserVersion": "antigravity-sqlite-protobuf-v1.0.0",
+    "provider": "API_PROVIDER_GOOGLE_GEMINI",
+    "quality": "exact",
+    "rawModelName": "gemini/raw",
+    "sessionID": "anonymous",
+    "sourceEventID": "antigravity-ide:generation:anonymous-generation",
+    "sourceLine": 0,
+    "sourceMetadata": {
+      "counting_method": "completed_generation_usage",
+      "input_semantics": "uncached input plus cache read/write",
+      "output_semantics": "reported output already includes thinking",
+      "reported_usage": "{\"cache_read_tokens\":800,\"cache_write_tokens\":0,\"input_tokens\":100,\"output_tokens\":20,\"thinking_output_tokens\":5}",
+      "source_row_id": "0",
+      "source_table": "gen_metadata"
+    },
+    "sourceOffset": 0,
+    "sourcePath": "fixture/antigravity-ide",
+    "sourceType": "local_sqlite_protobuf",
+    "timestamp": "2026-10-04T12:00:01.000Z"
+  },
+  {
+    "agentID": "antigravity",
+    "agentName": "Antigravity",
+    "collectorID": "antigravity-local",
+    "collectorVersion": "1.0.0",
+    "confidence": 1,
+    "costState": "not_available",
+    "createdAt": "2026-10-05T04:00:00.000Z",
+    "fingerprint": "5e4cfe29458e564fd6b87c700329f56d1b2da949635617cdf4ccb4163c60c0c2",
+    "id": "5e4cfe29458e564fd6b87c700329f56d1b2da949635617cdf4ccb4163c60c0c2",
+    "isEstimated": false,
+    "metrics": {
+      "cacheRead": {
+        "state": "known",
+        "value": 800
+      },
+      "cacheWrite": {
+        "state": "known",
+        "value": 0
+      },
+      "cachedOutput": {
+        "state": "unsupported"
+      },
+      "input": {
+        "state": "known",
+        "value": 900
+      },
+      "output": {
+        "state": "known",
+        "value": 20
+      },
+      "reasoning": {
+        "state": "known",
+        "value": 5
+      },
+      "total": {
+        "state": "known",
+        "value": 920
+      }
+    },
+    "model": "gemini/raw",
+    "parserVersion": "antigravity-sqlite-protobuf-v1.0.0",
+    "provider": "API_PROVIDER_GOOGLE_GEMINI",
+    "quality": "exact",
+    "rawModelName": "gemini/raw",
+    "sessionID": "anonymous",
+    "sourceEventID": "antigravity:generation:anonymous-generation",
+    "sourceLine": 0,
+    "sourceMetadata": {
+      "counting_method": "completed_generation_usage",
+      "input_semantics": "uncached input plus cache read/write",
+      "output_semantics": "reported output already includes thinking",
+      "reported_usage": "{\"cache_read_tokens\":800,\"cache_write_tokens\":0,\"input_tokens\":100,\"output_tokens\":20,\"thinking_output_tokens\":5}",
+      "source_row_id": "0",
+      "source_table": "gen_metadata"
+    },
+    "sourceOffset": 0,
+    "sourcePath": "fixture/antigravity",
+    "sourceType": "local_sqlite_protobuf",
+    "timestamp": "2026-10-04T12:00:01.000Z"
+  },
+  {
+    "agentID": "claude-code",
+    "agentName": "Claude Code",
+    "collectorID": "claude-local",
+    "collectorVersion": "1.0.1",
+    "confidence": 1,
+    "costState": "not_available",
+    "createdAt": "2026-10-05T04:00:00.000Z",
+    "fingerprint": "57eccf384c184bbd48c791aaaa18f8d89b42b1deab7314c0880c5105c12b25d9",
+    "id": "57eccf384c184bbd48c791aaaa18f8d89b42b1deab7314c0880c5105c12b25d9",
+    "isEstimated": false,
+    "metrics": {
+      "cacheRead": {
+        "state": "known",
+        "value": 0
+      },
+      "cacheWrite": {
+        "state": "known",
+        "value": 0
+      },
+      "cachedOutput": {
+        "state": "unsupported"
+      },
+      "input": {
+        "state": "known",
+        "value": 28072
+      },
+      "output": {
+        "state": "known",
+        "value": 66
+      },
+      "reasoning": {
+        "state": "known",
+        "value": 0
+      },
+      "total": {
+        "state": "known",
+        "value": 28138
+      }
+    },
+    "model": "deepseek-v4-flash",
+    "parserVersion": "claude-jsonl-v1.1.0",
+    "project": {
+      "confidence": 0.8,
+      "detectionMethod": "explicit_session_cwd",
+      "id": "b0e91842fa0eb2b36b022b8b909ee3e7714246d63ce6a4fb7aca0aef36d9619a",
+      "name": "ProjectB",
+      "path": "/example/ProjectB"
+    },
+    "quality": "exact",
+    "rawModelName": "deepseek-v4-flash",
+    "sessionID": "anonymous-claude-session",
+    "sourceEventID": "claude-code:message:anonymous-message",
+    "sourceLine": 1,
+    "sourceMetadata": {
+      "agent_version": "2.1.261",
+      "counting_method": "message_snapshot_upsert",
+      "input_semantics": "uncached_plus_cache_read_plus_cache_write",
+      "reported_usage": "{\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"input_tokens\":28072,\"output_tokens\":66,\"thinking_tokens\":0}",
+      "entrypoint": "legacy_or_unknown"
+    },
+    "sourceOffset": 0,
+    "sourcePath": "fixture/claude-code",
+    "sourceType": "local_jsonl",
+    "timestamp": "2026-08-20T09:04:47.205Z",
+    "workingDirectory": "/example/ProjectB"
+  },
+  {
+    "agentID": "codex",
+    "agentName": "Codex",
+    "collectorID": "codex-local",
+    "collectorVersion": "1.1.0",
+    "confidence": 1,
+    "costState": "not_available",
+    "createdAt": "2026-10-05T04:00:00.000Z",
+    "fingerprint": "ef2ebc2e820eea87882b251b8413ed374b080c90a2405c24e01ca6b6d7d49947",
+    "id": "ef2ebc2e820eea87882b251b8413ed374b080c90a2405c24e01ca6b6d7d49947",
+    "isEstimated": false,
+    "metrics": {
+      "cacheRead": {
+        "state": "known",
+        "value": 0
+      },
+      "cacheWrite": {
+        "state": "known",
+        "value": 0
+      },
+      "cachedOutput": {
+        "state": "unsupported"
+      },
+      "input": {
+        "state": "known",
+        "value": 35888
+      },
+      "output": {
+        "state": "known",
+        "value": 314
+      },
+      "reasoning": {
+        "state": "known",
+        "value": 0
+      },
+      "total": {
+        "state": "known",
+        "value": 36202
+      }
+    },
+    "model": "gpt-6.1-sol",
+    "parserVersion": "codex-jsonl-v1.2.0",
+    "project": {
+      "confidence": 0.8,
+      "detectionMethod": "explicit_session_cwd",
+      "id": "aa53c81e2f0d335994bbe357682b7b25862aa15afc9b2c73e24a82eccc3be41c",
+      "name": "ProjectA",
+      "path": "/example/ProjectA"
+    },
+    "provider": "openai",
+    "quality": "exact",
+    "rawModelName": "gpt-6.1-sol",
+    "sessionID": "anonymous-codex-session",
+    "sourceEventID": "codex:thread:anonymous-codex-session:response:anonymous-response-1",
+    "sourceLine": 3,
+    "sourceMetadata": {
+      "agent_version": "0.160.0",
+      "counting_method": "request_usage",
+      "owner_matches_file": "true",
+      "physical_thread_id": "anonymous-codex-session",
+      "reported_usage": "{\"cache_write_input_tokens\":0,\"cached_input_tokens\":0,\"input_tokens\":35888,\"output_tokens\":314,\"reasoning_output_tokens\":0,\"total_tokens\":36202}",
+      "response_id": "anonymous-response-1",
+      "thread_id": "anonymous-codex-session"
+    },
+    "sourceOffset": 305,
+    "sourcePath": "fixture/codex",
+    "sourceType": "local_jsonl",
+    "timestamp": "2026-10-04T08:22:46.534Z",
+    "workingDirectory": "/example/ProjectA"
+  },
+  {
+    "agentID": "codex",
+    "agentName": "Codex",
+    "collectorID": "codex-local",
+    "collectorVersion": "1.1.0",
+    "confidence": 1,
+    "costState": "not_available",
+    "createdAt": "2026-10-05T04:00:00.000Z",
+    "fingerprint": "9ec67c208792f622166c33444a2808074ef81f5d0498bc69903e1f62db653b7a",
+    "id": "9ec67c208792f622166c33444a2808074ef81f5d0498bc69903e1f62db653b7a",
+    "isEstimated": false,
+    "metrics": {
+      "cacheRead": {
+        "state": "known",
+        "value": 35712
+      },
+      "cacheWrite": {
+        "state": "known",
+        "value": 0
+      },
+      "cachedOutput": {
+        "state": "unsupported"
+      },
+      "input": {
+        "state": "known",
+        "value": 44486
+      },
+      "output": {
+        "state": "known",
+        "value": 777
+      },
+      "reasoning": {
+        "state": "known",
+        "value": 252
+      },
+      "total": {
+        "state": "known",
+        "value": 45263
+      }
+    },
+    "model": "gpt-6.1-sol",
+    "parserVersion": "codex-jsonl-v1.2.0",
+    "project": {
+      "confidence": 0.8,
+      "detectionMethod": "explicit_session_cwd",
+      "id": "aa53c81e2f0d335994bbe357682b7b25862aa15afc9b2c73e24a82eccc3be41c",
+      "name": "ProjectA",
+      "path": "/example/ProjectA"
+    },
+    "provider": "openai",
+    "quality": "exact",
+    "rawModelName": "gpt-6.1-sol",
+    "sessionID": "anonymous-codex-session",
+    "sourceEventID": "codex:thread:anonymous-codex-session:response:anonymous-response-2",
+    "sourceLine": 5,
+    "sourceMetadata": {
+      "agent_version": "0.160.0",
+      "counting_method": "request_usage",
+      "owner_matches_file": "true",
+      "physical_thread_id": "anonymous-codex-session",
+      "reported_usage": "{\"cache_write_input_tokens\":0,\"cached_input_tokens\":35712,\"input_tokens\":44486,\"output_tokens\":777,\"reasoning_output_tokens\":252,\"total_tokens\":45263}",
+      "response_id": "anonymous-response-2",
+      "thread_id": "anonymous-codex-session"
+    },
+    "sourceOffset": 1211,
+    "sourcePath": "fixture/codex",
+    "sourceType": "local_jsonl",
+    "timestamp": "2026-10-04T08:23:01.095Z",
+    "workingDirectory": "/example/ProjectA"
+  },
+  {
+    "agentID": "deepseek-harness",
+    "agentName": "DeepSeek Harness",
+    "collectorID": "dsh-local",
+    "collectorVersion": "1.1.0",
+    "confidence": 1,
+    "costState": "not_available",
+    "createdAt": "2026-10-05T04:00:00.000Z",
+    "fingerprint": "2ecee64751a6f760f8130cdd1e7ab28d1bc29798e4a88d90983946126be9e4f8",
+    "id": "2ecee64751a6f760f8130cdd1e7ab28d1bc29798e4a88d90983946126be9e4f8",
+    "isEstimated": false,
+    "metrics": {
+      "cacheRead": {
+        "state": "known",
+        "value": 100
+      },
+      "cacheWrite": {
+        "state": "known",
+        "value": 0
+      },
+      "cachedOutput": {
+        "state": "unsupported"
+      },
+      "input": {
+        "state": "known",
+        "value": 150
+      },
+      "output": {
+        "state": "known",
+        "value": 10
+      },
+      "reasoning": {
+        "state": "known",
+        "value": 3
+      },
+      "total": {
+        "state": "known",
+        "value": 160
+      }
+    },
+    "model": "raw-model",
+    "parserVersion": "dsh-canonical-ledger-v4.1.0",
+    "provider": "anonymous-provider",
+    "quality": "exact",
+    "rawModelName": "raw-model",
+    "sessionID": "anonymous-session",
+    "sourceEventID": "deepseek-harness:ledger:anonymous-session:1:1",
+    "sourceLine": 0,
+    "sourceMetadata": {
+      "accounting_version": "1",
+      "canonical_id": "anonymous-session:1:1",
+      "counting_method": "dsh_canonical_ledger",
+      "historical_or_live": "historical",
+      "input_semantics": "normalized input includes cache reads and cache writes; source input is uncached",
+      "reasoning_semantics": "included in output",
+      "reported_uncached_input": "50",
+      "source_record_type": "legacy_store",
+      "storage_schema_version": "4"
+    },
+    "sourceOffset": 0,
+    "sourcePath": "fixture/deepseek-harness",
+    "sourceType": "local_sqlite",
+    "timestamp": "2026-10-03T16:00:00.000Z"
+  },
+  {
+    "agentID": "deepseek-harness",
+    "agentName": "DeepSeek Harness",
+    "collectorID": "dsh-local",
+    "collectorVersion": "1.1.0",
+    "confidence": 1,
+    "costState": "not_available",
+    "createdAt": "2026-10-05T04:00:00.000Z",
+    "fingerprint": "e8ed841fbfc5366cb5aa481e752656b8a1d0dfbcada346dce73e6a8d68eaca26",
+    "id": "e8ed841fbfc5366cb5aa481e752656b8a1d0dfbcada346dce73e6a8d68eaca26",
+    "isEstimated": false,
+    "metrics": {
+      "cacheRead": {
+        "state": "known",
+        "value": 200
+      },
+      "cacheWrite": {
+        "state": "known",
+        "value": 0
+      },
+      "cachedOutput": {
+        "state": "unsupported"
+      },
+      "input": {
+        "state": "known",
+        "value": 220
+      },
+      "output": {
+        "state": "known",
+        "value": 30
+      },
+      "reasoning": {
+        "state": "known",
+        "value": 5
+      },
+      "total": {
+        "state": "known",
+        "value": 250
+      }
+    },
+    "model": "raw-model",
+    "parserVersion": "dsh-canonical-ledger-v4.1.0",
+    "provider": "anonymous-provider",
+    "quality": "exact",
+    "rawModelName": "raw-model",
+    "sessionID": "anonymous-session",
+    "sourceEventID": "deepseek-harness:ledger:anonymous-session:1:2",
+    "sourceLine": 0,
+    "sourceMetadata": {
+      "accounting_version": "2",
+      "canonical_id": "anonymous-session:1:2",
+      "counting_method": "dsh_canonical_ledger",
+      "historical_or_live": "live",
+      "input_semantics": "normalized input includes cache reads and cache writes; source input is uncached",
+      "reasoning_semantics": "included in output",
+      "reported_uncached_input": "20",
+      "source_record_type": "live_event",
+      "storage_schema_version": "4"
+    },
+    "sourceOffset": 0,
+    "sourcePath": "fixture/deepseek-harness",
+    "sourceType": "local_sqlite",
+    "timestamp": "2026-10-03T16:00:01.000Z"
+  },
+  {
+    "agentID": "gemini",
+    "agentName": "Gemini CLI",
+    "collectorID": "gemini-local",
+    "collectorVersion": "1.0.0",
+    "confidence": 1,
+    "costState": "not_available",
+    "createdAt": "2026-10-05T04:00:00.000Z",
+    "fingerprint": "f039cce1beb747ebfce421311b80a4ca05ca4b4996334028e26520b54af5d5a9",
+    "id": "f039cce1beb747ebfce421311b80a4ca05ca4b4996334028e26520b54af5d5a9",
+    "isEstimated": false,
+    "metrics": {
+      "cacheRead": {
+        "state": "known",
+        "value": 800
+      },
+      "cacheWrite": {
+        "state": "unsupported"
+      },
+      "cachedOutput": {
+        "state": "unsupported"
+      },
+      "input": {
+        "state": "known",
+        "value": 1000
+      },
+      "output": {
+        "state": "known",
+        "value": 150
+      },
+      "reasoning": {
+        "state": "known",
+        "value": 50
+      },
+      "total": {
+        "state": "known",
+        "value": 1150
+      }
+    },
+    "model": "gemini/raw-model",
+    "parserVersion": "gemini-session-json-v1.0.0",
+    "quality": "exact",
+    "rawModelName": "gemini/raw-model",
+    "sessionID": "anonymous-gemini-session",
+    "sourceEventID": "gemini:message:anonymous-gemini-1",
+    "sourceLine": 0,
+    "sourceMetadata": {
+      "counting_method": "session_message_usage",
+      "input_semantics": "source total minus complete output, cache already included",
+      "json_pointer": "messages/0",
+      "output_semantics": "candidate output plus thoughts",
+      "reported_usage": "{\"cached\":800,\"input\":1000,\"output\":100,\"thoughts\":50,\"tool\":0,\"total\":1150}"
+    },
+    "sourceOffset": 0,
+    "sourcePath": "fixture/gemini",
+    "sourceType": "local_session_json",
+    "timestamp": "2026-10-04T12:00:01.000Z"
+  },
+  {
+    "agentID": "gemini",
+    "agentName": "Gemini CLI",
+    "collectorID": "gemini-local",
+    "collectorVersion": "1.0.0",
+    "confidence": 1,
+    "costState": "not_available",
+    "createdAt": "2026-10-05T04:00:00.000Z",
+    "fingerprint": "72d4c66ab7943de511e71156262da2e00a0f1569976d31c7bdb2a0cf44771f37",
+    "id": "72d4c66ab7943de511e71156262da2e00a0f1569976d31c7bdb2a0cf44771f37",
+    "isEstimated": false,
+    "metrics": {
+      "cacheRead": {
+        "state": "not_available"
+      },
+      "cacheWrite": {
+        "state": "unsupported"
+      },
+      "cachedOutput": {
+        "state": "unsupported"
+      },
+      "input": {
+        "state": "known",
+        "value": 200
+      },
+      "output": {
+        "state": "known",
+        "value": 70
+      },
+      "reasoning": {
+        "state": "not_available"
+      },
+      "total": {
+        "state": "known",
+        "value": 270
+      }
+    },
+    "parserVersion": "gemini-session-json-v1.0.0",
+    "quality": "exact",
+    "sessionID": "anonymous-gemini-session",
+    "sourceEventID": "gemini:message:anonymous-gemini-2",
+    "sourceLine": 0,
+    "sourceMetadata": {
+      "counting_method": "session_message_usage",
+      "input_semantics": "source total minus complete output, cache already included",
+      "json_pointer": "messages/1",
+      "output_semantics": "candidate output plus thoughts",
+      "reported_usage": "{\"input\":200,\"output\":50,\"tool\":0,\"total\":270}"
+    },
+    "sourceOffset": 0,
+    "sourcePath": "fixture/gemini",
+    "sourceType": "local_session_json",
+    "timestamp": "2026-10-04T12:00:02.000Z"
+  },
+  {
+    "agentID": "kimi-cli",
+    "agentName": "Kimi CLI",
+    "collectorID": "kimi-local",
+    "collectorVersion": "1.0.1",
+    "confidence": 1,
+    "costState": "not_available",
+    "createdAt": "2026-10-05T04:00:00.000Z",
+    "fingerprint": "72667d13120403c621ca4699d68cec1bf11e6ce3855aba0a7595974da133c922",
+    "id": "72667d13120403c621ca4699d68cec1bf11e6ce3855aba0a7595974da133c922",
+    "isEstimated": false,
+    "metrics": {
+      "cacheRead": {
+        "state": "known",
+        "value": 500
+      },
+      "cacheWrite": {
+        "state": "known",
+        "value": 20
+      },
+      "cachedOutput": {
+        "state": "unsupported"
+      },
+      "input": {
+        "state": "known",
+        "value": 1520
+      },
+      "output": {
+        "state": "known",
+        "value": 80
+      },
+      "reasoning": {
+        "state": "unsupported"
+      },
+      "total": {
+        "state": "known",
+        "value": 1600
+      }
+    },
+    "parserVersion": "kimi-wire-v1.0.0",
+    "quality": "exact",
+    "sessionID": "anonymous-session",
+    "sourceEventID": "kimi-cli:message:anonymous-kimi-request",
+    "sourceLine": 3,
+    "sourceMetadata": {
+      "counting_method": "wire_status_request_usage",
+      "input_normalization": "input_other + input_cache_read + input_cache_creation",
+      "model_availability": "historical wire does not report model",
+      "reported_usage": "{\"input_cache_creation\":20,\"input_cache_read\":500,\"input_other\":1000,\"output\":80}",
+      "wire_protocol": "wire-1.3"
+    },
+    "sourceOffset": 121,
+    "sourcePath": "fixture/kimi-cli",
+    "sourceType": "local_jsonl",
+    "timestamp": "2026-10-03T21:00:01.200Z"
+  },
+  {
+    "agentID": "opencode",
+    "agentName": "OpenCode",
+    "collectorID": "opencode-local",
+    "collectorVersion": "1.0.0",
+    "confidence": 1,
+    "costState": "not_available",
+    "createdAt": "2026-10-05T04:00:00.000Z",
+    "fingerprint": "5c8c8bdd6305662acee7347c6df5a1faa70f1819fdd762d1453fc82948481e3c",
+    "id": "5c8c8bdd6305662acee7347c6df5a1faa70f1819fdd762d1453fc82948481e3c",
+    "isEstimated": false,
+    "metrics": {
+      "cacheRead": {
+        "state": "known",
+        "value": 100
+      },
+      "cacheWrite": {
+        "state": "known",
+        "value": 20
+      },
+      "cachedOutput": {
+        "state": "unsupported"
+      },
+      "input": {
+        "state": "known",
+        "value": 1120
+      },
+      "output": {
+        "state": "known",
+        "value": 100
+      },
+      "reasoning": {
+        "state": "known",
+        "value": 20
+      },
+      "total": {
+        "state": "known",
+        "value": 1220
+      }
+    },
+    "model": "provider/raw-model-1",
+    "parserVersion": "opencode-sqlite-v1.0.0",
+    "project": {
+      "confidence": 0.8,
+      "detectionMethod": "explicit_session_cwd",
+      "id": "59f8c4872d32c893f48549bef98c6e739e731f4acbcf22dd14e7985a3b954195",
+      "name": "ProjectO",
+      "path": "/anonymous/ProjectO"
+    },
+    "provider": "open-provider",
+    "quality": "exact",
+    "rawModelName": "provider/raw-model-1",
+    "sessionID": "anonymous-open-session",
+    "sourceEventID": "opencode:message:open-request-1",
+    "sourceLine": 0,
+    "sourceMetadata": {
+      "counting_method": "completed_assistant_message",
+      "input_normalization": "source input + cache.read + cache.write",
+      "output_normalization": "source output + reasoning",
+      "reported_usage": "{\"cache_read\":100,\"cache_write\":20,\"input\":1000,\"output\":80,\"reasoning\":20,\"total\":1220}",
+      "source_row_id": "open-request-1",
+      "source_table": "message",
+      "unverified_source_cost": "0"
+    },
+    "sourceOffset": 0,
+    "sourcePath": "fixture/opencode",
+    "sourceType": "local_sqlite",
+    "timestamp": "2026-10-03T21:00:02.000Z",
+    "workingDirectory": "/anonymous/ProjectO"
+  },
+  {
+    "agentID": "pi",
+    "agentName": "Pi",
+    "collectorID": "pi-local",
+    "collectorVersion": "1.1.0",
+    "confidence": 1,
+    "costState": "not_available",
+    "createdAt": "2026-10-05T04:00:00.000Z",
+    "fingerprint": "29c5e0966fd9e21de19e9e423dbe9abdb7753dd4288c3f86bb0811930e58d73d",
+    "id": "29c5e0966fd9e21de19e9e423dbe9abdb7753dd4288c3f86bb0811930e58d73d",
+    "isEstimated": false,
+    "metrics": {
+      "cacheRead": {
+        "state": "known",
+        "value": 128
+      },
+      "cacheWrite": {
+        "state": "known",
+        "value": 0
+      },
+      "cachedOutput": {
+        "state": "unsupported"
+      },
+      "input": {
+        "state": "known",
+        "value": 17153
+      },
+      "output": {
+        "state": "known",
+        "value": 137
+      },
+      "reasoning": {
+        "state": "known",
+        "value": 0
+      },
+      "total": {
+        "state": "known",
+        "value": 17290
+      }
+    },
+    "model": "DeepSeek-V4-Flash",
+    "parserVersion": "pi-session-v3.1.0",
+    "project": {
+      "confidence": 0.8,
+      "detectionMethod": "explicit_session_cwd",
+      "id": "33fecbbecad7972bc33d5306fbdad9a725269ffd370b623499643a8542274326",
+      "name": "ProjectC",
+      "path": "/example/ProjectC"
+    },
+    "provider": "scnet",
+    "quality": "exact",
+    "rawModelName": "DeepSeek-V4-Flash",
+    "sessionID": "anonymous-pi-session",
+    "sourceEventID": "pi:entry:entry001:2026-09-11T16:33:19.058Z",
+    "sourceLine": 2,
+    "sourceMetadata": {
+      "counting_method": "entry_usage",
+      "entry_type": "message",
+      "input_semantics": "uncached_plus_cache_read_plus_cache_write",
+      "model_attribution": "source_reported",
+      "reported_usage": "{\"cacheRead\":128,\"cacheWrite\":0,\"input\":17025,\"output\":137,\"reasoning\":0,\"totalTokens\":17290}",
+      "unverified_reported_cost": "0",
+      "usage_category": "model"
+    },
+    "sourceOffset": 124,
+    "sourcePath": "fixture/pi",
+    "sourceType": "local_jsonl",
+    "timestamp": "2026-09-11T16:33:19.058Z",
+    "workingDirectory": "/example/ProjectC"
+  },
+  {
+    "agentID": "workbuddy",
+    "agentName": "WorkBuddy",
+    "collectorID": "workbuddy-local",
+    "collectorVersion": "1.0.0",
+    "confidence": 1,
+    "costState": "not_available",
+    "createdAt": "2026-10-05T04:00:00.000Z",
+    "fingerprint": "820e8a8f5f186b933347313a5c0f05fcd5ee88101aee9f1acc4e71fc6c222a82",
+    "id": "820e8a8f5f186b933347313a5c0f05fcd5ee88101aee9f1acc4e71fc6c222a82",
+    "isEstimated": false,
+    "metrics": {
+      "cacheRead": {
+        "state": "known",
+        "value": 750
+      },
+      "cacheWrite": {
+        "state": "unsupported"
+      },
+      "cachedOutput": {
+        "state": "unsupported"
+      },
+      "input": {
+        "state": "known",
+        "value": 1000
+      },
+      "output": {
+        "state": "known",
+        "value": 100
+      },
+      "reasoning": {
+        "state": "known",
+        "value": 25
+      },
+      "total": {
+        "state": "known",
+        "value": 1100
+      }
+    },
+    "model": "hy3",
+    "parserVersion": "workbuddy-jsonl-v1.0.1",
+    "project": {
+      "confidence": 0.8,
+      "detectionMethod": "explicit_session_cwd",
+      "id": "67a5e772446fa96ff03536cc43094f40a495c399848b4be969772b9f6c38cb9b",
+      "name": "WorkBuddyProject",
+      "path": "/anonymous/WorkBuddyProject"
+    },
+    "quality": "exact",
+    "rawModelName": "hy3",
+    "sessionID": "anonymous-workbuddy-session",
+    "sourceEventID": "workbuddy:message:anonymous-request-1",
+    "sourceLine": 1,
+    "sourceMetadata": {
+      "counting_method": "provider_message_usage",
+      "input_semantics": "reported input includes cache reads",
+      "reported_reasoning_tokens": "25",
+      "reported_usage": "{\"cache_read_input_tokens\":750,\"input_tokens\":1000,\"output_tokens\":100,\"total_tokens\":1100}",
+      "requested_model": "hy3"
+    },
+    "sourceOffset": 0,
+    "sourcePath": "fixture/workbuddy",
+    "sourceType": "local_jsonl",
+    "timestamp": "2026-10-03T21:00:01.000Z",
+    "workingDirectory": "/anonymous/WorkBuddyProject"
+  },
+  {
+    "agentID": "workbuddy",
+    "agentName": "WorkBuddy",
+    "collectorID": "workbuddy-local",
+    "collectorVersion": "1.0.0",
+    "confidence": 1,
+    "costState": "not_available",
+    "createdAt": "2026-10-05T04:00:00.000Z",
+    "fingerprint": "ecb355bb6700832a83b0f76f75896c26d60de0be78519395cea802b23cf714bf",
+    "id": "ecb355bb6700832a83b0f76f75896c26d60de0be78519395cea802b23cf714bf",
+    "isEstimated": false,
+    "metrics": {
+      "cacheRead": {
+        "state": "not_available"
+      },
+      "cacheWrite": {
+        "state": "unsupported"
+      },
+      "cachedOutput": {
+        "state": "unsupported"
+      },
+      "input": {
+        "state": "known",
+        "value": 200
+      },
+      "output": {
+        "state": "known",
+        "value": 20
+      },
+      "reasoning": {
+        "state": "not_available"
+      },
+      "total": {
+        "state": "known",
+        "value": 220
+      }
+    },
+    "parserVersion": "workbuddy-jsonl-v1.0.1",
+    "quality": "exact",
+    "sessionID": "anonymous-workbuddy-session",
+    "sourceEventID": "workbuddy:message:anonymous-request-2",
+    "sourceLine": 3,
+    "sourceMetadata": {
+      "counting_method": "provider_message_usage",
+      "input_semantics": "reported input includes cache reads",
+      "reported_usage": "{\"input_tokens\":200,\"output_tokens\":20,\"total_tokens\":220}"
+    },
+    "sourceOffset": 829,
+    "sourcePath": "fixture/workbuddy",
+    "sourceType": "local_jsonl",
+    "timestamp": "2026-10-03T21:00:02.000Z"
+  }
+]

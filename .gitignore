@@ -1,0 +1,32 @@
+# Build output and dependency caches
+.build/
+.swiftpm/
+build/
+**/target/
+node_modules/
+Dashboard/dist/
+Dashboard/test-results/
+Dashboard/playwright-report/
+coverage/
+
+# Local runtime data and credentials
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.db
+*.db-wal
+*.db-shm
+*.log
+runtime.json
+.env*
+!.env.example
+local-validation/
+
+# Release packages belong in platform release assets, not Git history
+*.dmg
+*.exe
+*.msi
+
+# OS/editor files
+.DS_Store
+assets/concepts/

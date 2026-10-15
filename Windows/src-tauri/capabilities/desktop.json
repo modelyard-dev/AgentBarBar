@@ -1,0 +1,17 @@
+{
+  "identifier": "desktop",
+  "description": "Only bundled AgentBarBar windows and explicit host commands; no filesystem, shell or remote IPC",
+  "windows": [
+    "dashboard",
+    "popup"
+  ],
+  "permissions": [
+    "core:event:allow-listen",
+    "core:event:allow-unlisten",
+    "allow-business-request",
+    "allow-window-action",
+    "allow-front-ready",
+    "allow-qa-result",
+    "allow-popup-layout"
+  ]
+}

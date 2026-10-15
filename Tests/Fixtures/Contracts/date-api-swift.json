@@ -1,0 +1,350 @@
+{
+  "agents": [
+    {
+      "agentIDs": [
+        "codex"
+      ],
+      "id": "codex",
+      "lastActivity": "2026-10-04T16:00:00.000Z",
+      "models": [
+        "anonymous/raw"
+      ],
+      "name": "Codex",
+      "projectIDs": [
+        "4b79357d19cb3d374a88ca5e1f2a49238e138591c5cb65d966954634c3dc9cd5"
+      ],
+      "summary": {
+        "activeAgents": 0,
+        "agents": 1,
+        "costKnownEvents": 0,
+        "estimatedEvents": 0,
+        "events": 7,
+        "metrics": {
+          "cacheRead": {
+            "knownEvents": 7,
+            "state": "known",
+            "totalEvents": 7,
+            "value": 280
+          },
+          "cacheWrite": {
+            "knownEvents": 7,
+            "state": "known",
+            "totalEvents": 7,
+            "value": 14
+          },
+          "cachedOutput": {
+            "knownEvents": 0,
+            "state": "unsupported",
+            "totalEvents": 7
+          },
+          "input": {
+            "knownEvents": 7,
+            "state": "known",
+            "totalEvents": 7,
+            "value": 721
+          },
+          "output": {
+            "knownEvents": 7,
+            "state": "known",
+            "totalEvents": 7,
+            "value": 161
+          },
+          "reasoning": {
+            "knownEvents": 7,
+            "state": "known",
+            "totalEvents": 7,
+            "value": 49
+          },
+          "total": {
+            "knownEvents": 7,
+            "state": "known",
+            "totalEvents": 7,
+            "value": 882
+          }
+        },
+        "projects": 1,
+        "sessions": 1
+      }
+    }
+  ],
+  "models": [
+    {
+      "agentIDs": [
+        "codex"
+      ],
+      "id": "anonymous/raw",
+      "lastActivity": "2026-10-04T16:00:00.000Z",
+      "models": [
+        "anonymous/raw"
+      ],
+      "name": "anonymous/raw",
+      "projectIDs": [
+        "4b79357d19cb3d374a88ca5e1f2a49238e138591c5cb65d966954634c3dc9cd5"
+      ],
+      "summary": {
+        "activeAgents": 0,
+        "agents": 1,
+        "costKnownEvents": 0,
+        "estimatedEvents": 0,
+        "events": 7,
+        "metrics": {
+          "cacheRead": {
+            "knownEvents": 7,
+            "state": "known",
+            "totalEvents": 7,
+            "value": 280
+          },
+          "cacheWrite": {
+            "knownEvents": 7,
+            "state": "known",
+            "totalEvents": 7,
+            "value": 14
+          },
+          "cachedOutput": {
+            "knownEvents": 0,
+            "state": "unsupported",
+            "totalEvents": 7
+          },
+          "input": {
+            "knownEvents": 7,
+            "state": "known",
+            "totalEvents": 7,
+            "value": 721
+          },
+          "output": {
+            "knownEvents": 7,
+            "state": "known",
+            "totalEvents": 7,
+            "value": 161
+          },
+          "reasoning": {
+            "knownEvents": 7,
+            "state": "known",
+            "totalEvents": 7,
+            "value": 49
+          },
+          "total": {
+            "knownEvents": 7,
+            "state": "known",
+            "totalEvents": 7,
+            "value": 882
+          }
+        },
+        "projects": 1,
+        "sessions": 1
+      }
+    }
+  ],
+  "now": "2026-10-05T04:00:00.000Z",
+  "ranges": {
+    "30": {
+      "activeAgents": 0,
+      "agents": 1,
+      "costKnownEvents": 0,
+      "estimatedEvents": 0,
+      "events": 5,
+      "metrics": {
+        "cacheRead": {
+          "knownEvents": 5,
+          "state": "known",
+          "totalEvents": 5,
+          "value": 200
+        },
+        "cacheWrite": {
+          "knownEvents": 5,
+          "state": "known",
+          "totalEvents": 5,
+          "value": 10
+        },
+        "cachedOutput": {
+          "knownEvents": 0,
+          "state": "unsupported",
+          "totalEvents": 5
+        },
+        "input": {
+          "knownEvents": 5,
+          "state": "known",
+          "totalEvents": 5,
+          "value": 520
+        },
+        "output": {
+          "knownEvents": 5,
+          "state": "known",
+          "totalEvents": 5,
+          "value": 115
+        },
+        "reasoning": {
+          "knownEvents": 5,
+          "state": "known",
+          "totalEvents": 5,
+          "value": 35
+        },
+        "total": {
+          "knownEvents": 5,
+          "state": "known",
+          "totalEvents": 5,
+          "value": 635
+        }
+      },
+      "projects": 1,
+      "sessions": 1
+    },
+    "7": {
+      "activeAgents": 0,
+      "agents": 1,
+      "costKnownEvents": 0,
+      "estimatedEvents": 0,
+      "events": 3,
+      "metrics": {
+        "cacheRead": {
+          "knownEvents": 3,
+          "state": "known",
+          "totalEvents": 3,
+          "value": 120
+        },
+        "cacheWrite": {
+          "knownEvents": 3,
+          "state": "known",
+          "totalEvents": 3,
+          "value": 6
+        },
+        "cachedOutput": {
+          "knownEvents": 0,
+          "state": "unsupported",
+          "totalEvents": 3
+        },
+        "input": {
+          "knownEvents": 3,
+          "state": "known",
+          "totalEvents": 3,
+          "value": 315
+        },
+        "output": {
+          "knownEvents": 3,
+          "state": "known",
+          "totalEvents": 3,
+          "value": 69
+        },
+        "reasoning": {
+          "knownEvents": 3,
+          "state": "known",
+          "totalEvents": 3,
+          "value": 21
+        },
+        "total": {
+          "knownEvents": 3,
+          "state": "known",
+          "totalEvents": 3,
+          "value": 384
+        }
+      },
+      "projects": 1,
+      "sessions": 1
+    },
+    "all": {
+      "activeAgents": 0,
+      "agents": 1,
+      "costKnownEvents": 0,
+      "estimatedEvents": 0,
+      "events": 7,
+      "metrics": {
+        "cacheRead": {
+          "knownEvents": 7,
+          "state": "known",
+          "totalEvents": 7,
+          "value": 280
+        },
+        "cacheWrite": {
+          "knownEvents": 7,
+          "state": "known",
+          "totalEvents": 7,
+          "value": 14
+        },
+        "cachedOutput": {
+          "knownEvents": 0,
+          "state": "unsupported",
+          "totalEvents": 7
+        },
+        "input": {
+          "knownEvents": 7,
+          "state": "known",
+          "totalEvents": 7,
+          "value": 721
+        },
+        "output": {
+          "knownEvents": 7,
+          "state": "known",
+          "totalEvents": 7,
+          "value": 161
+        },
+        "reasoning": {
+          "knownEvents": 7,
+          "state": "known",
+          "totalEvents": 7,
+          "value": 49
+        },
+        "total": {
+          "knownEvents": 7,
+          "state": "known",
+          "totalEvents": 7,
+          "value": 882
+        }
+      },
+      "projects": 1,
+      "sessions": 1
+    },
+    "today": {
+      "activeAgents": 0,
+      "agents": 1,
+      "costKnownEvents": 0,
+      "estimatedEvents": 0,
+      "events": 1,
+      "metrics": {
+        "cacheRead": {
+          "knownEvents": 1,
+          "state": "known",
+          "totalEvents": 1,
+          "value": 40
+        },
+        "cacheWrite": {
+          "knownEvents": 1,
+          "state": "known",
+          "totalEvents": 1,
+          "value": 2
+        },
+        "cachedOutput": {
+          "knownEvents": 0,
+          "state": "unsupported",
+          "totalEvents": 1
+        },
+        "input": {
+          "knownEvents": 1,
+          "state": "known",
+          "totalEvents": 1,
+          "value": 106
+        },
+        "output": {
+          "knownEvents": 1,
+          "state": "known",
+          "totalEvents": 1,
+          "value": 23
+        },
+        "reasoning": {
+          "knownEvents": 1,
+          "state": "known",
+          "totalEvents": 1,
+          "value": 7
+        },
+        "total": {
+          "knownEvents": 1,
+          "state": "known",
+          "totalEvents": 1,
+          "value": 129
+        }
+      },
+      "projects": 1,
+      "sessions": 1
+    }
+  },
+  "timeZone": "Asia/Shanghai"
+}

@@ -1,0 +1,23 @@
+[package]
+name = "agentbar-collector"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+publish = false
+
+[features]
+# Explicit anonymous benchmark instrumentation, never enabled by the desktop host.
+profiling = ["rusqlite/trace", "agentbar-core/profiling"]
+
+[dependencies]
+agentbar-core = { path = "../agentbar-core" }
+serde.workspace = true
+serde_json.workspace = true
+chrono.workspace = true
+rusqlite.workspace = true
+sha2.workspace = true
+md5 = "0.7"
+notify = "8.2"
+
+[dev-dependencies]
+tempfile = "3"

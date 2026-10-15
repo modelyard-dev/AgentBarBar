@@ -1,0 +1,1 @@
+[{"type":"say","say":"api_req_started","ts":1791244800000,"text":"{\"tokensIn\": 100}"},{"type":"say","say":"api_req_finished","ts":1791244800001,"text":"{\"tokensOut\": 20, \"cacheReads\": 50, \"cacheWrites\": 10}"},{"type":"say","say":"api_req_started","ts":1791244800002,"text":"{\"tokensIn\": 5, \"tokensOut\": 2}"},{"type":"say","say":"subagent_usage","ts":1791244800003}]

@@ -1,0 +1,1077 @@
+{
+  "contractVersion": 1,
+  "events": [
+    {
+      "agentID": "antigravity-ide",
+      "fingerprint": "ff2fbe987ffb21f5691b70294f978937bdde254a444ad42a51b7b738856006c2",
+      "id": "ff2fbe987ffb21f5691b70294f978937bdde254a444ad42a51b7b738856006c2",
+      "metrics": {
+        "cacheRead": {
+          "state": "known",
+          "value": 800
+        },
+        "cacheWrite": {
+          "state": "known",
+          "value": 0
+        },
+        "cachedOutput": {
+          "state": "unsupported"
+        },
+        "input": {
+          "state": "known",
+          "value": 900
+        },
+        "output": {
+          "state": "known",
+          "value": 20
+        },
+        "reasoning": {
+          "state": "known",
+          "value": 5
+        },
+        "total": {
+          "state": "known",
+          "value": 920
+        }
+      },
+      "parserVersion": "antigravity-sqlite-protobuf-v1.0.0",
+      "provider": "API_PROVIDER_GOOGLE_GEMINI",
+      "quality": "exact",
+      "rawModelName": "gemini/raw",
+      "sessionID": "anonymous",
+      "sourceEventID": "antigravity-ide:generation:anonymous-generation",
+      "sourceMetadata": {
+        "counting_method": "completed_generation_usage",
+        "input_semantics": "uncached input plus cache read/write",
+        "output_semantics": "reported output already includes thinking",
+        "reported_usage": "{\"cache_read_tokens\":800,\"cache_write_tokens\":0,\"input_tokens\":100,\"output_tokens\":20,\"thinking_output_tokens\":5}",
+        "source_row_id": "0",
+        "source_table": "gen_metadata"
+      },
+      "timestamp": "2026-10-04T12:00:01.000Z"
+    },
+    {
+      "agentID": "antigravity",
+      "fingerprint": "5e4cfe29458e564fd6b87c700329f56d1b2da949635617cdf4ccb4163c60c0c2",
+      "id": "5e4cfe29458e564fd6b87c700329f56d1b2da949635617cdf4ccb4163c60c0c2",
+      "metrics": {
+        "cacheRead": {
+          "state": "known",
+          "value": 800
+        },
+        "cacheWrite": {
+          "state": "known",
+          "value": 0
+        },
+        "cachedOutput": {
+          "state": "unsupported"
+        },
+        "input": {
+          "state": "known",
+          "value": 900
+        },
+        "output": {
+          "state": "known",
+          "value": 20
+        },
+        "reasoning": {
+          "state": "known",
+          "value": 5
+        },
+        "total": {
+          "state": "known",
+          "value": 920
+        }
+      },
+      "parserVersion": "antigravity-sqlite-protobuf-v1.0.0",
+      "provider": "API_PROVIDER_GOOGLE_GEMINI",
+      "quality": "exact",
+      "rawModelName": "gemini/raw",
+      "sessionID": "anonymous",
+      "sourceEventID": "antigravity:generation:anonymous-generation",
+      "sourceMetadata": {
+        "counting_method": "completed_generation_usage",
+        "input_semantics": "uncached input plus cache read/write",
+        "output_semantics": "reported output already includes thinking",
+        "reported_usage": "{\"cache_read_tokens\":800,\"cache_write_tokens\":0,\"input_tokens\":100,\"output_tokens\":20,\"thinking_output_tokens\":5}",
+        "source_row_id": "0",
+        "source_table": "gen_metadata"
+      },
+      "timestamp": "2026-10-04T12:00:01.000Z"
+    },
+    {
+      "agentID": "claude-code",
+      "fingerprint": "57eccf384c184bbd48c791aaaa18f8d89b42b1deab7314c0880c5105c12b25d9",
+      "id": "57eccf384c184bbd48c791aaaa18f8d89b42b1deab7314c0880c5105c12b25d9",
+      "metrics": {
+        "cacheRead": {
+          "state": "known",
+          "value": 0
+        },
+        "cacheWrite": {
+          "state": "known",
+          "value": 0
+        },
+        "cachedOutput": {
+          "state": "unsupported"
+        },
+        "input": {
+          "state": "known",
+          "value": 28072
+        },
+        "output": {
+          "state": "known",
+          "value": 66
+        },
+        "reasoning": {
+          "state": "known",
+          "value": 0
+        },
+        "total": {
+          "state": "known",
+          "value": 28138
+        }
+      },
+      "parserVersion": "claude-jsonl-v1.1.0",
+      "quality": "exact",
+      "rawModelName": "deepseek-v4-flash",
+      "sessionID": "anonymous-claude-session",
+      "sourceEventID": "claude-code:message:anonymous-message",
+      "sourceMetadata": {
+        "agent_version": "2.1.261",
+        "counting_method": "message_snapshot_upsert",
+        "entrypoint": "legacy_or_unknown",
+        "input_semantics": "uncached_plus_cache_read_plus_cache_write",
+        "reported_usage": "{\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"input_tokens\":28072,\"output_tokens\":66,\"thinking_tokens\":0}"
+      },
+      "timestamp": "2026-08-20T09:04:47.205Z"
+    },
+    {
+      "agentID": "codex",
+      "fingerprint": "ef2ebc2e820eea87882b251b8413ed374b080c90a2405c24e01ca6b6d7d49947",
+      "id": "ef2ebc2e820eea87882b251b8413ed374b080c90a2405c24e01ca6b6d7d49947",
+      "metrics": {
+        "cacheRead": {
+          "state": "known",
+          "value": 0
+        },
+        "cacheWrite": {
+          "state": "known",
+          "value": 0
+        },
+        "cachedOutput": {
+          "state": "unsupported"
+        },
+        "input": {
+          "state": "known",
+          "value": 35888
+        },
+        "output": {
+          "state": "known",
+          "value": 314
+        },
+        "reasoning": {
+          "state": "known",
+          "value": 0
+        },
+        "total": {
+          "state": "known",
+          "value": 36202
+        }
+      },
+      "parserVersion": "codex-jsonl-v1.2.0",
+      "provider": "openai",
+      "quality": "exact",
+      "rawModelName": "gpt-6.1-sol",
+      "sessionID": "anonymous-codex-session",
+      "sourceEventID": "codex:thread:anonymous-codex-session:response:anonymous-response-1",
+      "sourceMetadata": {
+        "agent_version": "0.160.0",
+        "counting_method": "request_usage",
+        "owner_matches_file": "true",
+        "physical_thread_id": "anonymous-codex-session",
+        "reported_usage": "{\"cache_write_input_tokens\":0,\"cached_input_tokens\":0,\"input_tokens\":35888,\"output_tokens\":314,\"reasoning_output_tokens\":0,\"total_tokens\":36202}",
+        "response_id": "anonymous-response-1",
+        "thread_id": "anonymous-codex-session"
+      },
+      "timestamp": "2026-10-04T08:22:46.534Z"
+    },
+    {
+      "agentID": "codex",
+      "fingerprint": "9ec67c208792f622166c33444a2808074ef81f5d0498bc69903e1f62db653b7a",
+      "id": "9ec67c208792f622166c33444a2808074ef81f5d0498bc69903e1f62db653b7a",
+      "metrics": {
+        "cacheRead": {
+          "state": "known",
+          "value": 35712
+        },
+        "cacheWrite": {
+          "state": "known",
+          "value": 0
+        },
+        "cachedOutput": {
+          "state": "unsupported"
+        },
+        "input": {
+          "state": "known",
+          "value": 44486
+        },
+        "output": {
+          "state": "known",
+          "value": 777
+        },
+        "reasoning": {
+          "state": "known",
+          "value": 252
+        },
+        "total": {
+          "state": "known",
+          "value": 45263
+        }
+      },
+      "parserVersion": "codex-jsonl-v1.2.0",
+      "provider": "openai",
+      "quality": "exact",
+      "rawModelName": "gpt-6.1-sol",
+      "sessionID": "anonymous-codex-session",
+      "sourceEventID": "codex:thread:anonymous-codex-session:response:anonymous-response-2",
+      "sourceMetadata": {
+        "agent_version": "0.160.0",
+        "counting_method": "request_usage",
+        "owner_matches_file": "true",
+        "physical_thread_id": "anonymous-codex-session",
+        "reported_usage": "{\"cache_write_input_tokens\":0,\"cached_input_tokens\":35712,\"input_tokens\":44486,\"output_tokens\":777,\"reasoning_output_tokens\":252,\"total_tokens\":45263}",
+        "response_id": "anonymous-response-2",
+        "thread_id": "anonymous-codex-session"
+      },
+      "timestamp": "2026-10-04T08:23:01.095Z"
+    },
+    {
+      "agentID": "deepseek-harness",
+      "fingerprint": "2ecee64751a6f760f8130cdd1e7ab28d1bc29798e4a88d90983946126be9e4f8",
+      "id": "2ecee64751a6f760f8130cdd1e7ab28d1bc29798e4a88d90983946126be9e4f8",
+      "metrics": {
+        "cacheRead": {
+          "state": "known",
+          "value": 100
+        },
+        "cacheWrite": {
+          "state": "known",
+          "value": 0
+        },
+        "cachedOutput": {
+          "state": "unsupported"
+        },
+        "input": {
+          "state": "known",
+          "value": 150
+        },
+        "output": {
+          "state": "known",
+          "value": 10
+        },
+        "reasoning": {
+          "state": "known",
+          "value": 3
+        },
+        "total": {
+          "state": "known",
+          "value": 160
+        }
+      },
+      "parserVersion": "dsh-canonical-ledger-v4.1.0",
+      "provider": "anonymous-provider",
+      "quality": "exact",
+      "rawModelName": "raw-model",
+      "sessionID": "anonymous-session",
+      "sourceEventID": "deepseek-harness:ledger:anonymous-session:1:1",
+      "sourceMetadata": {
+        "accounting_version": "1",
+        "canonical_id": "anonymous-session:1:1",
+        "counting_method": "dsh_canonical_ledger",
+        "historical_or_live": "historical",
+        "input_semantics": "normalized input includes cache reads and cache writes; source input is uncached",
+        "reasoning_semantics": "included in output",
+        "reported_uncached_input": "50",
+        "source_record_type": "legacy_store",
+        "storage_schema_version": "4"
+      },
+      "timestamp": "2026-10-03T16:00:00.000Z"
+    },
+    {
+      "agentID": "deepseek-harness",
+      "fingerprint": "e8ed841fbfc5366cb5aa481e752656b8a1d0dfbcada346dce73e6a8d68eaca26",
+      "id": "e8ed841fbfc5366cb5aa481e752656b8a1d0dfbcada346dce73e6a8d68eaca26",
+      "metrics": {
+        "cacheRead": {
+          "state": "known",
+          "value": 200
+        },
+        "cacheWrite": {
+          "state": "known",
+          "value": 0
+        },
+        "cachedOutput": {
+          "state": "unsupported"
+        },
+        "input": {
+          "state": "known",
+          "value": 220
+        },
+        "output": {
+          "state": "known",
+          "value": 30
+        },
+        "reasoning": {
+          "state": "known",
+          "value": 5
+        },
+        "total": {
+          "state": "known",
+          "value": 250
+        }
+      },
+      "parserVersion": "dsh-canonical-ledger-v4.1.0",
+      "provider": "anonymous-provider",
+      "quality": "exact",
+      "rawModelName": "raw-model",
+      "sessionID": "anonymous-session",
+      "sourceEventID": "deepseek-harness:ledger:anonymous-session:1:2",
+      "sourceMetadata": {
+        "accounting_version": "2",
+        "canonical_id": "anonymous-session:1:2",
+        "counting_method": "dsh_canonical_ledger",
+        "historical_or_live": "live",
+        "input_semantics": "normalized input includes cache reads and cache writes; source input is uncached",
+        "reasoning_semantics": "included in output",
+        "reported_uncached_input": "20",
+        "source_record_type": "live_event",
+        "storage_schema_version": "4"
+      },
+      "timestamp": "2026-10-03T16:00:01.000Z"
+    },
+    {
+      "agentID": "gemini",
+      "fingerprint": "f039cce1beb747ebfce421311b80a4ca05ca4b4996334028e26520b54af5d5a9",
+      "id": "f039cce1beb747ebfce421311b80a4ca05ca4b4996334028e26520b54af5d5a9",
+      "metrics": {
+        "cacheRead": {
+          "state": "known",
+          "value": 800
+        },
+        "cacheWrite": {
+          "state": "unsupported"
+        },
+        "cachedOutput": {
+          "state": "unsupported"
+        },
+        "input": {
+          "state": "known",
+          "value": 1000
+        },
+        "output": {
+          "state": "known",
+          "value": 150
+        },
+        "reasoning": {
+          "state": "known",
+          "value": 50
+        },
+        "total": {
+          "state": "known",
+          "value": 1150
+        }
+      },
+      "parserVersion": "gemini-session-json-v1.0.0",
+      "quality": "exact",
+      "rawModelName": "gemini/raw-model",
+      "sessionID": "anonymous-gemini-session",
+      "sourceEventID": "gemini:message:anonymous-gemini-1",
+      "sourceMetadata": {
+        "counting_method": "session_message_usage",
+        "input_semantics": "source total minus complete output, cache already included",
+        "json_pointer": "messages/0",
+        "output_semantics": "candidate output plus thoughts",
+        "reported_usage": "{\"cached\":800,\"input\":1000,\"output\":100,\"thoughts\":50,\"tool\":0,\"total\":1150}"
+      },
+      "timestamp": "2026-10-04T12:00:01.000Z"
+    },
+    {
+      "agentID": "gemini",
+      "fingerprint": "72d4c66ab7943de511e71156262da2e00a0f1569976d31c7bdb2a0cf44771f37",
+      "id": "72d4c66ab7943de511e71156262da2e00a0f1569976d31c7bdb2a0cf44771f37",
+      "metrics": {
+        "cacheRead": {
+          "state": "not_available"
+        },
+        "cacheWrite": {
+          "state": "unsupported"
+        },
+        "cachedOutput": {
+          "state": "unsupported"
+        },
+        "input": {
+          "state": "known",
+          "value": 200
+        },
+        "output": {
+          "state": "known",
+          "value": 70
+        },
+        "reasoning": {
+          "state": "not_available"
+        },
+        "total": {
+          "state": "known",
+          "value": 270
+        }
+      },
+      "parserVersion": "gemini-session-json-v1.0.0",
+      "quality": "exact",
+      "sessionID": "anonymous-gemini-session",
+      "sourceEventID": "gemini:message:anonymous-gemini-2",
+      "sourceMetadata": {
+        "counting_method": "session_message_usage",
+        "input_semantics": "source total minus complete output, cache already included",
+        "json_pointer": "messages/1",
+        "output_semantics": "candidate output plus thoughts",
+        "reported_usage": "{\"input\":200,\"output\":50,\"tool\":0,\"total\":270}"
+      },
+      "timestamp": "2026-10-04T12:00:02.000Z"
+    },
+    {
+      "agentID": "kimi-cli",
+      "fingerprint": "72667d13120403c621ca4699d68cec1bf11e6ce3855aba0a7595974da133c922",
+      "id": "72667d13120403c621ca4699d68cec1bf11e6ce3855aba0a7595974da133c922",
+      "metrics": {
+        "cacheRead": {
+          "state": "known",
+          "value": 500
+        },
+        "cacheWrite": {
+          "state": "known",
+          "value": 20
+        },
+        "cachedOutput": {
+          "state": "unsupported"
+        },
+        "input": {
+          "state": "known",
+          "value": 1520
+        },
+        "output": {
+          "state": "known",
+          "value": 80
+        },
+        "reasoning": {
+          "state": "unsupported"
+        },
+        "total": {
+          "state": "known",
+          "value": 1600
+        }
+      },
+      "parserVersion": "kimi-wire-v1.0.0",
+      "quality": "exact",
+      "sessionID": "anonymous-session",
+      "sourceEventID": "kimi-cli:message:anonymous-kimi-request",
+      "sourceMetadata": {
+        "counting_method": "wire_status_request_usage",
+        "input_normalization": "input_other + input_cache_read + input_cache_creation",
+        "model_availability": "historical wire does not report model",
+        "reported_usage": "{\"input_cache_creation\":20,\"input_cache_read\":500,\"input_other\":1000,\"output\":80}",
+        "wire_protocol": "wire-1.3"
+      },
+      "timestamp": "2026-10-03T21:00:01.200Z"
+    },
+    {
+      "agentID": "opencode",
+      "fingerprint": "5c8c8bdd6305662acee7347c6df5a1faa70f1819fdd762d1453fc82948481e3c",
+      "id": "5c8c8bdd6305662acee7347c6df5a1faa70f1819fdd762d1453fc82948481e3c",
+      "metrics": {
+        "cacheRead": {
+          "state": "known",
+          "value": 100
+        },
+        "cacheWrite": {
+          "state": "known",
+          "value": 20
+        },
+        "cachedOutput": {
+          "state": "unsupported"
+        },
+        "input": {
+          "state": "known",
+          "value": 1120
+        },
+        "output": {
+          "state": "known",
+          "value": 100
+        },
+        "reasoning": {
+          "state": "known",
+          "value": 20
+        },
+        "total": {
+          "state": "known",
+          "value": 1220
+        }
+      },
+      "parserVersion": "opencode-sqlite-v1.0.0",
+      "provider": "open-provider",
+      "quality": "exact",
+      "rawModelName": "provider/raw-model-1",
+      "sessionID": "anonymous-open-session",
+      "sourceEventID": "opencode:message:open-request-1",
+      "sourceMetadata": {
+        "counting_method": "completed_assistant_message",
+        "input_normalization": "source input + cache.read + cache.write",
+        "output_normalization": "source output + reasoning",
+        "reported_usage": "{\"cache_read\":100,\"cache_write\":20,\"input\":1000,\"output\":80,\"reasoning\":20,\"total\":1220}",
+        "source_row_id": "open-request-1",
+        "source_table": "message",
+        "unverified_source_cost": "0"
+      },
+      "timestamp": "2026-10-03T21:00:02.000Z"
+    },
+    {
+      "agentID": "pi",
+      "fingerprint": "29c5e0966fd9e21de19e9e423dbe9abdb7753dd4288c3f86bb0811930e58d73d",
+      "id": "29c5e0966fd9e21de19e9e423dbe9abdb7753dd4288c3f86bb0811930e58d73d",
+      "metrics": {
+        "cacheRead": {
+          "state": "known",
+          "value": 128
+        },
+        "cacheWrite": {
+          "state": "known",
+          "value": 0
+        },
+        "cachedOutput": {
+          "state": "unsupported"
+        },
+        "input": {
+          "state": "known",
+          "value": 17153
+        },
+        "output": {
+          "state": "known",
+          "value": 137
+        },
+        "reasoning": {
+          "state": "known",
+          "value": 0
+        },
+        "total": {
+          "state": "known",
+          "value": 17290
+        }
+      },
+      "parserVersion": "pi-session-v3.1.0",
+      "provider": "scnet",
+      "quality": "exact",
+      "rawModelName": "DeepSeek-V4-Flash",
+      "sessionID": "anonymous-pi-session",
+      "sourceEventID": "pi:entry:entry001:2026-09-11T16:33:19.058Z",
+      "sourceMetadata": {
+        "counting_method": "entry_usage",
+        "entry_type": "message",
+        "input_semantics": "uncached_plus_cache_read_plus_cache_write",
+        "model_attribution": "source_reported",
+        "reported_usage": "{\"cacheRead\":128,\"cacheWrite\":0,\"input\":17025,\"output\":137,\"reasoning\":0,\"totalTokens\":17290}",
+        "unverified_reported_cost": "0",
+        "usage_category": "model"
+      },
+      "timestamp": "2026-09-11T16:33:19.058Z"
+    },
+    {
+      "agentID": "workbuddy",
+      "fingerprint": "820e8a8f5f186b933347313a5c0f05fcd5ee88101aee9f1acc4e71fc6c222a82",
+      "id": "820e8a8f5f186b933347313a5c0f05fcd5ee88101aee9f1acc4e71fc6c222a82",
+      "metrics": {
+        "cacheRead": {
+          "state": "known",
+          "value": 750
+        },
+        "cacheWrite": {
+          "state": "unsupported"
+        },
+        "cachedOutput": {
+          "state": "unsupported"
+        },
+        "input": {
+          "state": "known",
+          "value": 1000
+        },
+        "output": {
+          "state": "known",
+          "value": 100
+        },
+        "reasoning": {
+          "state": "known",
+          "value": 25
+        },
+        "total": {
+          "state": "known",
+          "value": 1100
+        }
+      },
+      "parserVersion": "workbuddy-jsonl-v1.0.1",
+      "quality": "exact",
+      "rawModelName": "hy3",
+      "sessionID": "anonymous-workbuddy-session",
+      "sourceEventID": "workbuddy:message:anonymous-request-1",
+      "sourceMetadata": {
+        "counting_method": "provider_message_usage",
+        "input_semantics": "reported input includes cache reads",
+        "reported_reasoning_tokens": "25",
+        "reported_usage": "{\"cache_read_input_tokens\":750,\"input_tokens\":1000,\"output_tokens\":100,\"total_tokens\":1100}",
+        "requested_model": "hy3"
+      },
+      "timestamp": "2026-10-03T21:00:01.000Z"
+    },
+    {
+      "agentID": "workbuddy",
+      "fingerprint": "ecb355bb6700832a83b0f76f75896c26d60de0be78519395cea802b23cf714bf",
+      "id": "ecb355bb6700832a83b0f76f75896c26d60de0be78519395cea802b23cf714bf",
+      "metrics": {
+        "cacheRead": {
+          "state": "not_available"
+        },
+        "cacheWrite": {
+          "state": "unsupported"
+        },
+        "cachedOutput": {
+          "state": "unsupported"
+        },
+        "input": {
+          "state": "known",
+          "value": 200
+        },
+        "output": {
+          "state": "known",
+          "value": 20
+        },
+        "reasoning": {
+          "state": "not_available"
+        },
+        "total": {
+          "state": "known",
+          "value": 220
+        }
+      },
+      "parserVersion": "workbuddy-jsonl-v1.0.1",
+      "quality": "exact",
+      "sessionID": "anonymous-workbuddy-session",
+      "sourceEventID": "workbuddy:message:anonymous-request-2",
+      "sourceMetadata": {
+        "counting_method": "provider_message_usage",
+        "input_semantics": "reported input includes cache reads",
+        "reported_usage": "{\"input_tokens\":200,\"output_tokens\":20,\"total_tokens\":220}"
+      },
+      "timestamp": "2026-10-03T21:00:02.000Z"
+    }
+  ],
+  "summaries": {
+    "antigravity": {
+      "metrics": {
+        "cacheRead": {
+          "knownEvents": 1,
+          "totalEvents": 1,
+          "value": 800
+        },
+        "cacheWrite": {
+          "knownEvents": 1,
+          "totalEvents": 1,
+          "value": 0
+        },
+        "cachedOutput": {
+          "knownEvents": 0,
+          "totalEvents": 1,
+          "value": null
+        },
+        "input": {
+          "knownEvents": 1,
+          "totalEvents": 1,
+          "value": 900
+        },
+        "output": {
+          "knownEvents": 1,
+          "totalEvents": 1,
+          "value": 20
+        },
+        "reasoning": {
+          "knownEvents": 1,
+          "totalEvents": 1,
+          "value": 5
+        },
+        "total": {
+          "knownEvents": 1,
+          "totalEvents": 1,
+          "value": 920
+        }
+      },
+      "requests": 1
+    },
+    "antigravity-ide": {
+      "metrics": {
+        "cacheRead": {
+          "knownEvents": 1,
+          "totalEvents": 1,
+          "value": 800
+        },
+        "cacheWrite": {
+          "knownEvents": 1,
+          "totalEvents": 1,
+          "value": 0
+        },
+        "cachedOutput": {
+          "knownEvents": 0,
+          "totalEvents": 1,
+          "value": null
+        },
+        "input": {
+          "knownEvents": 1,
+          "totalEvents": 1,
+          "value": 900
+        },
+        "output": {
+          "knownEvents": 1,
+          "totalEvents": 1,
+          "value": 20
+        },
+        "reasoning": {
+          "knownEvents": 1,
+          "totalEvents": 1,
+          "value": 5
+        },
+        "total": {
+          "knownEvents": 1,
+          "totalEvents": 1,
+          "value": 920
+        }
+      },
+      "requests": 1
+    },
+    "claude-code": {
+      "metrics": {
+        "cacheRead": {
+          "knownEvents": 1,
+          "totalEvents": 1,
+          "value": 0
+        },
+        "cacheWrite": {
+          "knownEvents": 1,
+          "totalEvents": 1,
+          "value": 0
+        },
+        "cachedOutput": {
+          "knownEvents": 0,
+          "totalEvents": 1,
+          "value": null
+        },
+        "input": {
+          "knownEvents": 1,
+          "totalEvents": 1,
+          "value": 28072
+        },
+        "output": {
+          "knownEvents": 1,
+          "totalEvents": 1,
+          "value": 66
+        },
+        "reasoning": {
+          "knownEvents": 1,
+          "totalEvents": 1,
+          "value": 0
+        },
+        "total": {
+          "knownEvents": 1,
+          "totalEvents": 1,
+          "value": 28138
+        }
+      },
+      "requests": 1
+    },
+    "codex": {
+      "metrics": {
+        "cacheRead": {
+          "knownEvents": 2,
+          "totalEvents": 2,
+          "value": 35712
+        },
+        "cacheWrite": {
+          "knownEvents": 2,
+          "totalEvents": 2,
+          "value": 0
+        },
+        "cachedOutput": {
+          "knownEvents": 0,
+          "totalEvents": 2,
+          "value": null
+        },
+        "input": {
+          "knownEvents": 2,
+          "totalEvents": 2,
+          "value": 80374
+        },
+        "output": {
+          "knownEvents": 2,
+          "totalEvents": 2,
+          "value": 1091
+        },
+        "reasoning": {
+          "knownEvents": 2,
+          "totalEvents": 2,
+          "value": 252
+        },
+        "total": {
+          "knownEvents": 2,
+          "totalEvents": 2,
+          "value": 81465
+        }
+      },
+      "requests": 2
+    },
+    "deepseek-harness": {
+      "metrics": {
+        "cacheRead": {
+          "knownEvents": 2,
+          "totalEvents": 2,
+          "value": 300
+        },
+        "cacheWrite": {
+          "knownEvents": 2,
+          "totalEvents": 2,
+          "value": 0
+        },
+        "cachedOutput": {
+          "knownEvents": 0,
+          "totalEvents": 2,
+          "value": null
+        },
+        "input": {
+          "knownEvents": 2,
+          "totalEvents": 2,
+          "value": 370
+        },
+        "output": {
+          "knownEvents": 2,
+          "totalEvents": 2,
+          "value": 40
+        },
+        "reasoning": {
+          "knownEvents": 2,
+          "totalEvents": 2,
+          "value": 8
+        },
+        "total": {
+          "knownEvents": 2,
+          "totalEvents": 2,
+          "value": 410
+        }
+      },
+      "requests": 2
+    },
+    "gemini": {
+      "metrics": {
+        "cacheRead": {
+          "knownEvents": 1,
+          "totalEvents": 2,
+          "value": 800
+        },
+        "cacheWrite": {
+          "knownEvents": 0,
+          "totalEvents": 2,
+          "value": null
+        },
+        "cachedOutput": {
+          "knownEvents": 0,
+          "totalEvents": 2,
+          "value": null
+        },
+        "input": {
+          "knownEvents": 2,
+          "totalEvents": 2,
+          "value": 1200
+        },
+        "output": {
+          "knownEvents": 2,
+          "totalEvents": 2,
+          "value": 220
+        },
+        "reasoning": {
+          "knownEvents": 1,
+          "totalEvents": 2,
+          "value": 50
+        },
+        "total": {
+          "knownEvents": 2,
+          "totalEvents": 2,
+          "value": 1420
+        }
+      },
+      "requests": 2
+    },
+    "kimi-cli": {
+      "metrics": {
+        "cacheRead": {
+          "knownEvents": 1,
+          "totalEvents": 1,
+          "value": 500
+        },
+        "cacheWrite": {
+          "knownEvents": 1,
+          "totalEvents": 1,
+          "value": 20
+        },
+        "cachedOutput": {
+          "knownEvents": 0,
+          "totalEvents": 1,
+          "value": null
+        },
+        "input": {
+          "knownEvents": 1,
+          "totalEvents": 1,
+          "value": 1520
+        },
+        "output": {
+          "knownEvents": 1,
+          "totalEvents": 1,
+          "value": 80
+        },
+        "reasoning": {
+          "knownEvents": 0,
+          "totalEvents": 1,
+          "value": null
+        },
+        "total": {
+          "knownEvents": 1,
+          "totalEvents": 1,
+          "value": 1600
+        }
+      },
+      "requests": 1
+    },
+    "opencode": {
+      "metrics": {
+        "cacheRead": {
+          "knownEvents": 1,
+          "totalEvents": 1,
+          "value": 100
+        },
+        "cacheWrite": {
+          "knownEvents": 1,
+          "totalEvents": 1,
+          "value": 20
+        },
+        "cachedOutput": {
+          "knownEvents": 0,
+          "totalEvents": 1,
+          "value": null
+        },
+        "input": {
+          "knownEvents": 1,
+          "totalEvents": 1,
+          "value": 1120
+        },
+        "output": {
+          "knownEvents": 1,
+          "totalEvents": 1,
+          "value": 100
+        },
+        "reasoning": {
+          "knownEvents": 1,
+          "totalEvents": 1,
+          "value": 20
+        },
+        "total": {
+          "knownEvents": 1,
+          "totalEvents": 1,
+          "value": 1220
+        }
+      },
+      "requests": 1
+    },
+    "pi": {
+      "metrics": {
+        "cacheRead": {
+          "knownEvents": 1,
+          "totalEvents": 1,
+          "value": 128
+        },
+        "cacheWrite": {
+          "knownEvents": 1,
+          "totalEvents": 1,
+          "value": 0
+        },
+        "cachedOutput": {
+          "knownEvents": 0,
+          "totalEvents": 1,
+          "value": null
+        },
+        "input": {
+          "knownEvents": 1,
+          "totalEvents": 1,
+          "value": 17153
+        },
+        "output": {
+          "knownEvents": 1,
+          "totalEvents": 1,
+          "value": 137
+        },
+        "reasoning": {
+          "knownEvents": 1,
+          "totalEvents": 1,
+          "value": 0
+        },
+        "total": {
+          "knownEvents": 1,
+          "totalEvents": 1,
+          "value": 17290
+        }
+      },
+      "requests": 1
+    },
+    "workbuddy": {
+      "metrics": {
+        "cacheRead": {
+          "knownEvents": 1,
+          "totalEvents": 2,
+          "value": 750
+        },
+        "cacheWrite": {
+          "knownEvents": 0,
+          "totalEvents": 2,
+          "value": null
+        },
+        "cachedOutput": {
+          "knownEvents": 0,
+          "totalEvents": 2,
+          "value": null
+        },
+        "input": {
+          "knownEvents": 2,
+          "totalEvents": 2,
+          "value": 1200
+        },
+        "output": {
+          "knownEvents": 2,
+          "totalEvents": 2,
+          "value": 120
+        },
+        "reasoning": {
+          "knownEvents": 1,
+          "totalEvents": 2,
+          "value": 25
+        },
+        "total": {
+          "knownEvents": 2,
+          "totalEvents": 2,
+          "value": 1320
+        }
+      },
+      "requests": 2
+    }
+  }
+}

@@ -1,0 +1,2 @@
+{"type":"session","version":3,"id":"anonymous-pi-session","cwd":"/example/ProjectC","timestamp":"2026-09-11T16:33:00.000Z"}
+{"type":"message","id":"entry001","timestamp":"2026-09-11T16:33:19.058Z","parentId":null,"message":{"model":"DeepSeek-V4-Flash","provider":"scnet","role":"assistant","stopReason":"toolUse","usage":{"input":17025,"output":137,"cacheRead":128,"cacheWrite":0,"reasoning":0,"totalTokens":17290,"cost":{"total":0}}}}

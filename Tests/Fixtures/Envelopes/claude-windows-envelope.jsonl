@@ -1,0 +1,5 @@
+{"type":"mode","timestamp":"2026-10-05T04:00:00Z"}
+{"type":"permission-mode","timestamp":"2026-10-05T04:00:00Z"}
+{"type":"attachment","message":{"type":"fixture-only"}}
+{"type":"ai-title","title":"anonymous"}
+{"type":"assistant","version":"2.1.175","timestamp":"2026-10-05T04:00:01Z","sessionId":"anonymous-session","message":{"id":"anonymous-response","model":"anonymous/raw","usage":{"input_tokens":100,"output_tokens":23,"cache_read_input_tokens":40,"cache_creation_input_tokens":2,"server_tool_use":{},"service_tier":null,"iterations":null,"inference_geo":null,"speed":null}}}

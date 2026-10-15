@@ -1,0 +1,15 @@
+{
+  "source": "Sources/AgentBarBarCore/Database.swift",
+  "symbol": "EventStore.migrate",
+  "sourceSHA256": "734ee223330dfeaf53b201d095f3529843bdd2abae6cbf8b4ba6cbd7f5e4504b",
+  "note": "SQL extracted without modifying Swift; v3 dynamic metric loop expanded literally",
+  "migrations": {
+    "002.sql": "ff10d8ee57df5c51533b890a1e12e13cdc78a72385dd68f85412f7bd2dd4f410",
+    "003.sql": "69123cc027485d879102647761afb7a31c57fcaed203a8a1029bbae58846d40b",
+    "001.sql": "fe47967372d210f16006b52fa50bf26c90ce56359aa8cf9f2ee071eab7d51095",
+    "004.sql": "f7ebd342fff68c68770c2621368e4adff9d5a211ff34e7cb3cd1b1d17c7e2c4b",
+    "005.sql": "05db57a2a5d6432190be0f760d0a3652f95cf0c213d16944792687a3a6e99feb",
+    "007.sql": "98dae96ce78ff0661a4bd01c624afb5ac8f6c7315dab91d8a220de2d0dd48242",
+    "006.sql": "1431673f72459c54888bf616ac55f883d54bf1129746a1a7b9bb320a5c77b846"
+  }
+}

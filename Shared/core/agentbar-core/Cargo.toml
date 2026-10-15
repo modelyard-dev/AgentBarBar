@@ -1,0 +1,21 @@
+[package]
+publish = false
+name = "agentbar-core"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+
+[lib]
+crate-type = ["rlib", "staticlib"]
+
+[features]
+profiling = []
+statement-reuse-experiment = ["profiling"]
+
+[dependencies]
+serde.workspace = true
+serde_json.workspace = true
+sha2.workspace = true
+chrono.workspace = true
+chrono-tz.workspace = true
+rusqlite.workspace = true

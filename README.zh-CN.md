@@ -1,110 +1,46 @@
-<p align="center"><img src="assets/icon.png" width="100" alt="AgentBarBar"></p>
-<h1 align="center">AgentBarBar</h1>
-<p align="center">让 AI 用量一目了然。</p>
-<p align="center"><a href="README.zh-CN.md">简体中文</a> · <a href="README.md">English</a></p>
-<p align="center"><a href="https://github.com/y2zyyr/AgentBarBar/releases/latest"><strong>下载 macOS 版 →</strong></a> · <a href="https://github.com/y2zyyr/AgentBarBar/releases/download/v1.0.7/AgentBarBar-1.0.7-Windows-x64-Setup.exe"><strong>下载 Windows 版 →</strong></a></p>
-<p align="center">macOS 1.0.7 · Windows 1.0.7/build39 · Apple Silicon · macOS 14+ · 中文 / English</p>
+# AgentBarBar
 
-<p align="center"><a href="https://github.com/y2zyyr/AgentBarBar/releases/latest"><img src="assets/poster-zh.png" width="680" alt="AgentBarBar 推广海报"></a></p>
+面向 macOS 和 Windows 的本地 AI Agent 用量监控工具。它只读取受支持的本地用量元数据，将记录保存在本机私有数据目录，并通过原生菜单栏/托盘应用和内置 Dashboard 展示。
 
-![AgentBarBar 用量概览](assets/overview-zh.png)
-<p align="center"><sub>演示数据 · Demo data</sub></p>
+[English](README.md) · [下载安装](https://github.com/y2zyyr/AgentBarBar/releases/tag/v1.0.7) · [文档索引](docs/README.md) · [MIT 许可证](LICENSE)
 
-<p align="center"><img src="assets/popover-zh.png" width="330" alt="菜单栏预览 · 演示数据"></p>
-<p align="center"><sub>菜单栏预览 · 演示数据</sub></p>
+![AgentBarBar 图标](assets/icon.png)
 
-## 用了多少，打开就知道
+## 功能
 
-AgentBarBar 是一个本地 AI 用量工具，可从 macOS 菜单栏或 Windows 系统托盘访问。今天用了多少 Token、最近趋势如何、主要用在哪些 Agent，打开就能看到。
+- macOS 原生菜单栏应用和 Windows 托盘应用。
+- Dashboard 提供概览、Agent、模型、项目、会话和来源覆盖情况。
+- 按版本解析受支持的本地 Agent 用量格式；实际可用性取决于平台和上游版本。
+- 指标使用可空值和明确覆盖状态；缺失或不支持的数据不会显示成 0。
+- 只读采集。提示词、回复、对话正文、源代码和凭据不会写入用量账本。
+- 数据留在设备本地。macOS 更新检查可能访问 GitHub Releases，但不会发送已采集的用量数据。
 
-- **随手看用量** — 菜单栏显示今日 Token，点击查看主要 Agent。
-- **看清趋势** — 切换今天、7 天、30 天和全部时间。
-- **统一查看** — 汇总本机受支持 Agent 的用量，提供请求明细与导出。
-- **换个喜欢的风格** — 四种主题，支持浅色、深色和跟随系统。
-- **数据留在本机** — 不上传遥测，不保存对话正文。
+查看[来源支持矩阵](docs/source-support.md)了解采集器范围，查看[隐私与存储说明](docs/data-and-privacy.md)了解数据和网络行为。Claude Code CLI 与 Claude Desktop 的 Code 标签页共用受支持的本地请求流。Claude Desktop 普通聊天和 Cowork 暂无已验证的请求级用量来源，因此不计入统计。
 
-## 四种主题，选你喜欢的
+## 下载
 
-在 **Web 面板 → 设置 → 外观** 中选择 **松绿、纸感、深海或极简**。预览风格，选择浅色、深色或跟随系统，点击即可切换并自动保存。
+公开的 [AgentBarBar 1.0.7 Release](https://github.com/y2zyyr/AgentBarBar/releases/tag/v1.0.7) 提供 macOS 1.0.7/build38 和 Windows 1.0.7/build39 安装包。macOS 安装包适用于 Apple Silicon 和 macOS 14 或更新版本；Windows 安装包面向 64 位 Windows。签名和验证限制请查看 Release 说明。
 
-<table>
-<tr>
-<td width="50%" align="center"><strong>松绿 · 深色</strong><br><a href="assets/theme-forest-zh.png"><img src="assets/theme-forest-zh.png" width="480" alt="松绿 · 深色 · Demo data"></a></td>
-<td width="50%" align="center"><strong>纸感 · 浅色</strong><br><a href="assets/theme-paper-zh.png"><img src="assets/theme-paper-zh.png" width="480" alt="纸感 · 浅色 · Demo data"></a></td>
-</tr>
-<tr>
-<td width="50%" align="center"><strong>深海 · 深色</strong><br><a href="assets/theme-ocean-zh.png"><img src="assets/theme-ocean-zh.png" width="480" alt="深海 · 深色 · Demo data"></a></td>
-<td width="50%" align="center"><strong>极简 · 浅色</strong><br><a href="assets/theme-mono-zh.png"><img src="assets/theme-mono-zh.png" width="480" alt="极简 · 浅色 · Demo data"></a></td>
-</tr>
-</table>
+## 从源码构建
 
-<p align="center"><sub>主题预览 · 演示数据</sub></p>
+依赖与平台命令见[开发指南](docs/development.md)。macOS 基本检查命令：
 
-![主题与明暗模式设置](assets/appearance-zh.png)
-<p align="center"><sub>设置 → 外观 · 演示数据</sub></p>
+```bash
+swift test
+cd Dashboard
+npm ci
+npm run build
+npm test
+```
 
-## macOS 安装
+Windows 构建与检查命令见[Windows 开发指南](docs/windows-development.md)。GitHub Actions 会分别运行 macOS 和 Windows 源码检查。
 
-1. [下载最新 DMG](https://github.com/y2zyyr/AgentBarBar/releases/latest)，将 App 拖到 **Applications 应用程序**。
-2. 打开 App，点击菜单栏图标即可查看用量。
+## 仓库结构
 
-![中英双语安装窗口](assets/install.png)
+- `Sources/` — macOS 原生应用、Swift 共用核心和 CLI。
+- `Windows/` — Windows 原生 Tauri 主机与安装包工具。
+- `Shared/` — Rust 核心、用量事件 Schema 和数据库迁移。
+- `Dashboard/` — React/TypeScript 共用 Dashboard。
+- `Tests/Fixtures/` — Rust 共用契约测试使用的匿名元数据样例。
 
-若 macOS 提示无法验证开发者：尝试打开后，进入 **系统设置 → 隐私与安全性 → 仍要打开**。当前下载包未经过 Apple 公证。
-
-## Windows 1.0.7 / build39
-
-[下载 Windows x64 EXE 安装包](https://github.com/y2zyyr/AgentBarBar/releases/download/v1.0.7/AgentBarBar-1.0.7-Windows-x64-Setup.exe) · [Windows 安装说明与已知限制](WINDOWS.zh-CN.md)
-
-Windows Setup SHA-256：`6f1cccdad3df3f5d9238ce6ae53b8b7e2fd04386bd2fb2bf9daf51e01a1e11ff`。安装包未签名。
-
-真正运行在系统托盘的桌面应用：点击查看用量 Popup，再打开共享仪表盘。支持今天、7 天、30 天、全部时间、Agent / 模型统计和请求明细；保留松绿、纸感、深海、极简四主题，浅色 / 深色 / 跟随系统，以及中文 / English。
-
-- **已接入十二个采集器：** Codex、Claude Code、Kimi CLI、DeepSeek Harness、WorkBuddy、Pi、Gemini CLI、OpenCode、Antigravity、Antigravity IDE、Qwen Code 和 Cline 旧版任务；Windows 与 macOS 的适配器集合现已一致。
-- **Claude Desktop：** Code 标签页与 Claude Code 共用请求流；普通聊天与 Cowork 仅做元数据勘测，尚无已验证的本地请求级 Token 来源，因此不计入用量。
-- **Windows 真实数据验证：** Codex、Claude Code、Kimi 历史记录和 DSH。DSH 读取自己的 SQLite 用量账本，校验汇总，重复同步不会重复计数。
-- **样本验证：** 十二个采集器的请求身份、Token 数值及缺失字段状态与 macOS 参考一致。验证机器上没有可用记录的 Agent 尚未完成真实数据源系统验证。
-- **自动勘测：** 查找候选 Token 字段、采集所选 Agent 并保存报告；重载后仍能查看。历史覆盖显示已保存的记录数和日期，重复同步不会误显示为 0。
-- **来源追溯：** Gemini 记录保留真实来源行号和字节位置，共享游标格式升级为 `gemini-session-v2.0.1`；缺失分项保持不可用，不再以 0 代替。
-- **同步提示修复：** 任务结束后显示“同步已完成”，没有新增记录的同步也会正确结束。
-- **外链处理：** Tibo Codex Monitor 链接交给原生窗口动作，仅固定 HTTPS 资源使用系统默认浏览器打开，失败时显示提示。
-- **安装：** 每一页同时显示中英文。安装包未签名，暂不提供 Windows 自动启动和自动更新；支持同应用版本的不同构建号升级，拒绝构建号回退，并备份旧应用。
-
-已在 Windows 11 x64 + WebView2 测试。安装后的应用运行不需要 Rust、Node.js 或开发工具。覆盖安装前，请先从托盘菜单退出 AgentBarBar。
-
-![Windows 仪表盘](assets/windows/dashboard-zh.png)
-<p align="center"><img src="assets/windows/popup-zh-light.png" width="320" alt="Windows 托盘用量面板"></p>
-<p align="center"><sub>打包前验证时的真实 Windows 应用截图，仅展示用量统计，不含对话正文；不是最终重打包安装包的截图。</sub></p>
-
-![Windows 安装欢迎界面](assets/windows/install-zh.png)
-<p align="center"><sub>此前 1.0.4 安装包的真实双语界面截图；1.0.7 安装包保留此布局。</sub></p>
-
-## 支持哪些 Agent？
-
-macOS 和 Windows 支持读取 Codex、Claude Code、DeepSeek Harness、WorkBuddy、Pi、Kimi CLI、Gemini CLI、OpenCode、Antigravity、Antigravity IDE、Qwen Code 和 Cline 旧版任务的本机用量记录。
-
-实际可显示的分项取决于 Agent 提供的记录；已有记录但缺少计数时，会显示为不可用。首次读取较多历史记录可能需要几分钟。
-
-macOS 1.0.7 中，Claude Code CLI 与 Claude Desktop Code 标签页共用同一本地请求流并避免重复计数。Claude Desktop 普通聊天与 Cowork 目前只有有界本地元数据勘测；尚无已验证的请求级 Token 来源，因此不统计其用量。
-
-Windows 1.0.7/build39 的 Code 标签页同样使用 Claude Code 请求流。验证主机未检测到 Claude Desktop 可执行程序；有界 survey 检查 35 个文件 / 83,835 字节，未发现候选 Token 字段，但扫描达到边界。普通聊天/Cowork 仍不计入用量；该结果不代表所有上游格式都已排除。
-
-## 更新与反馈
-
-macOS App 会从 GitHub 检查新版本，发现更新后提示下载。安装包保存到 **“下载”文件夹** 并打开，将 App 拖入 **“应用程序”** 即可自行覆盖安装。可在原生设置中关闭自动检查。
-
-仪表盘底部提供 [Tibo Codex Monitor](https://tibo.modelyard.dev) 入口，查看 Codex 额度重置与政策更新；该网站是独立监测站点。
-
-
-- [版本更新](https://github.com/y2zyyr/AgentBarBar/releases)
-- [报告问题 / 建议功能](https://github.com/y2zyyr/AgentBarBar/issues)
-
-反馈时请说明应用版本、操作系统版本和使用的 Agent；无需提供聊天记录或账号凭证。
-
-## 推广海报
-
-[中文海报](assets/poster-zh.png) · [English poster](assets/poster-en.png)
-
-## 关于这个仓库
-
-本仓库提供产品介绍和安装包，应用源码保持私有。AgentBarBar 可免费下载使用；随包附有第三方依赖许可声明。
+仓库包含源码和匿名测试元数据，不包含用户数据库、对话记录、本机编译产物或安装包。修改采集器或 fixtures 前请先读[贡献指南](CONTRIBUTING.md)。

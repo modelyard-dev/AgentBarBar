@@ -1,0 +1,492 @@
+[
+  {
+    "agentID": "codex",
+    "agentName": "Codex",
+    "collectorID": "codex-local",
+    "collectorVersion": "1.1.0",
+    "confidence": 1,
+    "costState": "not_available",
+    "createdAt": "2026-10-05T04:00:00.000Z",
+    "fingerprint": "f02c2b5a094700f330625a7ebc4487bdfb6e170806051fdbf6f012c2ccf84c53",
+    "id": "f02c2b5a094700f330625a7ebc4487bdfb6e170806051fdbf6f012c2ccf84c53",
+    "isEstimated": false,
+    "metrics": {
+      "cacheRead": {
+        "state": "known",
+        "value": 40
+      },
+      "cacheWrite": {
+        "state": "known",
+        "value": 2
+      },
+      "cachedOutput": {
+        "state": "unsupported"
+      },
+      "input": {
+        "state": "known",
+        "value": 100
+      },
+      "output": {
+        "state": "known",
+        "value": 23
+      },
+      "reasoning": {
+        "state": "known",
+        "value": 7
+      },
+      "total": {
+        "state": "known",
+        "value": 123
+      }
+    },
+    "model": "anonymous/raw",
+    "parserVersion": "codex-jsonl-v1.2.0",
+    "project": {
+      "confidence": 0.8,
+      "detectionMethod": "explicit_session_cwd",
+      "id": "4b79357d19cb3d374a88ca5e1f2a49238e138591c5cb65d966954634c3dc9cd5",
+      "name": "project",
+      "path": "/anonymous/project"
+    },
+    "provider": "anonymous-provider",
+    "quality": "exact",
+    "rawModelName": "anonymous/raw",
+    "sessionID": "anonymous-dates",
+    "sourceEventID": "codex:thread:anonymous-dates:response:anonymous-date-0",
+    "sourceLine": 3,
+    "sourceMetadata": {
+      "agent_version": "unknown",
+      "counting_method": "request_usage",
+      "owner_matches_file": "true",
+      "physical_thread_id": "anonymous-dates",
+      "reported_usage": "{\"cache_write_input_tokens\":2,\"cached_input_tokens\":40,\"input_tokens\":100,\"output_tokens\":23,\"reasoning_output_tokens\":7,\"total_tokens\":123}",
+      "response_id": "anonymous-date-0",
+      "thread_id": "anonymous-dates"
+    },
+    "sourceOffset": 233,
+    "sourcePath": "fixture/codex",
+    "sourceType": "local_jsonl",
+    "timestamp": "2025-01-01T00:00:00.000Z",
+    "workingDirectory": "/anonymous/project"
+  },
+  {
+    "agentID": "codex",
+    "agentName": "Codex",
+    "collectorID": "codex-local",
+    "collectorVersion": "1.1.0",
+    "confidence": 1,
+    "costState": "not_available",
+    "createdAt": "2026-10-05T04:00:00.000Z",
+    "fingerprint": "16ad19b9550e61b5d731541f1acd15f8a96a85c7578bd2eb86dac5ca99d122bd",
+    "id": "16ad19b9550e61b5d731541f1acd15f8a96a85c7578bd2eb86dac5ca99d122bd",
+    "isEstimated": false,
+    "metrics": {
+      "cacheRead": {
+        "state": "known",
+        "value": 40
+      },
+      "cacheWrite": {
+        "state": "known",
+        "value": 2
+      },
+      "cachedOutput": {
+        "state": "unsupported"
+      },
+      "input": {
+        "state": "known",
+        "value": 101
+      },
+      "output": {
+        "state": "known",
+        "value": 23
+      },
+      "reasoning": {
+        "state": "known",
+        "value": 7
+      },
+      "total": {
+        "state": "known",
+        "value": 124
+      }
+    },
+    "model": "anonymous/raw",
+    "parserVersion": "codex-jsonl-v1.2.0",
+    "project": {
+      "confidence": 0.8,
+      "detectionMethod": "explicit_session_cwd",
+      "id": "4b79357d19cb3d374a88ca5e1f2a49238e138591c5cb65d966954634c3dc9cd5",
+      "name": "project",
+      "path": "/anonymous/project"
+    },
+    "provider": "anonymous-provider",
+    "quality": "exact",
+    "rawModelName": "anonymous/raw",
+    "sessionID": "anonymous-dates",
+    "sourceEventID": "codex:thread:anonymous-dates:response:anonymous-date-1",
+    "sourceLine": 4,
+    "sourceMetadata": {
+      "agent_version": "unknown",
+      "counting_method": "request_usage",
+      "owner_matches_file": "true",
+      "physical_thread_id": "anonymous-dates",
+      "reported_usage": "{\"cache_write_input_tokens\":2,\"cached_input_tokens\":40,\"input_tokens\":101,\"output_tokens\":23,\"reasoning_output_tokens\":7,\"total_tokens\":124}",
+      "response_id": "anonymous-date-1",
+      "thread_id": "anonymous-dates"
+    },
+    "sourceOffset": 515,
+    "sourcePath": "fixture/codex",
+    "sourceType": "local_jsonl",
+    "timestamp": "2026-09-05T15:59:59.999Z",
+    "workingDirectory": "/anonymous/project"
+  },
+  {
+    "agentID": "codex",
+    "agentName": "Codex",
+    "collectorID": "codex-local",
+    "collectorVersion": "1.1.0",
+    "confidence": 1,
+    "costState": "not_available",
+    "createdAt": "2026-10-05T04:00:00.000Z",
+    "fingerprint": "2e3c0d2d48dafa731ce04d913ca277a1e6330741b132bf59083881fe8689b8d4",
+    "id": "2e3c0d2d48dafa731ce04d913ca277a1e6330741b132bf59083881fe8689b8d4",
+    "isEstimated": false,
+    "metrics": {
+      "cacheRead": {
+        "state": "known",
+        "value": 40
+      },
+      "cacheWrite": {
+        "state": "known",
+        "value": 2
+      },
+      "cachedOutput": {
+        "state": "unsupported"
+      },
+      "input": {
+        "state": "known",
+        "value": 102
+      },
+      "output": {
+        "state": "known",
+        "value": 23
+      },
+      "reasoning": {
+        "state": "known",
+        "value": 7
+      },
+      "total": {
+        "state": "known",
+        "value": 125
+      }
+    },
+    "model": "anonymous/raw",
+    "parserVersion": "codex-jsonl-v1.2.0",
+    "project": {
+      "confidence": 0.8,
+      "detectionMethod": "explicit_session_cwd",
+      "id": "4b79357d19cb3d374a88ca5e1f2a49238e138591c5cb65d966954634c3dc9cd5",
+      "name": "project",
+      "path": "/anonymous/project"
+    },
+    "provider": "anonymous-provider",
+    "quality": "exact",
+    "rawModelName": "anonymous/raw",
+    "sessionID": "anonymous-dates",
+    "sourceEventID": "codex:thread:anonymous-dates:response:anonymous-date-2",
+    "sourceLine": 5,
+    "sourceMetadata": {
+      "agent_version": "unknown",
+      "counting_method": "request_usage",
+      "owner_matches_file": "true",
+      "physical_thread_id": "anonymous-dates",
+      "reported_usage": "{\"cache_write_input_tokens\":2,\"cached_input_tokens\":40,\"input_tokens\":102,\"output_tokens\":23,\"reasoning_output_tokens\":7,\"total_tokens\":125}",
+      "response_id": "anonymous-date-2",
+      "thread_id": "anonymous-dates"
+    },
+    "sourceOffset": 797,
+    "sourcePath": "fixture/codex",
+    "sourceType": "local_jsonl",
+    "timestamp": "2026-09-05T16:00:00.000Z",
+    "workingDirectory": "/anonymous/project"
+  },
+  {
+    "agentID": "codex",
+    "agentName": "Codex",
+    "collectorID": "codex-local",
+    "collectorVersion": "1.1.0",
+    "confidence": 1,
+    "costState": "not_available",
+    "createdAt": "2026-10-05T04:00:00.000Z",
+    "fingerprint": "dff9894c681fb57b01901e2bfc956c6ba8adb99d60b571eeaa55abd3f53b3c3e",
+    "id": "dff9894c681fb57b01901e2bfc956c6ba8adb99d60b571eeaa55abd3f53b3c3e",
+    "isEstimated": false,
+    "metrics": {
+      "cacheRead": {
+        "state": "known",
+        "value": 40
+      },
+      "cacheWrite": {
+        "state": "known",
+        "value": 2
+      },
+      "cachedOutput": {
+        "state": "unsupported"
+      },
+      "input": {
+        "state": "known",
+        "value": 103
+      },
+      "output": {
+        "state": "known",
+        "value": 23
+      },
+      "reasoning": {
+        "state": "known",
+        "value": 7
+      },
+      "total": {
+        "state": "known",
+        "value": 126
+      }
+    },
+    "model": "anonymous/raw",
+    "parserVersion": "codex-jsonl-v1.2.0",
+    "project": {
+      "confidence": 0.8,
+      "detectionMethod": "explicit_session_cwd",
+      "id": "4b79357d19cb3d374a88ca5e1f2a49238e138591c5cb65d966954634c3dc9cd5",
+      "name": "project",
+      "path": "/anonymous/project"
+    },
+    "provider": "anonymous-provider",
+    "quality": "exact",
+    "rawModelName": "anonymous/raw",
+    "sessionID": "anonymous-dates",
+    "sourceEventID": "codex:thread:anonymous-dates:response:anonymous-date-3",
+    "sourceLine": 6,
+    "sourceMetadata": {
+      "agent_version": "unknown",
+      "counting_method": "request_usage",
+      "owner_matches_file": "true",
+      "physical_thread_id": "anonymous-dates",
+      "reported_usage": "{\"cache_write_input_tokens\":2,\"cached_input_tokens\":40,\"input_tokens\":103,\"output_tokens\":23,\"reasoning_output_tokens\":7,\"total_tokens\":126}",
+      "response_id": "anonymous-date-3",
+      "thread_id": "anonymous-dates"
+    },
+    "sourceOffset": 1079,
+    "sourcePath": "fixture/codex",
+    "sourceType": "local_jsonl",
+    "timestamp": "2026-09-28T15:59:59.999Z",
+    "workingDirectory": "/anonymous/project"
+  },
+  {
+    "agentID": "codex",
+    "agentName": "Codex",
+    "collectorID": "codex-local",
+    "collectorVersion": "1.1.0",
+    "confidence": 1,
+    "costState": "not_available",
+    "createdAt": "2026-10-05T04:00:00.000Z",
+    "fingerprint": "e1ebfe8ee18c6640c4c8df0f1c9ac1d30bfb4d7f01acb2206944819f1a80e0e6",
+    "id": "e1ebfe8ee18c6640c4c8df0f1c9ac1d30bfb4d7f01acb2206944819f1a80e0e6",
+    "isEstimated": false,
+    "metrics": {
+      "cacheRead": {
+        "state": "known",
+        "value": 40
+      },
+      "cacheWrite": {
+        "state": "known",
+        "value": 2
+      },
+      "cachedOutput": {
+        "state": "unsupported"
+      },
+      "input": {
+        "state": "known",
+        "value": 104
+      },
+      "output": {
+        "state": "known",
+        "value": 23
+      },
+      "reasoning": {
+        "state": "known",
+        "value": 7
+      },
+      "total": {
+        "state": "known",
+        "value": 127
+      }
+    },
+    "model": "anonymous/raw",
+    "parserVersion": "codex-jsonl-v1.2.0",
+    "project": {
+      "confidence": 0.8,
+      "detectionMethod": "explicit_session_cwd",
+      "id": "4b79357d19cb3d374a88ca5e1f2a49238e138591c5cb65d966954634c3dc9cd5",
+      "name": "project",
+      "path": "/anonymous/project"
+    },
+    "provider": "anonymous-provider",
+    "quality": "exact",
+    "rawModelName": "anonymous/raw",
+    "sessionID": "anonymous-dates",
+    "sourceEventID": "codex:thread:anonymous-dates:response:anonymous-date-4",
+    "sourceLine": 7,
+    "sourceMetadata": {
+      "agent_version": "unknown",
+      "counting_method": "request_usage",
+      "owner_matches_file": "true",
+      "physical_thread_id": "anonymous-dates",
+      "reported_usage": "{\"cache_write_input_tokens\":2,\"cached_input_tokens\":40,\"input_tokens\":104,\"output_tokens\":23,\"reasoning_output_tokens\":7,\"total_tokens\":127}",
+      "response_id": "anonymous-date-4",
+      "thread_id": "anonymous-dates"
+    },
+    "sourceOffset": 1361,
+    "sourcePath": "fixture/codex",
+    "sourceType": "local_jsonl",
+    "timestamp": "2026-09-28T16:00:00.000Z",
+    "workingDirectory": "/anonymous/project"
+  },
+  {
+    "agentID": "codex",
+    "agentName": "Codex",
+    "collectorID": "codex-local",
+    "collectorVersion": "1.1.0",
+    "confidence": 1,
+    "costState": "not_available",
+    "createdAt": "2026-10-05T04:00:00.000Z",
+    "fingerprint": "4a87aea3371eaa2cfe29758b6ed6a7f7159be095569ef7214446fd2a54c055fe",
+    "id": "4a87aea3371eaa2cfe29758b6ed6a7f7159be095569ef7214446fd2a54c055fe",
+    "isEstimated": false,
+    "metrics": {
+      "cacheRead": {
+        "state": "known",
+        "value": 40
+      },
+      "cacheWrite": {
+        "state": "known",
+        "value": 2
+      },
+      "cachedOutput": {
+        "state": "unsupported"
+      },
+      "input": {
+        "state": "known",
+        "value": 105
+      },
+      "output": {
+        "state": "known",
+        "value": 23
+      },
+      "reasoning": {
+        "state": "known",
+        "value": 7
+      },
+      "total": {
+        "state": "known",
+        "value": 128
+      }
+    },
+    "model": "anonymous/raw",
+    "parserVersion": "codex-jsonl-v1.2.0",
+    "project": {
+      "confidence": 0.8,
+      "detectionMethod": "explicit_session_cwd",
+      "id": "4b79357d19cb3d374a88ca5e1f2a49238e138591c5cb65d966954634c3dc9cd5",
+      "name": "project",
+      "path": "/anonymous/project"
+    },
+    "provider": "anonymous-provider",
+    "quality": "exact",
+    "rawModelName": "anonymous/raw",
+    "sessionID": "anonymous-dates",
+    "sourceEventID": "codex:thread:anonymous-dates:response:anonymous-date-5",
+    "sourceLine": 8,
+    "sourceMetadata": {
+      "agent_version": "unknown",
+      "counting_method": "request_usage",
+      "owner_matches_file": "true",
+      "physical_thread_id": "anonymous-dates",
+      "reported_usage": "{\"cache_write_input_tokens\":2,\"cached_input_tokens\":40,\"input_tokens\":105,\"output_tokens\":23,\"reasoning_output_tokens\":7,\"total_tokens\":128}",
+      "response_id": "anonymous-date-5",
+      "thread_id": "anonymous-dates"
+    },
+    "sourceOffset": 1643,
+    "sourcePath": "fixture/codex",
+    "sourceType": "local_jsonl",
+    "timestamp": "2026-10-04T15:59:59.999Z",
+    "workingDirectory": "/anonymous/project"
+  },
+  {
+    "agentID": "codex",
+    "agentName": "Codex",
+    "collectorID": "codex-local",
+    "collectorVersion": "1.1.0",
+    "confidence": 1,
+    "costState": "not_available",
+    "createdAt": "2026-10-05T04:00:00.000Z",
+    "fingerprint": "c3eb6a1cfb2494db119867442a0e7c9b903b698607c136caca86f82c754b07ec",
+    "id": "c3eb6a1cfb2494db119867442a0e7c9b903b698607c136caca86f82c754b07ec",
+    "isEstimated": false,
+    "metrics": {
+      "cacheRead": {
+        "state": "known",
+        "value": 40
+      },
+      "cacheWrite": {
+        "state": "known",
+        "value": 2
+      },
+      "cachedOutput": {
+        "state": "unsupported"
+      },
+      "input": {
+        "state": "known",
+        "value": 106
+      },
+      "output": {
+        "state": "known",
+        "value": 23
+      },
+      "reasoning": {
+        "state": "known",
+        "value": 7
+      },
+      "total": {
+        "state": "known",
+        "value": 129
+      }
+    },
+    "model": "anonymous/raw",
+    "parserVersion": "codex-jsonl-v1.2.0",
+    "project": {
+      "confidence": 0.8,
+      "detectionMethod": "explicit_session_cwd",
+      "id": "4b79357d19cb3d374a88ca5e1f2a49238e138591c5cb65d966954634c3dc9cd5",
+      "name": "project",
+      "path": "/anonymous/project"
+    },
+    "provider": "anonymous-provider",
+    "quality": "exact",
+    "rawModelName": "anonymous/raw",
+    "sessionID": "anonymous-dates",
+    "sourceEventID": "codex:thread:anonymous-dates:response:anonymous-date-6",
+    "sourceLine": 9,
+    "sourceMetadata": {
+      "agent_version": "unknown",
+      "counting_method": "request_usage",
+      "owner_matches_file": "true",
+      "physical_thread_id": "anonymous-dates",
+      "reported_usage": "{\"cache_write_input_tokens\":2,\"cached_input_tokens\":40,\"input_tokens\":106,\"output_tokens\":23,\"reasoning_output_tokens\":7,\"total_tokens\":129}",
+      "response_id": "anonymous-date-6",
+      "thread_id": "anonymous-dates"
+    },
+    "sourceOffset": 1925,
+    "sourcePath": "fixture/codex",
+    "sourceType": "local_jsonl",
+    "timestamp": "2026-10-04T16:00:00.000Z",
+    "workingDirectory": "/anonymous/project"
+  }
+]

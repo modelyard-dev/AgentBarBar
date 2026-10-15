@@ -1,0 +1,242 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://agentbarbar.local/schema/usage-event/v1",
+  "title": "AgentBarBar normalized usage event v1",
+  "type": "object",
+  "additionalProperties": false,
+  "$defs": {
+    "metric": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "value": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 9007199254740991
+        },
+        "state": {
+          "enum": [
+            "known",
+            "unknown",
+            "unsupported",
+            "not_available",
+            "partial"
+          ]
+        }
+      },
+      "required": [
+        "state"
+      ]
+    }
+  },
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "timestamp": {
+      "type": "string"
+    },
+    "agentID": {
+      "type": "string"
+    },
+    "agentName": {
+      "type": "string"
+    },
+    "sourceType": {
+      "type": "string"
+    },
+    "sourcePath": {
+      "type": "string"
+    },
+    "sourceEventID": {
+      "type": "string"
+    },
+    "collectorID": {
+      "type": "string"
+    },
+    "collectorVersion": {
+      "type": "string"
+    },
+    "parserVersion": {
+      "type": "string"
+    },
+    "quality": {
+      "type": "string"
+    },
+    "fingerprint": {
+      "type": "string"
+    },
+    "createdAt": {
+      "type": "string"
+    },
+    "provider": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "model": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "rawModelName": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "sessionID": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "workingDirectory": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "currency": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "sourceLine": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "sourceOffset": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "confidence": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "cost": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "costState": {
+      "enum": [
+        "known",
+        "unknown",
+        "unsupported",
+        "not_available",
+        "partial"
+      ]
+    },
+    "isEstimated": {
+      "type": "boolean"
+    },
+    "metrics": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "input": {
+          "$ref": "#/$defs/metric"
+        },
+        "output": {
+          "$ref": "#/$defs/metric"
+        },
+        "cacheRead": {
+          "$ref": "#/$defs/metric"
+        },
+        "cacheWrite": {
+          "$ref": "#/$defs/metric"
+        },
+        "cachedOutput": {
+          "$ref": "#/$defs/metric"
+        },
+        "reasoning": {
+          "$ref": "#/$defs/metric"
+        },
+        "total": {
+          "$ref": "#/$defs/metric"
+        }
+      },
+      "required": [
+        "input",
+        "output",
+        "cacheRead",
+        "cacheWrite",
+        "cachedOutput",
+        "reasoning",
+        "total"
+      ]
+    },
+    "project": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "path": {
+          "type": "string"
+        },
+        "detectionMethod": {
+          "type": "string"
+        },
+        "confidence": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "path",
+        "detectionMethod",
+        "confidence"
+      ],
+      "additionalProperties": false
+    },
+    "sourceMetadata": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "id",
+    "timestamp",
+    "agentID",
+    "agentName",
+    "sourceType",
+    "sourcePath",
+    "sourceEventID",
+    "collectorID",
+    "collectorVersion",
+    "parserVersion",
+    "quality",
+    "fingerprint",
+    "createdAt",
+    "sourceLine",
+    "sourceOffset",
+    "costState",
+    "isEstimated",
+    "metrics",
+    "sourceMetadata"
+  ]
+}

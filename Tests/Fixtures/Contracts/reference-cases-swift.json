@@ -1,0 +1,1131 @@
+[
+  {
+    "agent": "codex",
+    "name": "codex_request",
+    "outputs": [
+      null,
+      null,
+      {
+        "agentID": "codex",
+        "fingerprint": "ef2ebc2e820eea87882b251b8413ed374b080c90a2405c24e01ca6b6d7d49947",
+        "id": "ef2ebc2e820eea87882b251b8413ed374b080c90a2405c24e01ca6b6d7d49947",
+        "metrics": {
+          "cacheRead": {
+            "state": "known",
+            "value": 0
+          },
+          "cacheWrite": {
+            "state": "known",
+            "value": 0
+          },
+          "cachedOutput": {
+            "state": "unsupported"
+          },
+          "input": {
+            "state": "known",
+            "value": 35888
+          },
+          "output": {
+            "state": "known",
+            "value": 314
+          },
+          "reasoning": {
+            "state": "known",
+            "value": 0
+          },
+          "total": {
+            "state": "known",
+            "value": 36202
+          }
+        },
+        "parserVersion": "codex-jsonl-v1.2.0",
+        "provider": "openai",
+        "quality": "exact",
+        "rawModelName": "gpt-6.1-sol",
+        "sessionID": "anonymous-codex-session",
+        "sourceEventID": "codex:thread:anonymous-codex-session:response:anonymous-response-1",
+        "sourceMetadata": {
+          "agent_version": "0.160.0",
+          "counting_method": "request_usage",
+          "owner_matches_file": "true",
+          "physical_thread_id": "anonymous-codex-session",
+          "reported_usage": "{\"cache_write_input_tokens\":0,\"cached_input_tokens\":0,\"input_tokens\":35888,\"output_tokens\":314,\"reasoning_output_tokens\":0,\"total_tokens\":36202}",
+          "response_id": "anonymous-response-1",
+          "thread_id": "anonymous-codex-session"
+        },
+        "timestamp": "2026-10-04T08:22:46.534Z"
+      },
+      null,
+      {
+        "agentID": "codex",
+        "fingerprint": "9ec67c208792f622166c33444a2808074ef81f5d0498bc69903e1f62db653b7a",
+        "id": "9ec67c208792f622166c33444a2808074ef81f5d0498bc69903e1f62db653b7a",
+        "metrics": {
+          "cacheRead": {
+            "state": "known",
+            "value": 35712
+          },
+          "cacheWrite": {
+            "state": "known",
+            "value": 0
+          },
+          "cachedOutput": {
+            "state": "unsupported"
+          },
+          "input": {
+            "state": "known",
+            "value": 44486
+          },
+          "output": {
+            "state": "known",
+            "value": 777
+          },
+          "reasoning": {
+            "state": "known",
+            "value": 252
+          },
+          "total": {
+            "state": "known",
+            "value": 45263
+          }
+        },
+        "parserVersion": "codex-jsonl-v1.2.0",
+        "provider": "openai",
+        "quality": "exact",
+        "rawModelName": "gpt-6.1-sol",
+        "sessionID": "anonymous-codex-session",
+        "sourceEventID": "codex:thread:anonymous-codex-session:response:anonymous-response-2",
+        "sourceMetadata": {
+          "agent_version": "0.160.0",
+          "counting_method": "request_usage",
+          "owner_matches_file": "true",
+          "physical_thread_id": "anonymous-codex-session",
+          "reported_usage": "{\"cache_write_input_tokens\":0,\"cached_input_tokens\":35712,\"input_tokens\":44486,\"output_tokens\":777,\"reasoning_output_tokens\":252,\"total_tokens\":45263}",
+          "response_id": "anonymous-response-2",
+          "thread_id": "anonymous-codex-session"
+        },
+        "timestamp": "2026-10-04T08:23:01.095Z"
+      },
+      null
+    ]
+  },
+  {
+    "agent": "codex",
+    "name": "codex_legacy",
+    "outputs": [
+      null,
+      null,
+      {
+        "agentID": "codex",
+        "fingerprint": "b6200e24d2c23af640f8afa5d0074c9caf1bac9303e7d616a934b2d4bdab6b8d",
+        "id": "b6200e24d2c23af640f8afa5d0074c9caf1bac9303e7d616a934b2d4bdab6b8d",
+        "metrics": {
+          "cacheRead": {
+            "state": "known",
+            "value": 0
+          },
+          "cacheWrite": {
+            "state": "known",
+            "value": 0
+          },
+          "cachedOutput": {
+            "state": "unsupported"
+          },
+          "input": {
+            "state": "known",
+            "value": 35888
+          },
+          "output": {
+            "state": "known",
+            "value": 314
+          },
+          "reasoning": {
+            "state": "known",
+            "value": 0
+          },
+          "total": {
+            "state": "known",
+            "value": 36202
+          }
+        },
+        "parserVersion": "codex-jsonl-v1.2.0",
+        "provider": "openai",
+        "quality": "exact",
+        "rawModelName": "gpt-6.1-sol",
+        "sessionID": "anonymous-codex-session",
+        "sourceEventID": "codex:counter:8138ed2ab20085ebc1a07bb0ab785adcae5a78643cf2b4e76f1963cc1f88d477",
+        "sourceMetadata": {
+          "agent_version": "0.160.0",
+          "counting_method": "cumulative_difference",
+          "last_request_usage": "{\"cache_write_input_tokens\":0,\"cached_input_tokens\":0,\"input_tokens\":35888,\"output_tokens\":314,\"reasoning_output_tokens\":0,\"total_tokens\":36202}",
+          "reported_usage": "{\"cache_write_input_tokens\":0,\"cached_input_tokens\":0,\"input_tokens\":35888,\"output_tokens\":314,\"reasoning_output_tokens\":0,\"total_tokens\":36202}",
+          "thread_id": "anonymous-codex-session"
+        },
+        "timestamp": "2026-10-04T08:22:46.534Z"
+      },
+      null,
+      {
+        "agentID": "codex",
+        "fingerprint": "ec34d84f6fcd3696d223095bd38b8c81ef1db1cc47acfffd99a30f618fe13130",
+        "id": "ec34d84f6fcd3696d223095bd38b8c81ef1db1cc47acfffd99a30f618fe13130",
+        "metrics": {
+          "cacheRead": {
+            "state": "known",
+            "value": 35712
+          },
+          "cacheWrite": {
+            "state": "known",
+            "value": 0
+          },
+          "cachedOutput": {
+            "state": "unsupported"
+          },
+          "input": {
+            "state": "known",
+            "value": 44486
+          },
+          "output": {
+            "state": "known",
+            "value": 777
+          },
+          "reasoning": {
+            "state": "known",
+            "value": 252
+          },
+          "total": {
+            "state": "known",
+            "value": 45263
+          }
+        },
+        "parserVersion": "codex-jsonl-v1.2.0",
+        "provider": "openai",
+        "quality": "exact",
+        "rawModelName": "gpt-6.1-sol",
+        "sessionID": "anonymous-codex-session",
+        "sourceEventID": "codex:counter:1dcca0fa73476af759501fa21380f89b57d8de145ff9c4023bac39a821a589f8",
+        "sourceMetadata": {
+          "agent_version": "0.160.0",
+          "counting_method": "cumulative_difference",
+          "last_request_usage": "{\"cache_write_input_tokens\":0,\"cached_input_tokens\":35712,\"input_tokens\":44486,\"output_tokens\":777,\"reasoning_output_tokens\":252,\"total_tokens\":45263}",
+          "previous_cumulative_usage": "{\"cache_write_input_tokens\":0,\"cached_input_tokens\":0,\"input_tokens\":35888,\"output_tokens\":314,\"reasoning_output_tokens\":0,\"total_tokens\":36202}",
+          "reported_usage": "{\"cache_write_input_tokens\":0,\"cached_input_tokens\":35712,\"input_tokens\":80374,\"output_tokens\":1091,\"reasoning_output_tokens\":252,\"total_tokens\":81465}",
+          "thread_id": "anonymous-codex-session"
+        },
+        "timestamp": "2026-10-04T08:23:01.095Z"
+      }
+    ]
+  },
+  {
+    "agent": "claude-code",
+    "name": "claude_baseline",
+    "outputs": [
+      {
+        "agentID": "claude-code",
+        "fingerprint": "57eccf384c184bbd48c791aaaa18f8d89b42b1deab7314c0880c5105c12b25d9",
+        "id": "57eccf384c184bbd48c791aaaa18f8d89b42b1deab7314c0880c5105c12b25d9",
+        "metrics": {
+          "cacheRead": {
+            "state": "known",
+            "value": 0
+          },
+          "cacheWrite": {
+            "state": "known",
+            "value": 0
+          },
+          "cachedOutput": {
+            "state": "unsupported"
+          },
+          "input": {
+            "state": "known",
+            "value": 28072
+          },
+          "output": {
+            "state": "known",
+            "value": 66
+          },
+          "reasoning": {
+            "state": "known",
+            "value": 0
+          },
+          "total": {
+            "state": "known",
+            "value": 28138
+          }
+        },
+        "parserVersion": "claude-jsonl-v1.1.0",
+        "quality": "exact",
+        "rawModelName": "deepseek-v4-flash",
+        "sessionID": "anonymous-claude-session",
+        "sourceEventID": "claude-code:message:anonymous-message",
+        "sourceMetadata": {
+          "agent_version": "2.1.261",
+          "counting_method": "message_snapshot_upsert",
+          "input_semantics": "uncached_plus_cache_read_plus_cache_write",
+          "reported_usage": "{\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"input_tokens\":28072,\"output_tokens\":66,\"thinking_tokens\":0}",
+          "entrypoint": "legacy_or_unknown"
+        },
+        "timestamp": "2026-08-20T09:04:47.205Z"
+      }
+    ]
+  },
+  {
+    "agent": "kimi-cli",
+    "name": "kimi_baseline",
+    "outputs": [
+      null,
+      null,
+      {
+        "agentID": "kimi-cli",
+        "fingerprint": "72667d13120403c621ca4699d68cec1bf11e6ce3855aba0a7595974da133c922",
+        "id": "72667d13120403c621ca4699d68cec1bf11e6ce3855aba0a7595974da133c922",
+        "metrics": {
+          "cacheRead": {
+            "state": "known",
+            "value": 500
+          },
+          "cacheWrite": {
+            "state": "known",
+            "value": 20
+          },
+          "cachedOutput": {
+            "state": "unsupported"
+          },
+          "input": {
+            "state": "known",
+            "value": 1520
+          },
+          "output": {
+            "state": "known",
+            "value": 80
+          },
+          "reasoning": {
+            "state": "unsupported"
+          },
+          "total": {
+            "state": "known",
+            "value": 1600
+          }
+        },
+        "parserVersion": "kimi-wire-v1.0.0",
+        "quality": "exact",
+        "sessionID": "anonymous-session",
+        "sourceEventID": "kimi-cli:message:anonymous-kimi-request",
+        "sourceMetadata": {
+          "counting_method": "wire_status_request_usage",
+          "input_normalization": "input_other + input_cache_read + input_cache_creation",
+          "model_availability": "historical wire does not report model",
+          "reported_usage": "{\"input_cache_creation\":20,\"input_cache_read\":500,\"input_other\":1000,\"output\":80}",
+          "wire_protocol": "wire-1.3"
+        },
+        "timestamp": "2026-10-03T21:00:01.200Z"
+      },
+      null,
+      {
+        "agentID": "kimi-cli",
+        "fingerprint": "72667d13120403c621ca4699d68cec1bf11e6ce3855aba0a7595974da133c922",
+        "id": "72667d13120403c621ca4699d68cec1bf11e6ce3855aba0a7595974da133c922",
+        "metrics": {
+          "cacheRead": {
+            "state": "known",
+            "value": 500
+          },
+          "cacheWrite": {
+            "state": "known",
+            "value": 20
+          },
+          "cachedOutput": {
+            "state": "unsupported"
+          },
+          "input": {
+            "state": "known",
+            "value": 1520
+          },
+          "output": {
+            "state": "known",
+            "value": 80
+          },
+          "reasoning": {
+            "state": "unsupported"
+          },
+          "total": {
+            "state": "known",
+            "value": 1600
+          }
+        },
+        "parserVersion": "kimi-wire-v1.0.0",
+        "quality": "exact",
+        "sessionID": "anonymous-session",
+        "sourceEventID": "kimi-cli:message:anonymous-kimi-request",
+        "sourceMetadata": {
+          "counting_method": "wire_status_request_usage",
+          "input_normalization": "input_other + input_cache_read + input_cache_creation",
+          "model_availability": "historical wire does not report model",
+          "reported_usage": "{\"input_cache_creation\":20,\"input_cache_read\":500,\"input_other\":1000,\"output\":80}",
+          "wire_protocol": "wire-1.3"
+        },
+        "timestamp": "2026-10-03T21:00:01.400Z"
+      }
+    ]
+  },
+  {
+    "agent": "codex",
+    "name": "codex_copied_owner",
+    "outputs": [
+      null,
+      null,
+      null,
+      {
+        "agentID": "codex",
+        "fingerprint": "8697b8e448e004704443e062537e004ed8e4a9e12b1ad44e36baff5a45d43142",
+        "id": "8697b8e448e004704443e062537e004ed8e4a9e12b1ad44e36baff5a45d43142",
+        "metrics": {
+          "cacheRead": {
+            "state": "known",
+            "value": 40
+          },
+          "cacheWrite": {
+            "state": "known",
+            "value": 2
+          },
+          "cachedOutput": {
+            "state": "unsupported"
+          },
+          "input": {
+            "state": "known",
+            "value": 100
+          },
+          "output": {
+            "state": "known",
+            "value": 23
+          },
+          "reasoning": {
+            "state": "known",
+            "value": 7
+          },
+          "total": {
+            "state": "known",
+            "value": 123
+          }
+        },
+        "parserVersion": "codex-jsonl-v1.2.0",
+        "provider": "anonymous-provider",
+        "quality": "partial",
+        "rawModelName": "anonymous/child",
+        "sessionID": "anonymous-child",
+        "sourceEventID": "codex:thread:anonymous-child:response:anonymous-response",
+        "sourceMetadata": {
+          "agent_version": "unknown",
+          "attribution_quality": "partial",
+          "counting_method": "request_usage",
+          "owner_matches_file": "false",
+          "physical_thread_id": "anonymous-owner",
+          "reported_usage": "{\"cache_write_input_tokens\":2,\"cached_input_tokens\":40,\"input_tokens\":100,\"output_tokens\":23,\"reasoning_output_tokens\":7,\"total_tokens\":123}",
+          "response_id": "anonymous-response",
+          "root_session_id": "anonymous-root",
+          "thread_id": "anonymous-child",
+          "timestamp_semantics": "Timestamp reported by copied rollout; original execution time is not independently verified"
+        },
+        "timestamp": "2026-10-05T04:00:01.000Z"
+      }
+    ]
+  },
+  {
+    "agent": "codex",
+    "name": "codex_copied_unknown_owner",
+    "outputs": [
+      null,
+      null,
+      {
+        "agentID": "codex",
+        "fingerprint": "8697b8e448e004704443e062537e004ed8e4a9e12b1ad44e36baff5a45d43142",
+        "id": "8697b8e448e004704443e062537e004ed8e4a9e12b1ad44e36baff5a45d43142",
+        "metrics": {
+          "cacheRead": {
+            "state": "known",
+            "value": 40
+          },
+          "cacheWrite": {
+            "state": "known",
+            "value": 2
+          },
+          "cachedOutput": {
+            "state": "unsupported"
+          },
+          "input": {
+            "state": "known",
+            "value": 100
+          },
+          "output": {
+            "state": "known",
+            "value": 23
+          },
+          "reasoning": {
+            "state": "known",
+            "value": 7
+          },
+          "total": {
+            "state": "known",
+            "value": 123
+          }
+        },
+        "parserVersion": "codex-jsonl-v1.2.0",
+        "quality": "partial",
+        "sessionID": "anonymous-child",
+        "sourceEventID": "codex:thread:anonymous-child:response:anonymous-response",
+        "sourceMetadata": {
+          "agent_version": "unknown",
+          "attribution_quality": "partial",
+          "counting_method": "request_usage",
+          "owner_matches_file": "false",
+          "physical_thread_id": "anonymous-owner",
+          "reported_usage": "{\"cache_write_input_tokens\":2,\"cached_input_tokens\":40,\"input_tokens\":100,\"output_tokens\":23,\"reasoning_output_tokens\":7,\"total_tokens\":123}",
+          "response_id": "anonymous-response",
+          "thread_id": "anonymous-child",
+          "timestamp_semantics": "Timestamp reported by copied rollout; original execution time is not independently verified"
+        },
+        "timestamp": "2026-10-05T04:00:01.000Z"
+      }
+    ]
+  },
+  {
+    "agent": "codex",
+    "name": "codex_fork_ordinal",
+    "outputs": [
+      null,
+      null,
+      {
+        "agentID": "codex",
+        "fingerprint": "4c1d73b6f1e3296b9bb773a432f03245e7b26db7b60db2b487cc4ccbda1bf989",
+        "id": "4c1d73b6f1e3296b9bb773a432f03245e7b26db7b60db2b487cc4ccbda1bf989",
+        "metrics": {
+          "cacheRead": {
+            "state": "known",
+            "value": 40
+          },
+          "cacheWrite": {
+            "state": "known",
+            "value": 2
+          },
+          "cachedOutput": {
+            "state": "unsupported"
+          },
+          "input": {
+            "state": "known",
+            "value": 100
+          },
+          "output": {
+            "state": "known",
+            "value": 23
+          },
+          "reasoning": {
+            "state": "known",
+            "value": 7
+          },
+          "total": {
+            "state": "known",
+            "value": 123
+          }
+        },
+        "parserVersion": "codex-jsonl-v1.2.0",
+        "provider": "anonymous-provider",
+        "quality": "exact",
+        "sessionID": "anonymous-owner",
+        "sourceEventID": "codex:thread:anonymous-owner:response:anonymous-response",
+        "sourceMetadata": {
+          "agent_version": "unknown",
+          "counting_method": "request_usage",
+          "owner_matches_file": "true",
+          "physical_thread_id": "anonymous-owner",
+          "reported_usage": "{\"cache_write_input_tokens\":2,\"cached_input_tokens\":40,\"input_tokens\":100,\"output_tokens\":23,\"reasoning_output_tokens\":7,\"total_tokens\":123}",
+          "response_id": "anonymous-response",
+          "thread_id": "anonymous-owner"
+        },
+        "timestamp": "2026-10-05T04:00:01.000Z"
+      }
+    ]
+  },
+  {
+    "agent": "codex",
+    "name": "codex_invalid_thread_settings_ignored",
+    "outputs": [
+      null,
+      null,
+      null,
+      {
+        "agentID": "codex",
+        "fingerprint": "4c1d73b6f1e3296b9bb773a432f03245e7b26db7b60db2b487cc4ccbda1bf989",
+        "id": "4c1d73b6f1e3296b9bb773a432f03245e7b26db7b60db2b487cc4ccbda1bf989",
+        "metrics": {
+          "cacheRead": {
+            "state": "known",
+            "value": 40
+          },
+          "cacheWrite": {
+            "state": "known",
+            "value": 2
+          },
+          "cachedOutput": {
+            "state": "unsupported"
+          },
+          "input": {
+            "state": "known",
+            "value": 100
+          },
+          "output": {
+            "state": "known",
+            "value": 23
+          },
+          "reasoning": {
+            "state": "known",
+            "value": 7
+          },
+          "total": {
+            "state": "known",
+            "value": 123
+          }
+        },
+        "parserVersion": "codex-jsonl-v1.2.0",
+        "provider": "anonymous-provider",
+        "quality": "exact",
+        "rawModelName": "anonymous/raw",
+        "sessionID": "anonymous-owner",
+        "sourceEventID": "codex:thread:anonymous-owner:response:anonymous-response",
+        "sourceMetadata": {
+          "agent_version": "unknown",
+          "counting_method": "request_usage",
+          "owner_matches_file": "true",
+          "physical_thread_id": "anonymous-owner",
+          "reported_usage": "{\"cache_write_input_tokens\":2,\"cached_input_tokens\":40,\"input_tokens\":100,\"output_tokens\":23,\"reasoning_output_tokens\":7,\"total_tokens\":123}",
+          "response_id": "anonymous-response",
+          "thread_id": "anonymous-owner"
+        },
+        "timestamp": "2026-10-05T04:00:01.000Z"
+      }
+    ]
+  },
+  {
+    "agent": "codex",
+    "name": "codex_partial_baseline_and_stale",
+    "outputs": [
+      null,
+      {
+        "agentID": "codex",
+        "fingerprint": "2e866b6a6a98edd7e719ea090a3d3022f6e77676470ec9a32bdbe91725dfad55",
+        "id": "2e866b6a6a98edd7e719ea090a3d3022f6e77676470ec9a32bdbe91725dfad55",
+        "metrics": {
+          "cacheRead": {
+            "state": "known",
+            "value": 40
+          },
+          "cacheWrite": {
+            "state": "known",
+            "value": 2
+          },
+          "cachedOutput": {
+            "state": "unsupported"
+          },
+          "input": {
+            "state": "known",
+            "value": 100
+          },
+          "output": {
+            "state": "known",
+            "value": 23
+          },
+          "reasoning": {
+            "state": "known",
+            "value": 7
+          },
+          "total": {
+            "state": "known",
+            "value": 123
+          }
+        },
+        "parserVersion": "codex-jsonl-v1.2.0",
+        "provider": "anonymous-provider",
+        "quality": "partial",
+        "sessionID": "anonymous-owner",
+        "sourceEventID": "codex:counter:395e1d9ab22858e75ced8f0ad7a85747cb7592b0042a88715cd23414502ef0d5",
+        "sourceMetadata": {
+          "agent_version": "unknown",
+          "counting_method": "last_request_in_partial_history",
+          "coverage_notes": "History baseline unavailable: first cumulative snapshot exceeds last request",
+          "last_request_usage": "{\"cache_write_input_tokens\":2,\"cached_input_tokens\":40,\"input_tokens\":100,\"output_tokens\":23,\"reasoning_output_tokens\":7,\"total_tokens\":123}",
+          "reported_usage": "{\"cache_write_input_tokens\":2,\"cached_input_tokens\":40,\"input_tokens\":100,\"output_tokens\":23,\"reasoning_output_tokens\":7,\"total_tokens\":1000}",
+          "thread_id": "anonymous-owner"
+        },
+        "timestamp": "2026-10-05T04:00:01.000Z"
+      },
+      null,
+      {
+        "agentID": "codex",
+        "fingerprint": "68e8ec5ec34d631a18905c4770519ba8f6dbe0746f234c4a45d1a624f4ae2ccd",
+        "id": "68e8ec5ec34d631a18905c4770519ba8f6dbe0746f234c4a45d1a624f4ae2ccd",
+        "metrics": {
+          "cacheRead": {
+            "state": "known",
+            "value": 0
+          },
+          "cacheWrite": {
+            "state": "known",
+            "value": 0
+          },
+          "cachedOutput": {
+            "state": "unsupported"
+          },
+          "input": {
+            "state": "not_available"
+          },
+          "output": {
+            "state": "known",
+            "value": 0
+          },
+          "reasoning": {
+            "state": "known",
+            "value": 0
+          },
+          "total": {
+            "state": "known",
+            "value": 200
+          }
+        },
+        "parserVersion": "codex-jsonl-v1.2.0",
+        "provider": "anonymous-provider",
+        "quality": "partial",
+        "sessionID": "anonymous-owner",
+        "sourceEventID": "codex:counter:31c95ac2d01e288be6438644d827d3901a778104d8f432fad39a2fb3b35aaa7f",
+        "sourceMetadata": {
+          "agent_version": "unknown",
+          "counting_method": "cumulative_difference",
+          "coverage_notes": "History baseline unavailable: first cumulative snapshot exceeds last request; Out-of-order cumulative snapshot ignored; legacy attribution coverage is partial; Legacy cumulative component corrected by source; breakdown unavailable for this interval",
+          "last_request_usage": "{\"cache_write_input_tokens\":2,\"cached_input_tokens\":40,\"input_tokens\":100,\"output_tokens\":23,\"reasoning_output_tokens\":7,\"total_tokens\":123}",
+          "previous_cumulative_usage": "{\"cache_write_input_tokens\":2,\"cached_input_tokens\":40,\"input_tokens\":100,\"output_tokens\":23,\"reasoning_output_tokens\":7,\"total_tokens\":1000}",
+          "reported_usage": "{\"cache_write_input_tokens\":2,\"cached_input_tokens\":40,\"input_tokens\":99,\"output_tokens\":23,\"reasoning_output_tokens\":7,\"total_tokens\":1200}",
+          "thread_id": "anonymous-owner"
+        },
+        "timestamp": "2026-10-05T04:00:01.000Z"
+      }
+    ]
+  },
+  {
+    "agent": "codex",
+    "name": "codex_missing_metadata",
+    "outputs": [
+      {
+        "error": true
+      }
+    ]
+  },
+  {
+    "agent": "claude-code",
+    "name": "claude_missing_cache",
+    "outputs": [
+      {
+        "agentID": "claude-code",
+        "fingerprint": "47a6b89f7a572a15d1e1b9c2be6a5e62802d278dd0e694ca820de2a497099c76",
+        "id": "47a6b89f7a572a15d1e1b9c2be6a5e62802d278dd0e694ca820de2a497099c76",
+        "metrics": {
+          "cacheRead": {
+            "state": "not_available"
+          },
+          "cacheWrite": {
+            "state": "not_available"
+          },
+          "cachedOutput": {
+            "state": "unsupported"
+          },
+          "input": {
+            "state": "not_available"
+          },
+          "output": {
+            "state": "known",
+            "value": 23
+          },
+          "reasoning": {
+            "state": "not_available"
+          },
+          "total": {
+            "state": "not_available"
+          }
+        },
+        "parserVersion": "claude-jsonl-v1.1.0",
+        "quality": "partial",
+        "sessionID": "anonymous-session",
+        "sourceEventID": "claude-code:message:anonymous-request:anonymous-message",
+        "sourceMetadata": {
+          "agent_version": "unknown",
+          "counting_method": "message_snapshot_upsert",
+          "input_semantics": "uncached_plus_cache_read_plus_cache_write",
+          "reported_usage": "{\"input_tokens\":100,\"output_tokens\":23}",
+          "entrypoint": "legacy_or_unknown"
+        },
+        "timestamp": "2026-10-05T04:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "agent": "claude-code",
+    "name": "claude_known_zero",
+    "outputs": [
+      {
+        "agentID": "claude-code",
+        "fingerprint": "47a6b89f7a572a15d1e1b9c2be6a5e62802d278dd0e694ca820de2a497099c76",
+        "id": "47a6b89f7a572a15d1e1b9c2be6a5e62802d278dd0e694ca820de2a497099c76",
+        "metrics": {
+          "cacheRead": {
+            "state": "known",
+            "value": 0
+          },
+          "cacheWrite": {
+            "state": "known",
+            "value": 0
+          },
+          "cachedOutput": {
+            "state": "unsupported"
+          },
+          "input": {
+            "state": "known",
+            "value": 0
+          },
+          "output": {
+            "state": "known",
+            "value": 0
+          },
+          "reasoning": {
+            "state": "not_available"
+          },
+          "total": {
+            "state": "known",
+            "value": 0
+          }
+        },
+        "parserVersion": "claude-jsonl-v1.1.0",
+        "quality": "exact",
+        "sessionID": "anonymous-session",
+        "sourceEventID": "claude-code:message:anonymous-request:anonymous-message",
+        "sourceMetadata": {
+          "agent_version": "unknown",
+          "counting_method": "message_snapshot_upsert",
+          "input_semantics": "uncached_plus_cache_read_plus_cache_write",
+          "reported_usage": "{\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"input_tokens\":0,\"output_tokens\":0}",
+          "entrypoint": "legacy_or_unknown"
+        },
+        "timestamp": "2026-10-05T04:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "agent": "claude-code",
+    "name": "claude_invalid_negative",
+    "outputs": [
+      {
+        "error": true
+      }
+    ]
+  },
+  {
+    "agent": "claude-code",
+    "name": "claude_invalid_boolean",
+    "outputs": [
+      {
+        "error": true
+      }
+    ]
+  },
+  {
+    "agent": "claude-code",
+    "name": "claude_invalid_string",
+    "outputs": [
+      {
+        "error": true
+      }
+    ]
+  },
+  {
+    "agent": "claude-code",
+    "name": "claude_invalid_fraction",
+    "outputs": [
+      {
+        "error": true
+      }
+    ]
+  },
+  {
+    "agent": "claude-code",
+    "name": "claude_invalid_above_raw_limit",
+    "outputs": [
+      {
+        "error": true
+      }
+    ]
+  },
+  {
+    "agent": "claude-code",
+    "name": "claude_large_derived_sum",
+    "outputs": [
+      {
+        "agentID": "claude-code",
+        "fingerprint": "47a6b89f7a572a15d1e1b9c2be6a5e62802d278dd0e694ca820de2a497099c76",
+        "id": "47a6b89f7a572a15d1e1b9c2be6a5e62802d278dd0e694ca820de2a497099c76",
+        "metrics": {
+          "cacheRead": {
+            "state": "known",
+            "value": 9007199254740991
+          },
+          "cacheWrite": {
+            "state": "known",
+            "value": 2
+          },
+          "cachedOutput": {
+            "state": "unsupported"
+          },
+          "input": {
+            "state": "known",
+            "value": 18014398509481984
+          },
+          "output": {
+            "state": "known",
+            "value": 23
+          },
+          "reasoning": {
+            "state": "not_available"
+          },
+          "total": {
+            "state": "known",
+            "value": 18014398509482007
+          }
+        },
+        "parserVersion": "claude-jsonl-v1.1.0",
+        "quality": "exact",
+        "rawModelName": "anonymous/raw",
+        "sessionID": "anonymous-session",
+        "sourceEventID": "claude-code:message:anonymous-request:anonymous-message",
+        "sourceMetadata": {
+          "agent_version": "unknown",
+          "counting_method": "message_snapshot_upsert",
+          "input_semantics": "uncached_plus_cache_read_plus_cache_write",
+          "reported_usage": "{\"cache_creation_input_tokens\":2,\"cache_read_input_tokens\":9007199254740991,\"input_tokens\":9007199254740991,\"output_tokens\":23}",
+          "entrypoint": "legacy_or_unknown"
+        },
+        "timestamp": "2026-10-05T04:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "agent": "kimi-cli",
+    "name": "kimi_fraction_1791115200.0001",
+    "outputs": [
+      null,
+      {
+        "agentID": "kimi-cli",
+        "fingerprint": "2b25fd6961597c2cd839723667311dd9063a703e6e40ac2ebc4839a80bedb5ec",
+        "id": "2b25fd6961597c2cd839723667311dd9063a703e6e40ac2ebc4839a80bedb5ec",
+        "metrics": {
+          "cacheRead": {
+            "state": "known",
+            "value": 40
+          },
+          "cacheWrite": {
+            "state": "known",
+            "value": 2
+          },
+          "cachedOutput": {
+            "state": "unsupported"
+          },
+          "input": {
+            "state": "known",
+            "value": 142
+          },
+          "output": {
+            "state": "known",
+            "value": 23
+          },
+          "reasoning": {
+            "state": "unsupported"
+          },
+          "total": {
+            "state": "known",
+            "value": 165
+          }
+        },
+        "parserVersion": "kimi-wire-v1.0.0",
+        "quality": "exact",
+        "sessionID": "anonymous-session",
+        "sourceEventID": "kimi-cli:message:anonymous-message",
+        "sourceMetadata": {
+          "counting_method": "wire_status_request_usage",
+          "input_normalization": "input_other + input_cache_read + input_cache_creation",
+          "model_availability": "historical wire does not report model",
+          "reported_usage": "{\"input_cache_creation\":2,\"input_cache_read\":40,\"input_other\":100,\"output\":23}",
+          "wire_protocol": "wire-1.3"
+        },
+        "timestamp": "2026-10-04T12:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "agent": "kimi-cli",
+    "name": "kimi_fraction_1791115200.0005",
+    "outputs": [
+      null,
+      {
+        "agentID": "kimi-cli",
+        "fingerprint": "2b25fd6961597c2cd839723667311dd9063a703e6e40ac2ebc4839a80bedb5ec",
+        "id": "2b25fd6961597c2cd839723667311dd9063a703e6e40ac2ebc4839a80bedb5ec",
+        "metrics": {
+          "cacheRead": {
+            "state": "known",
+            "value": 40
+          },
+          "cacheWrite": {
+            "state": "known",
+            "value": 2
+          },
+          "cachedOutput": {
+            "state": "unsupported"
+          },
+          "input": {
+            "state": "known",
+            "value": 142
+          },
+          "output": {
+            "state": "known",
+            "value": 23
+          },
+          "reasoning": {
+            "state": "unsupported"
+          },
+          "total": {
+            "state": "known",
+            "value": 165
+          }
+        },
+        "parserVersion": "kimi-wire-v1.0.0",
+        "quality": "exact",
+        "sessionID": "anonymous-session",
+        "sourceEventID": "kimi-cli:message:anonymous-message",
+        "sourceMetadata": {
+          "counting_method": "wire_status_request_usage",
+          "input_normalization": "input_other + input_cache_read + input_cache_creation",
+          "model_availability": "historical wire does not report model",
+          "reported_usage": "{\"input_cache_creation\":2,\"input_cache_read\":40,\"input_other\":100,\"output\":23}",
+          "wire_protocol": "wire-1.3"
+        },
+        "timestamp": "2026-10-04T12:00:00.001Z"
+      }
+    ]
+  },
+  {
+    "agent": "kimi-cli",
+    "name": "kimi_fraction_1791115200.0009",
+    "outputs": [
+      null,
+      {
+        "agentID": "kimi-cli",
+        "fingerprint": "2b25fd6961597c2cd839723667311dd9063a703e6e40ac2ebc4839a80bedb5ec",
+        "id": "2b25fd6961597c2cd839723667311dd9063a703e6e40ac2ebc4839a80bedb5ec",
+        "metrics": {
+          "cacheRead": {
+            "state": "known",
+            "value": 40
+          },
+          "cacheWrite": {
+            "state": "known",
+            "value": 2
+          },
+          "cachedOutput": {
+            "state": "unsupported"
+          },
+          "input": {
+            "state": "known",
+            "value": 142
+          },
+          "output": {
+            "state": "known",
+            "value": 23
+          },
+          "reasoning": {
+            "state": "unsupported"
+          },
+          "total": {
+            "state": "known",
+            "value": 165
+          }
+        },
+        "parserVersion": "kimi-wire-v1.0.0",
+        "quality": "exact",
+        "sessionID": "anonymous-session",
+        "sourceEventID": "kimi-cli:message:anonymous-message",
+        "sourceMetadata": {
+          "counting_method": "wire_status_request_usage",
+          "input_normalization": "input_other + input_cache_read + input_cache_creation",
+          "model_availability": "historical wire does not report model",
+          "reported_usage": "{\"input_cache_creation\":2,\"input_cache_read\":40,\"input_other\":100,\"output\":23}",
+          "wire_protocol": "wire-1.3"
+        },
+        "timestamp": "2026-10-04T12:00:00.001Z"
+      }
+    ]
+  },
+  {
+    "agent": "kimi-cli",
+    "name": "kimi_fraction_1791115200.9995",
+    "outputs": [
+      null,
+      {
+        "agentID": "kimi-cli",
+        "fingerprint": "2b25fd6961597c2cd839723667311dd9063a703e6e40ac2ebc4839a80bedb5ec",
+        "id": "2b25fd6961597c2cd839723667311dd9063a703e6e40ac2ebc4839a80bedb5ec",
+        "metrics": {
+          "cacheRead": {
+            "state": "known",
+            "value": 40
+          },
+          "cacheWrite": {
+            "state": "known",
+            "value": 2
+          },
+          "cachedOutput": {
+            "state": "unsupported"
+          },
+          "input": {
+            "state": "known",
+            "value": 142
+          },
+          "output": {
+            "state": "known",
+            "value": 23
+          },
+          "reasoning": {
+            "state": "unsupported"
+          },
+          "total": {
+            "state": "known",
+            "value": 165
+          }
+        },
+        "parserVersion": "kimi-wire-v1.0.0",
+        "quality": "exact",
+        "sessionID": "anonymous-session",
+        "sourceEventID": "kimi-cli:message:anonymous-message",
+        "sourceMetadata": {
+          "counting_method": "wire_status_request_usage",
+          "input_normalization": "input_other + input_cache_read + input_cache_creation",
+          "model_availability": "historical wire does not report model",
+          "reported_usage": "{\"input_cache_creation\":2,\"input_cache_read\":40,\"input_other\":100,\"output\":23}",
+          "wire_protocol": "wire-1.3"
+        },
+        "timestamp": "2026-10-04T12:00:01.000Z"
+      }
+    ]
+  },
+  {
+    "agent": "kimi-cli",
+    "name": "kimi_unsupported_protocol",
+    "outputs": [
+      {
+        "error": true
+      }
+    ]
+  }
+]

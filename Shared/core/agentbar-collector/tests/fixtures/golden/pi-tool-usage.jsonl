@@ -1,0 +1,3 @@
+{"type":"session","version":3,"id":"anonymous-pi-tools","cwd":"/anonymous/project"}
+{"type":"message","id":"tool-summary","timestamp":"2026-10-05T00:00:01Z","message":{"role":"toolResult","usage":{"input":5,"output":2,"cacheRead":3,"cacheWrite":0,"totalTokens":10}}}
+{"type":"message","id":"model-response","timestamp":"2026-10-05T00:00:02Z","message":{"role":"assistant","provider":"anonymous-provider","model":"requested-alias","responseModel":"raw-response-model","usage":{"input":7,"output":3,"cacheRead":0,"cacheWrite":0,"reasoning":1,"totalTokens":10}}}

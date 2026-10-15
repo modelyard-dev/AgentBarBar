@@ -1,0 +1,10 @@
+ALTER TABLE usage_events ADD COLUMN input_state TEXT NOT NULL DEFAULT 'not_available';
+ALTER TABLE usage_events ADD COLUMN output_state TEXT NOT NULL DEFAULT 'not_available';
+ALTER TABLE usage_events ADD COLUMN cacheRead_state TEXT NOT NULL DEFAULT 'not_available';
+ALTER TABLE usage_events ADD COLUMN cacheWrite_state TEXT NOT NULL DEFAULT 'not_available';
+ALTER TABLE usage_events ADD COLUMN cachedOutput_state TEXT NOT NULL DEFAULT 'not_available';
+ALTER TABLE usage_events ADD COLUMN reasoning_state TEXT NOT NULL DEFAULT 'not_available';
+ALTER TABLE usage_events ADD COLUMN total_state TEXT NOT NULL DEFAULT 'not_available';
+UPDATE usage_events SET input_state=COALESCE(json_extract(event_json,'$.metrics.input.state'),'not_available'),output_state=COALESCE(json_extract(event_json,'$.metrics.output.state'),'not_available'),cacheRead_state=COALESCE(json_extract(event_json,'$.metrics.cacheRead.state'),'not_available'),cacheWrite_state=COALESCE(json_extract(event_json,'$.metrics.cacheWrite.state'),'not_available'),cachedOutput_state=COALESCE(json_extract(event_json,'$.metrics.cachedOutput.state'),'not_available'),reasoning_state=COALESCE(json_extract(event_json,'$.metrics.reasoning.state'),'not_available'),total_state=COALESCE(json_extract(event_json,'$.metrics.total.state'),'not_available');
+CREATE INDEX usage_session_direct ON usage_events(session_id,timestamp);
+INSERT INTO schema_migrations VALUES(3,datetime('now')); PRAGMA user_version=3;

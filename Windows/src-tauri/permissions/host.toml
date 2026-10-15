@@ -1,0 +1,22 @@
+[[permission]]
+identifier = "allow-business-request"
+description = "Validated business DTO queries and settings"
+commands.allow = ["business_request"]
+[[permission]]
+identifier = "allow-window-action"
+description = "Own dashboard, popup and graceful quit only"
+commands.allow = ["window_action"]
+[[permission]]
+identifier = "allow-front-ready"
+description = "Own frontend readiness diagnostic"
+commands.allow = ["front_ready"]
+
+[[permission]]
+identifier = "allow-qa-result"
+description = "QA result sink; command only registered with compile-time qa feature"
+commands.allow = ["qa_result"]
+
+[[permission]]
+identifier = "allow-popup-layout"
+description = "Own popup intrinsic height only, bounded by monitor work area"
+commands.allow = ["popup_layout"]

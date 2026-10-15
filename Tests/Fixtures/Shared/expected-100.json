@@ -1,0 +1,9 @@
+{
+  "requests": 100,
+  "input": 10000,
+  "output": 2300,
+  "cacheRead": 4000,
+  "cacheWrite": 200,
+  "reasoning": 700,
+  "total": 12300
+}

@@ -1,0 +1,1471 @@
+{
+  "agents": [
+    {
+      "agentIDs": [
+        "codex"
+      ],
+      "id": "codex",
+      "lastActivity": "2026-10-04T08:23:01.095Z",
+      "models": [
+        "gpt-6.1-sol"
+      ],
+      "name": "Codex",
+      "projectIDs": [
+        "aa53c81e2f0d335994bbe357682b7b25862aa15afc9b2c73e24a82eccc3be41c"
+      ],
+      "summary": {
+        "activeAgents": 0,
+        "agents": 1,
+        "costKnownEvents": 0,
+        "estimatedEvents": 0,
+        "events": 2,
+        "metrics": {
+          "cacheRead": {
+            "knownEvents": 2,
+            "state": "known",
+            "totalEvents": 2,
+            "value": 35712
+          },
+          "cacheWrite": {
+            "knownEvents": 2,
+            "state": "known",
+            "totalEvents": 2,
+            "value": 0
+          },
+          "cachedOutput": {
+            "knownEvents": 0,
+            "state": "unsupported",
+            "totalEvents": 2
+          },
+          "input": {
+            "knownEvents": 2,
+            "state": "known",
+            "totalEvents": 2,
+            "value": 80374
+          },
+          "output": {
+            "knownEvents": 2,
+            "state": "known",
+            "totalEvents": 2,
+            "value": 1091
+          },
+          "reasoning": {
+            "knownEvents": 2,
+            "state": "known",
+            "totalEvents": 2,
+            "value": 252
+          },
+          "total": {
+            "knownEvents": 2,
+            "state": "known",
+            "totalEvents": 2,
+            "value": 81465
+          }
+        },
+        "projects": 1,
+        "sessions": 1
+      }
+    },
+    {
+      "agentIDs": [
+        "claude-code"
+      ],
+      "id": "claude-code",
+      "lastActivity": "2026-08-20T09:04:47.205Z",
+      "models": [
+        "deepseek-v4-flash"
+      ],
+      "name": "Claude Code",
+      "projectIDs": [
+        "b0e91842fa0eb2b36b022b8b909ee3e7714246d63ce6a4fb7aca0aef36d9619a"
+      ],
+      "summary": {
+        "activeAgents": 0,
+        "agents": 1,
+        "costKnownEvents": 0,
+        "estimatedEvents": 0,
+        "events": 1,
+        "metrics": {
+          "cacheRead": {
+            "knownEvents": 1,
+            "state": "known",
+            "totalEvents": 1,
+            "value": 0
+          },
+          "cacheWrite": {
+            "knownEvents": 1,
+            "state": "known",
+            "totalEvents": 1,
+            "value": 0
+          },
+          "cachedOutput": {
+            "knownEvents": 0,
+            "state": "unsupported",
+            "totalEvents": 1
+          },
+          "input": {
+            "knownEvents": 1,
+            "state": "known",
+            "totalEvents": 1,
+            "value": 28072
+          },
+          "output": {
+            "knownEvents": 1,
+            "state": "known",
+            "totalEvents": 1,
+            "value": 66
+          },
+          "reasoning": {
+            "knownEvents": 1,
+            "state": "known",
+            "totalEvents": 1,
+            "value": 0
+          },
+          "total": {
+            "knownEvents": 1,
+            "state": "known",
+            "totalEvents": 1,
+            "value": 28138
+          }
+        },
+        "projects": 1,
+        "sessions": 1
+      }
+    },
+    {
+      "agentIDs": [
+        "pi"
+      ],
+      "id": "pi",
+      "lastActivity": "2026-09-11T16:33:19.058Z",
+      "models": [
+        "DeepSeek-V4-Flash"
+      ],
+      "name": "Pi",
+      "projectIDs": [
+        "33fecbbecad7972bc33d5306fbdad9a725269ffd370b623499643a8542274326"
+      ],
+      "summary": {
+        "activeAgents": 0,
+        "agents": 1,
+        "costKnownEvents": 0,
+        "estimatedEvents": 0,
+        "events": 1,
+        "metrics": {
+          "cacheRead": {
+            "knownEvents": 1,
+            "state": "known",
+            "totalEvents": 1,
+            "value": 128
+          },
+          "cacheWrite": {
+            "knownEvents": 1,
+            "state": "known",
+            "totalEvents": 1,
+            "value": 0
+          },
+          "cachedOutput": {
+            "knownEvents": 0,
+            "state": "unsupported",
+            "totalEvents": 1
+          },
+          "input": {
+            "knownEvents": 1,
+            "state": "known",
+            "totalEvents": 1,
+            "value": 17153
+          },
+          "output": {
+            "knownEvents": 1,
+            "state": "known",
+            "totalEvents": 1,
+            "value": 137
+          },
+          "reasoning": {
+            "knownEvents": 1,
+            "state": "known",
+            "totalEvents": 1,
+            "value": 0
+          },
+          "total": {
+            "knownEvents": 1,
+            "state": "known",
+            "totalEvents": 1,
+            "value": 17290
+          }
+        },
+        "projects": 1,
+        "sessions": 1
+      }
+    },
+    {
+      "agentIDs": [
+        "kimi-cli"
+      ],
+      "id": "kimi-cli",
+      "lastActivity": "2026-10-03T21:00:01.200Z",
+      "models": [],
+      "name": "Kimi CLI",
+      "projectIDs": [],
+      "summary": {
+        "activeAgents": 0,
+        "agents": 1,
+        "costKnownEvents": 0,
+        "estimatedEvents": 0,
+        "events": 1,
+        "metrics": {
+          "cacheRead": {
+            "knownEvents": 1,
+            "state": "known",
+            "totalEvents": 1,
+            "value": 500
+          },
+          "cacheWrite": {
+            "knownEvents": 1,
+            "state": "known",
+            "totalEvents": 1,
+            "value": 20
+          },
+          "cachedOutput": {
+            "knownEvents": 0,
+            "state": "unsupported",
+            "totalEvents": 1
+          },
+          "input": {
+            "knownEvents": 1,
+            "state": "known",
+            "totalEvents": 1,
+            "value": 1520
+          },
+          "output": {
+            "knownEvents": 1,
+            "state": "known",
+            "totalEvents": 1,
+            "value": 80
+          },
+          "reasoning": {
+            "knownEvents": 0,
+            "state": "unsupported",
+            "totalEvents": 1
+          },
+          "total": {
+            "knownEvents": 1,
+            "state": "known",
+            "totalEvents": 1,
+            "value": 1600
+          }
+        },
+        "projects": 0,
+        "sessions": 1
+      }
+    },
+    {
+      "agentIDs": [
+        "gemini"
+      ],
+      "id": "gemini",
+      "lastActivity": "2026-10-04T12:00:02.000Z",
+      "models": [
+        "gemini/raw-model"
+      ],
+      "name": "Gemini CLI",
+      "projectIDs": [],
+      "summary": {
+        "activeAgents": 0,
+        "agents": 1,
+        "costKnownEvents": 0,
+        "estimatedEvents": 0,
+        "events": 2,
+        "metrics": {
+          "cacheRead": {
+            "knownEvents": 1,
+            "state": "partial",
+            "totalEvents": 2,
+            "value": 800
+          },
+          "cacheWrite": {
+            "knownEvents": 0,
+            "state": "unsupported",
+            "totalEvents": 2
+          },
+          "cachedOutput": {
+            "knownEvents": 0,
+            "state": "unsupported",
+            "totalEvents": 2
+          },
+          "input": {
+            "knownEvents": 2,
+            "state": "known",
+            "totalEvents": 2,
+            "value": 1200
+          },
+          "output": {
+            "knownEvents": 2,
+            "state": "known",
+            "totalEvents": 2,
+            "value": 220
+          },
+          "reasoning": {
+            "knownEvents": 1,
+            "state": "partial",
+            "totalEvents": 2,
+            "value": 50
+          },
+          "total": {
+            "knownEvents": 2,
+            "state": "known",
+            "totalEvents": 2,
+            "value": 1420
+          }
+        },
+        "projects": 0,
+        "sessions": 1
+      }
+    },
+    {
+      "agentIDs": [
+        "workbuddy"
+      ],
+      "id": "workbuddy",
+      "lastActivity": "2026-10-03T21:00:02.000Z",
+      "models": [
+        "hy3"
+      ],
+      "name": "WorkBuddy",
+      "projectIDs": [
+        "67a5e772446fa96ff03536cc43094f40a495c399848b4be969772b9f6c38cb9b"
+      ],
+      "summary": {
+        "activeAgents": 0,
+        "agents": 1,
+        "costKnownEvents": 0,
+        "estimatedEvents": 0,
+        "events": 2,
+        "metrics": {
+          "cacheRead": {
+            "knownEvents": 1,
+            "state": "partial",
+            "totalEvents": 2,
+            "value": 750
+          },
+          "cacheWrite": {
+            "knownEvents": 0,
+            "state": "unsupported",
+            "totalEvents": 2
+          },
+          "cachedOutput": {
+            "knownEvents": 0,
+            "state": "unsupported",
+            "totalEvents": 2
+          },
+          "input": {
+            "knownEvents": 2,
+            "state": "known",
+            "totalEvents": 2,
+            "value": 1200
+          },
+          "output": {
+            "knownEvents": 2,
+            "state": "known",
+            "totalEvents": 2,
+            "value": 120
+          },
+          "reasoning": {
+            "knownEvents": 1,
+            "state": "partial",
+            "totalEvents": 2,
+            "value": 25
+          },
+          "total": {
+            "knownEvents": 2,
+            "state": "known",
+            "totalEvents": 2,
+            "value": 1320
+          }
+        },
+        "projects": 1,
+        "sessions": 1
+      }
+    },
+    {
+      "agentIDs": [
+        "opencode"
+      ],
+      "id": "opencode",
+      "lastActivity": "2026-10-03T21:00:02.000Z",
+      "models": [
+        "provider/raw-model-1"
+      ],
+      "name": "OpenCode",
+      "projectIDs": [
+        "59f8c4872d32c893f48549bef98c6e739e731f4acbcf22dd14e7985a3b954195"
+      ],
+      "summary": {
+        "activeAgents": 0,
+        "agents": 1,
+        "costKnownEvents": 0,
+        "estimatedEvents": 0,
+        "events": 1,
+        "metrics": {
+          "cacheRead": {
+            "knownEvents": 1,
+            "state": "known",
+            "totalEvents": 1,
+            "value": 100
+          },
+          "cacheWrite": {
+            "knownEvents": 1,
+            "state": "known",
+            "totalEvents": 1,
+            "value": 20
+          },
+          "cachedOutput": {
+            "knownEvents": 0,
+            "state": "unsupported",
+            "totalEvents": 1
+          },
+          "input": {
+            "knownEvents": 1,
+            "state": "known",
+            "totalEvents": 1,
+            "value": 1120
+          },
+          "output": {
+            "knownEvents": 1,
+            "state": "known",
+            "totalEvents": 1,
+            "value": 100
+          },
+          "reasoning": {
+            "knownEvents": 1,
+            "state": "known",
+            "totalEvents": 1,
+            "value": 20
+          },
+          "total": {
+            "knownEvents": 1,
+            "state": "known",
+            "totalEvents": 1,
+            "value": 1220
+          }
+        },
+        "projects": 1,
+        "sessions": 1
+      }
+    },
+    {
+      "agentIDs": [
+        "antigravity"
+      ],
+      "id": "antigravity",
+      "lastActivity": "2026-10-04T12:00:01.000Z",
+      "models": [
+        "gemini/raw"
+      ],
+      "name": "Antigravity",
+      "projectIDs": [],
+      "summary": {
+        "activeAgents": 0,
+        "agents": 1,
+        "costKnownEvents": 0,
+        "estimatedEvents": 0,
+        "events": 1,
+        "metrics": {
+          "cacheRead": {
+            "knownEvents": 1,
+            "state": "known",
+            "totalEvents": 1,
+            "value": 800
+          },
+          "cacheWrite": {
+            "knownEvents": 1,
+            "state": "known",
+            "totalEvents": 1,
+            "value": 0
+          },
+          "cachedOutput": {
+            "knownEvents": 0,
+            "state": "unsupported",
+            "totalEvents": 1
+          },
+          "input": {
+            "knownEvents": 1,
+            "state": "known",
+            "totalEvents": 1,
+            "value": 900
+          },
+          "output": {
+            "knownEvents": 1,
+            "state": "known",
+            "totalEvents": 1,
+            "value": 20
+          },
+          "reasoning": {
+            "knownEvents": 1,
+            "state": "known",
+            "totalEvents": 1,
+            "value": 5
+          },
+          "total": {
+            "knownEvents": 1,
+            "state": "known",
+            "totalEvents": 1,
+            "value": 920
+          }
+        },
+        "projects": 0,
+        "sessions": 1
+      }
+    },
+    {
+      "agentIDs": [
+        "antigravity-ide"
+      ],
+      "id": "antigravity-ide",
+      "lastActivity": "2026-10-04T12:00:01.000Z",
+      "models": [
+        "gemini/raw"
+      ],
+      "name": "Antigravity IDE",
+      "projectIDs": [],
+      "summary": {
+        "activeAgents": 0,
+        "agents": 1,
+        "costKnownEvents": 0,
+        "estimatedEvents": 0,
+        "events": 1,
+        "metrics": {
+          "cacheRead": {
+            "knownEvents": 1,
+            "state": "known",
+            "totalEvents": 1,
+            "value": 800
+          },
+          "cacheWrite": {
+            "knownEvents": 1,
+            "state": "known",
+            "totalEvents": 1,
+            "value": 0
+          },
+          "cachedOutput": {
+            "knownEvents": 0,
+            "state": "unsupported",
+            "totalEvents": 1
+          },
+          "input": {
+            "knownEvents": 1,
+            "state": "known",
+            "totalEvents": 1,
+            "value": 900
+          },
+          "output": {
+            "knownEvents": 1,
+            "state": "known",
+            "totalEvents": 1,
+            "value": 20
+          },
+          "reasoning": {
+            "knownEvents": 1,
+            "state": "known",
+            "totalEvents": 1,
+            "value": 5
+          },
+          "total": {
+            "knownEvents": 1,
+            "state": "known",
+            "totalEvents": 1,
+            "value": 920
+          }
+        },
+        "projects": 0,
+        "sessions": 1
+      }
+    },
+    {
+      "agentIDs": [
+        "deepseek-harness"
+      ],
+      "id": "deepseek-harness",
+      "lastActivity": "2026-10-03T16:00:01.000Z",
+      "models": [
+        "raw-model"
+      ],
+      "name": "DeepSeek Harness",
+      "projectIDs": [],
+      "summary": {
+        "activeAgents": 0,
+        "agents": 1,
+        "costKnownEvents": 0,
+        "estimatedEvents": 0,
+        "events": 2,
+        "metrics": {
+          "cacheRead": {
+            "knownEvents": 2,
+            "state": "known",
+            "totalEvents": 2,
+            "value": 300
+          },
+          "cacheWrite": {
+            "knownEvents": 2,
+            "state": "known",
+            "totalEvents": 2,
+            "value": 0
+          },
+          "cachedOutput": {
+            "knownEvents": 0,
+            "state": "unsupported",
+            "totalEvents": 2
+          },
+          "input": {
+            "knownEvents": 2,
+            "state": "known",
+            "totalEvents": 2,
+            "value": 370
+          },
+          "output": {
+            "knownEvents": 2,
+            "state": "known",
+            "totalEvents": 2,
+            "value": 40
+          },
+          "reasoning": {
+            "knownEvents": 2,
+            "state": "known",
+            "totalEvents": 2,
+            "value": 8
+          },
+          "total": {
+            "knownEvents": 2,
+            "state": "known",
+            "totalEvents": 2,
+            "value": 410
+          }
+        },
+        "projects": 0,
+        "sessions": 1,
+        "uncachedInput": {
+          "knownEvents": 2,
+          "state": "known",
+          "totalEvents": 2,
+          "value": 70
+        }
+      }
+    }
+  ],
+  "models": [
+    {
+      "agentIDs": [
+        "codex"
+      ],
+      "id": "gpt-6.1-sol",
+      "lastActivity": "2026-10-04T08:23:01.095Z",
+      "models": [
+        "gpt-6.1-sol"
+      ],
+      "name": "gpt-6.1-sol",
+      "projectIDs": [
+        "aa53c81e2f0d335994bbe357682b7b25862aa15afc9b2c73e24a82eccc3be41c"
+      ],
+      "summary": {
+        "activeAgents": 0,
+        "agents": 1,
+        "costKnownEvents": 0,
+        "estimatedEvents": 0,
+        "events": 2,
+        "metrics": {
+          "cacheRead": {
+            "knownEvents": 2,
+            "state": "known",
+            "totalEvents": 2,
+            "value": 35712
+          },
+          "cacheWrite": {
+            "knownEvents": 2,
+            "state": "known",
+            "totalEvents": 2,
+            "value": 0
+          },
+          "cachedOutput": {
+            "knownEvents": 0,
+            "state": "unsupported",
+            "totalEvents": 2
+          },
+          "input": {
+            "knownEvents": 2,
+            "state": "known",
+            "totalEvents": 2,
+            "value": 80374
+          },
+          "output": {
+            "knownEvents": 2,
+            "state": "known",
+            "totalEvents": 2,
+            "value": 1091
+          },
+          "reasoning": {
+            "knownEvents": 2,
+            "state": "known",
+            "totalEvents": 2,
+            "value": 252
+          },
+          "total": {
+            "knownEvents": 2,
+            "state": "known",
+            "totalEvents": 2,
+            "value": 81465
+          }
+        },
+        "projects": 1,
+        "sessions": 1
+      }
+    },
+    {
+      "agentIDs": [
+        "claude-code"
+      ],
+      "id": "deepseek-v4-flash",
+      "lastActivity": "2026-08-20T09:04:47.205Z",
+      "models": [
+        "deepseek-v4-flash"
+      ],
+      "name": "deepseek-v4-flash",
+      "projectIDs": [
+        "b0e91842fa0eb2b36b022b8b909ee3e7714246d63ce6a4fb7aca0aef36d9619a"
+      ],
+      "summary": {
+        "activeAgents": 0,
+        "agents": 1,
+        "costKnownEvents": 0,
+        "estimatedEvents": 0,
+        "events": 1,
+        "metrics": {
+          "cacheRead": {
+            "knownEvents": 1,
+            "state": "known",
+            "totalEvents": 1,
+            "value": 0
+          },
+          "cacheWrite": {
+            "knownEvents": 1,
+            "state": "known",
+            "totalEvents": 1,
+            "value": 0
+          },
+          "cachedOutput": {
+            "knownEvents": 0,
+            "state": "unsupported",
+            "totalEvents": 1
+          },
+          "input": {
+            "knownEvents": 1,
+            "state": "known",
+            "totalEvents": 1,
+            "value": 28072
+          },
+          "output": {
+            "knownEvents": 1,
+            "state": "known",
+            "totalEvents": 1,
+            "value": 66
+          },
+          "reasoning": {
+            "knownEvents": 1,
+            "state": "known",
+            "totalEvents": 1,
+            "value": 0
+          },
+          "total": {
+            "knownEvents": 1,
+            "state": "known",
+            "totalEvents": 1,
+            "value": 28138
+          }
+        },
+        "projects": 1,
+        "sessions": 1
+      }
+    },
+    {
+      "agentIDs": [
+        "pi"
+      ],
+      "id": "DeepSeek-V4-Flash",
+      "lastActivity": "2026-09-11T16:33:19.058Z",
+      "models": [
+        "DeepSeek-V4-Flash"
+      ],
+      "name": "DeepSeek-V4-Flash",
+      "projectIDs": [
+        "33fecbbecad7972bc33d5306fbdad9a725269ffd370b623499643a8542274326"
+      ],
+      "summary": {
+        "activeAgents": 0,
+        "agents": 1,
+        "costKnownEvents": 0,
+        "estimatedEvents": 0,
+        "events": 1,
+        "metrics": {
+          "cacheRead": {
+            "knownEvents": 1,
+            "state": "known",
+            "totalEvents": 1,
+            "value": 128
+          },
+          "cacheWrite": {
+            "knownEvents": 1,
+            "state": "known",
+            "totalEvents": 1,
+            "value": 0
+          },
+          "cachedOutput": {
+            "knownEvents": 0,
+            "state": "unsupported",
+            "totalEvents": 1
+          },
+          "input": {
+            "knownEvents": 1,
+            "state": "known",
+            "totalEvents": 1,
+            "value": 17153
+          },
+          "output": {
+            "knownEvents": 1,
+            "state": "known",
+            "totalEvents": 1,
+            "value": 137
+          },
+          "reasoning": {
+            "knownEvents": 1,
+            "state": "known",
+            "totalEvents": 1,
+            "value": 0
+          },
+          "total": {
+            "knownEvents": 1,
+            "state": "known",
+            "totalEvents": 1,
+            "value": 17290
+          }
+        },
+        "projects": 1,
+        "sessions": 1
+      }
+    },
+    {
+      "agentIDs": [
+        "gemini",
+        "kimi-cli",
+        "workbuddy"
+      ],
+      "id": "unknown",
+      "lastActivity": "2026-10-04T12:00:02.000Z",
+      "models": [],
+      "name": "unknown",
+      "projectIDs": [],
+      "summary": {
+        "activeAgents": 0,
+        "agents": 3,
+        "costKnownEvents": 0,
+        "estimatedEvents": 0,
+        "events": 3,
+        "metrics": {
+          "cacheRead": {
+            "knownEvents": 1,
+            "state": "partial",
+            "totalEvents": 3,
+            "value": 500
+          },
+          "cacheWrite": {
+            "knownEvents": 1,
+            "state": "partial",
+            "totalEvents": 3,
+            "value": 20
+          },
+          "cachedOutput": {
+            "knownEvents": 0,
+            "state": "unsupported",
+            "totalEvents": 3
+          },
+          "input": {
+            "knownEvents": 3,
+            "state": "known",
+            "totalEvents": 3,
+            "value": 1920
+          },
+          "output": {
+            "knownEvents": 3,
+            "state": "known",
+            "totalEvents": 3,
+            "value": 170
+          },
+          "reasoning": {
+            "knownEvents": 0,
+            "state": "not_available",
+            "totalEvents": 3
+          },
+          "total": {
+            "knownEvents": 3,
+            "state": "known",
+            "totalEvents": 3,
+            "value": 2090
+          }
+        },
+        "projects": 0,
+        "sessions": 3
+      }
+    },
+    {
+      "agentIDs": [
+        "antigravity",
+        "antigravity-ide"
+      ],
+      "id": "gemini/raw",
+      "lastActivity": "2026-10-04T12:00:01.000Z",
+      "models": [
+        "gemini/raw"
+      ],
+      "name": "gemini/raw",
+      "projectIDs": [],
+      "summary": {
+        "activeAgents": 0,
+        "agents": 2,
+        "costKnownEvents": 0,
+        "estimatedEvents": 0,
+        "events": 2,
+        "metrics": {
+          "cacheRead": {
+            "knownEvents": 2,
+            "state": "known",
+            "totalEvents": 2,
+            "value": 1600
+          },
+          "cacheWrite": {
+            "knownEvents": 2,
+            "state": "known",
+            "totalEvents": 2,
+            "value": 0
+          },
+          "cachedOutput": {
+            "knownEvents": 0,
+            "state": "unsupported",
+            "totalEvents": 2
+          },
+          "input": {
+            "knownEvents": 2,
+            "state": "known",
+            "totalEvents": 2,
+            "value": 1800
+          },
+          "output": {
+            "knownEvents": 2,
+            "state": "known",
+            "totalEvents": 2,
+            "value": 40
+          },
+          "reasoning": {
+            "knownEvents": 2,
+            "state": "known",
+            "totalEvents": 2,
+            "value": 10
+          },
+          "total": {
+            "knownEvents": 2,
+            "state": "known",
+            "totalEvents": 2,
+            "value": 1840
+          }
+        },
+        "projects": 0,
+        "sessions": 2
+      }
+    },
+    {
+      "agentIDs": [
+        "opencode"
+      ],
+      "id": "provider/raw-model-1",
+      "lastActivity": "2026-10-03T21:00:02.000Z",
+      "models": [
+        "provider/raw-model-1"
+      ],
+      "name": "provider/raw-model-1",
+      "projectIDs": [
+        "59f8c4872d32c893f48549bef98c6e739e731f4acbcf22dd14e7985a3b954195"
+      ],
+      "summary": {
+        "activeAgents": 0,
+        "agents": 1,
+        "costKnownEvents": 0,
+        "estimatedEvents": 0,
+        "events": 1,
+        "metrics": {
+          "cacheRead": {
+            "knownEvents": 1,
+            "state": "known",
+            "totalEvents": 1,
+            "value": 100
+          },
+          "cacheWrite": {
+            "knownEvents": 1,
+            "state": "known",
+            "totalEvents": 1,
+            "value": 20
+          },
+          "cachedOutput": {
+            "knownEvents": 0,
+            "state": "unsupported",
+            "totalEvents": 1
+          },
+          "input": {
+            "knownEvents": 1,
+            "state": "known",
+            "totalEvents": 1,
+            "value": 1120
+          },
+          "output": {
+            "knownEvents": 1,
+            "state": "known",
+            "totalEvents": 1,
+            "value": 100
+          },
+          "reasoning": {
+            "knownEvents": 1,
+            "state": "known",
+            "totalEvents": 1,
+            "value": 20
+          },
+          "total": {
+            "knownEvents": 1,
+            "state": "known",
+            "totalEvents": 1,
+            "value": 1220
+          }
+        },
+        "projects": 1,
+        "sessions": 1
+      }
+    },
+    {
+      "agentIDs": [
+        "gemini"
+      ],
+      "id": "gemini/raw-model",
+      "lastActivity": "2026-10-04T12:00:01.000Z",
+      "models": [
+        "gemini/raw-model"
+      ],
+      "name": "gemini/raw-model",
+      "projectIDs": [],
+      "summary": {
+        "activeAgents": 0,
+        "agents": 1,
+        "costKnownEvents": 0,
+        "estimatedEvents": 0,
+        "events": 1,
+        "metrics": {
+          "cacheRead": {
+            "knownEvents": 1,
+            "state": "known",
+            "totalEvents": 1,
+            "value": 800
+          },
+          "cacheWrite": {
+            "knownEvents": 0,
+            "state": "unsupported",
+            "totalEvents": 1
+          },
+          "cachedOutput": {
+            "knownEvents": 0,
+            "state": "unsupported",
+            "totalEvents": 1
+          },
+          "input": {
+            "knownEvents": 1,
+            "state": "known",
+            "totalEvents": 1,
+            "value": 1000
+          },
+          "output": {
+            "knownEvents": 1,
+            "state": "known",
+            "totalEvents": 1,
+            "value": 150
+          },
+          "reasoning": {
+            "knownEvents": 1,
+            "state": "known",
+            "totalEvents": 1,
+            "value": 50
+          },
+          "total": {
+            "knownEvents": 1,
+            "state": "known",
+            "totalEvents": 1,
+            "value": 1150
+          }
+        },
+        "projects": 0,
+        "sessions": 1
+      }
+    },
+    {
+      "agentIDs": [
+        "workbuddy"
+      ],
+      "id": "hy3",
+      "lastActivity": "2026-10-03T21:00:01.000Z",
+      "models": [
+        "hy3"
+      ],
+      "name": "hy3",
+      "projectIDs": [
+        "67a5e772446fa96ff03536cc43094f40a495c399848b4be969772b9f6c38cb9b"
+      ],
+      "summary": {
+        "activeAgents": 0,
+        "agents": 1,
+        "costKnownEvents": 0,
+        "estimatedEvents": 0,
+        "events": 1,
+        "metrics": {
+          "cacheRead": {
+            "knownEvents": 1,
+            "state": "known",
+            "totalEvents": 1,
+            "value": 750
+          },
+          "cacheWrite": {
+            "knownEvents": 0,
+            "state": "unsupported",
+            "totalEvents": 1
+          },
+          "cachedOutput": {
+            "knownEvents": 0,
+            "state": "unsupported",
+            "totalEvents": 1
+          },
+          "input": {
+            "knownEvents": 1,
+            "state": "known",
+            "totalEvents": 1,
+            "value": 1000
+          },
+          "output": {
+            "knownEvents": 1,
+            "state": "known",
+            "totalEvents": 1,
+            "value": 100
+          },
+          "reasoning": {
+            "knownEvents": 1,
+            "state": "known",
+            "totalEvents": 1,
+            "value": 25
+          },
+          "total": {
+            "knownEvents": 1,
+            "state": "known",
+            "totalEvents": 1,
+            "value": 1100
+          }
+        },
+        "projects": 1,
+        "sessions": 1
+      }
+    },
+    {
+      "agentIDs": [
+        "deepseek-harness"
+      ],
+      "id": "raw-model",
+      "lastActivity": "2026-10-03T16:00:01.000Z",
+      "models": [
+        "raw-model"
+      ],
+      "name": "raw-model",
+      "projectIDs": [],
+      "summary": {
+        "activeAgents": 0,
+        "agents": 1,
+        "costKnownEvents": 0,
+        "estimatedEvents": 0,
+        "events": 2,
+        "metrics": {
+          "cacheRead": {
+            "knownEvents": 2,
+            "state": "known",
+            "totalEvents": 2,
+            "value": 300
+          },
+          "cacheWrite": {
+            "knownEvents": 2,
+            "state": "known",
+            "totalEvents": 2,
+            "value": 0
+          },
+          "cachedOutput": {
+            "knownEvents": 0,
+            "state": "unsupported",
+            "totalEvents": 2
+          },
+          "input": {
+            "knownEvents": 2,
+            "state": "known",
+            "totalEvents": 2,
+            "value": 370
+          },
+          "output": {
+            "knownEvents": 2,
+            "state": "known",
+            "totalEvents": 2,
+            "value": 40
+          },
+          "reasoning": {
+            "knownEvents": 2,
+            "state": "known",
+            "totalEvents": 2,
+            "value": 8
+          },
+          "total": {
+            "knownEvents": 2,
+            "state": "known",
+            "totalEvents": 2,
+            "value": 410
+          }
+        },
+        "projects": 0,
+        "sessions": 1,
+        "uncachedInput": {
+          "knownEvents": 2,
+          "state": "known",
+          "totalEvents": 2,
+          "value": 70
+        }
+      }
+    }
+  ],
+  "now": "2026-10-05T04:00:00.000Z",
+  "ranges": {
+    "30": {
+      "activeAgents": 0,
+      "agents": 9,
+      "costKnownEvents": 0,
+      "estimatedEvents": 0,
+      "events": 13,
+      "metrics": {
+        "cacheRead": {
+          "knownEvents": 11,
+          "state": "partial",
+          "totalEvents": 13,
+          "value": 39890
+        },
+        "cacheWrite": {
+          "knownEvents": 9,
+          "state": "partial",
+          "totalEvents": 13,
+          "value": 40
+        },
+        "cachedOutput": {
+          "knownEvents": 0,
+          "state": "unsupported",
+          "totalEvents": 13
+        },
+        "input": {
+          "knownEvents": 13,
+          "state": "known",
+          "totalEvents": 13,
+          "value": 104737
+        },
+        "output": {
+          "knownEvents": 13,
+          "state": "known",
+          "totalEvents": 13,
+          "value": 1828
+        },
+        "reasoning": {
+          "knownEvents": 10,
+          "state": "partial",
+          "totalEvents": 13,
+          "value": 365
+        },
+        "total": {
+          "knownEvents": 13,
+          "state": "known",
+          "totalEvents": 13,
+          "value": 106565
+        }
+      },
+      "projects": 4,
+      "sessions": 9,
+      "uncachedInput": {
+        "knownEvents": 2,
+        "state": "partial",
+        "totalEvents": 13,
+        "value": 70
+      }
+    },
+    "7": {
+      "activeAgents": 0,
+      "agents": 8,
+      "costKnownEvents": 0,
+      "estimatedEvents": 0,
+      "events": 12,
+      "metrics": {
+        "cacheRead": {
+          "knownEvents": 10,
+          "state": "partial",
+          "totalEvents": 12,
+          "value": 39762
+        },
+        "cacheWrite": {
+          "knownEvents": 8,
+          "state": "partial",
+          "totalEvents": 12,
+          "value": 40
+        },
+        "cachedOutput": {
+          "knownEvents": 0,
+          "state": "unsupported",
+          "totalEvents": 12
+        },
+        "input": {
+          "knownEvents": 12,
+          "state": "known",
+          "totalEvents": 12,
+          "value": 87584
+        },
+        "output": {
+          "knownEvents": 12,
+          "state": "known",
+          "totalEvents": 12,
+          "value": 1691
+        },
+        "reasoning": {
+          "knownEvents": 9,
+          "state": "partial",
+          "totalEvents": 12,
+          "value": 365
+        },
+        "total": {
+          "knownEvents": 12,
+          "state": "known",
+          "totalEvents": 12,
+          "value": 89275
+        }
+      },
+      "projects": 3,
+      "sessions": 8,
+      "uncachedInput": {
+        "knownEvents": 2,
+        "state": "partial",
+        "totalEvents": 12,
+        "value": 70
+      }
+    },
+    "all": {
+      "activeAgents": 0,
+      "agents": 10,
+      "costKnownEvents": 0,
+      "estimatedEvents": 0,
+      "events": 14,
+      "metrics": {
+        "cacheRead": {
+          "knownEvents": 12,
+          "state": "partial",
+          "totalEvents": 14,
+          "value": 39890
+        },
+        "cacheWrite": {
+          "knownEvents": 10,
+          "state": "partial",
+          "totalEvents": 14,
+          "value": 40
+        },
+        "cachedOutput": {
+          "knownEvents": 0,
+          "state": "unsupported",
+          "totalEvents": 14
+        },
+        "input": {
+          "knownEvents": 14,
+          "state": "known",
+          "totalEvents": 14,
+          "value": 132809
+        },
+        "output": {
+          "knownEvents": 14,
+          "state": "known",
+          "totalEvents": 14,
+          "value": 1894
+        },
+        "reasoning": {
+          "knownEvents": 11,
+          "state": "partial",
+          "totalEvents": 14,
+          "value": 365
+        },
+        "total": {
+          "knownEvents": 14,
+          "state": "known",
+          "totalEvents": 14,
+          "value": 134703
+        }
+      },
+      "projects": 5,
+      "sessions": 10,
+      "uncachedInput": {
+        "knownEvents": 2,
+        "state": "partial",
+        "totalEvents": 14,
+        "value": 70
+      }
+    },
+    "today": {
+      "activeAgents": 0,
+      "agents": 0,
+      "costKnownEvents": 0,
+      "estimatedEvents": 0,
+      "events": 0,
+      "metrics": {
+        "cacheRead": {
+          "knownEvents": 0,
+          "state": "not_available",
+          "totalEvents": 0
+        },
+        "cacheWrite": {
+          "knownEvents": 0,
+          "state": "not_available",
+          "totalEvents": 0
+        },
+        "cachedOutput": {
+          "knownEvents": 0,
+          "state": "not_available",
+          "totalEvents": 0
+        },
+        "input": {
+          "knownEvents": 0,
+          "state": "not_available",
+          "totalEvents": 0
+        },
+        "output": {
+          "knownEvents": 0,
+          "state": "not_available",
+          "totalEvents": 0
+        },
+        "reasoning": {
+          "knownEvents": 0,
+          "state": "not_available",
+          "totalEvents": 0
+        },
+        "total": {
+          "knownEvents": 0,
+          "state": "not_available",
+          "totalEvents": 0
+        }
+      },
+      "projects": 0,
+      "sessions": 0
+    }
+  },
+  "timeZone": "Asia/Shanghai"
+}
