@@ -2,7 +2,7 @@
 
 A local-first AI Agent usage monitor for macOS and Windows. AgentBarBar reads supported local usage metadata, stores a private local ledger, and presents it in a native menu-bar/tray app and a bundled dashboard.
 
-[中文说明](README.zh-CN.md) · [Downloads](https://github.com/y2zyyr/AgentBarBar/releases/tag/v1.0.7) · [Documentation](docs/README.md) · [MIT License](LICENSE)
+[中文说明](README.zh-CN.md) · [Downloads](https://github.com/modelyard-dev/AgentBarBar/releases/tag/v1.0.7) · [Documentation](docs/README.md) · [MIT License](LICENSE)
 
 ![AgentBarBar icon](assets/icon.png)
 
@@ -19,7 +19,7 @@ See the [source support matrix](docs/source-support.md) for collector scope and 
 
 ## Download
 
-The public [AgentBarBar 1.0.7 release](https://github.com/y2zyyr/AgentBarBar/releases/tag/v1.0.7) contains the macOS 1.0.7/build38 and Windows 1.0.7/build39 installers. macOS distribution is for Apple Silicon and macOS 14 or later. The Windows installer targets 64-bit Windows. Read the release notes for signing and validation limits. Current source snapshots are available under the [macOS 1.0.7 tag](https://github.com/y2zyyr/AgentBarBar/tree/macos-v1.0.7) and [Windows 1.0.7 tag](https://github.com/y2zyyr/AgentBarBar/tree/windows-v1.0.7); both point to the same cross-platform source commit.
+The public [AgentBarBar 1.0.7 release](https://github.com/modelyard-dev/AgentBarBar/releases/tag/v1.0.7) contains the macOS 1.0.7/build38 and Windows 1.0.7/build39 installers. macOS distribution is for Apple Silicon and macOS 14 or later. The Windows installer targets 64-bit Windows. Read the release notes for signing and validation limits. Current source snapshots are available under the [macOS 1.0.7 tag](https://github.com/modelyard-dev/AgentBarBar/tree/macos-v1.0.7) and [Windows 1.0.7 tag](https://github.com/modelyard-dev/AgentBarBar/tree/windows-v1.0.7); both point to the same cross-platform source commit.
 
 ## Build from source
 
